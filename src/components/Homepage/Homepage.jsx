@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import styles from "./homepage.module.css";
+import ItemsCarousel from "react-items-carousel";
 import { useDarkMode } from "./../../hooks/useDarkMode";
 
 const Homepage = () => {
   const [theme, toggleTheme, componentMounted] = useDarkMode();
+  const [activeItemIndex, setActiveItemIndex] = useState(0);
+  const chevronWidth = 40;
 
   if (!componentMounted) {
     return <div />;
@@ -34,8 +38,6 @@ const Homepage = () => {
               className="btn btn-primary prime_btn mt-2"
               target="_blank"
               style={{
-                marginBottom: "16px",
-                marginRight: "16px",
                 fontSize: "14px",
                 fontWeight: "600",
                 color: "#f1f1f1",
@@ -65,7 +67,14 @@ const Homepage = () => {
         <div className="container">
           <div className="row pt-5 pb-4">
             <div className="col-lg-4 col-sm-12">
-              <h4 className="title" style={{ color: "#333333" }}>
+              <h4
+                className="title"
+                style={{
+                  fontSize: "23px",
+                  fontWeight: "700",
+                  color: "#333333",
+                }}
+              >
                 What we do?
               </h4>
               <p className="description" style={{ color: "#333333" }}>
@@ -82,6 +91,19 @@ const Homepage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary prime_btn mb-4"
+                style={{
+                  marginBottom: "16px",
+                  marginRight: "16px",
+                  fontSize: "14px",
+                  fontWeight: "600",
+                  color: "#f1f1f1",
+                  background: "#4285f4",
+                  padding: "8px 16px",
+                  border: "0",
+                  transition: "0.3s all ease",
+                  boxShadow:
+                    "0px 3px 6px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.23)",
+                }}
               >
                 Learn More
               </a>
@@ -91,7 +113,7 @@ const Homepage = () => {
                 <div className="col-lg-3 col-sm-6 col-6">
                   <i
                     className="fa fa-comment-alt description"
-                    style={{ fontSize: "40px", color: "#707070" }}
+                    style={{ fontSize: "40px", color: "#4285F4" }}
                   />
                   <br />
                   <br />
@@ -104,7 +126,7 @@ const Homepage = () => {
                 <div className="col-lg-3 col-sm-6 col-6">
                   <i
                     className="fa fa-code description"
-                    style={{ fontSize: "40px", color: "#707070" }}
+                    style={{ fontSize: "40px", color: "#DB4437" }}
                   />
                   <br />
                   <br />
@@ -118,7 +140,7 @@ const Homepage = () => {
                 <div className="col-lg-3 col-sm-6 col-6">
                   <i
                     className="fa fa-users-cog description"
-                    style={{ fontSize: "40px", color: "#707070" }}
+                    style={{ fontSize: "40px", color: "#F4B400" }}
                   />
                   <br />
                   <br />
@@ -131,7 +153,7 @@ const Homepage = () => {
                 <div className="col-lg-3 col-sm-6 col-6">
                   <i
                     className="fa fa-handshake description"
-                    style={{ fontSize: "40px", color: "#707070" }}
+                    style={{ fontSize: "40px", color: "#0F9D58" }}
                   />
                   <br />
                   <br />
@@ -146,11 +168,18 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-      <div className="about_kiet" style={{ background: "#4c4a78" }}>
+      <div className="about_kiet pt-3" style={{ background: "#4c4a78" }}>
         <div className="container pt-4 pb-4">
           <div className="row">
             <div className="col-md-9 col-sm-12">
-              <h5 className="title" style={{ color: "#fff" }}>
+              <h5
+                className="title"
+                style={{
+                  fontSize: "23px",
+                  fontWeight: "700",
+                  color: "#fff",
+                }}
+              >
                 About DSC KIET
               </h5>
               <p className="description" style={{ color: "#fff" }}>
@@ -161,23 +190,6 @@ const Homepage = () => {
                 programmers & hackers in and around the Campus. The technology
                 awareness is main goal for first few years of the group.
               </p>
-              <a
-                href="http://facebook.com/dsckiet/"
-                className="btn btn-outline custom_btn"
-              >
-                Facebook Page
-              </a>
-              <a
-                href="https://instagram.com/dsckiet"
-                className="btn btn-outline sec_btn custom_btn"
-                style={{ background: "#fff", color: "#4C4A78" }}
-                target="__blank"
-                rel="noopener noreferer"
-              >
-                Instagram Page
-              </a>
-              <br />
-              <br />
               <Link to="/about" style={{ color: "#fff", fontSize: "14px" }}>
                 See More about DSC KIET
               </Link>
@@ -185,6 +197,113 @@ const Homepage = () => {
             <div className="col-md-3 col-sm-12">
               <img src="./assets/images/team.png" width="100%" alt="" />
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="about_kiet">
+        <div className="container pt-4 pb-4">
+          <h5
+            className="title"
+            style={{
+              fontSize: "23px",
+              fontWeight: "700",
+            }}
+          >
+            Our Glimpses
+          </h5>
+          <div className="col-lg-12 mt-4 mb-4" style={{ padding: "0" }}>
+            <div style={{ padding: `0 ${chevronWidth}px` }}>
+              <ItemsCarousel
+                infinitLoop
+                requestToChangeActive={setActiveItemIndex}
+                activeItemIndex={activeItemIndex}
+                numberOfCards={2}
+                gutter={20}
+                leftChevron={<button>{"<"}</button>}
+                rightChevron={<button>{">"}</button>}
+                outsideChevron
+                chevronWidth={chevronWidth}
+              >
+                <div style={{ height: 200, background: "#EEE" }}>
+                  First card
+                </div>
+                <div style={{ height: 200, background: "#EEE" }}>
+                  Second card
+                </div>
+                <div style={{ height: 200, background: "#EEE" }}>
+                  Third card
+                </div>
+                <div style={{ height: 200, background: "#EEE" }}>
+                  Fourth card
+                </div>
+              </ItemsCarousel>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row mt-4 mb-4">
+          <div className="col-lg-6">
+            <p
+              style={{
+                fontSize: "23px",
+                fontWeight: "700",
+              }}
+            >
+              Join the Conversation
+            </p>
+            <p style={{ padding: "50px 0px 50px 0px" }}>
+              Join our Channels to know more about the Activities, Sessions and
+              other fun stuff.
+            </p>
+            <div className="row">
+              <div className="col">
+                <button className={`btn btn-primary ${styles.joinbtn}`}>
+                  Join us on{" "}
+                  <span>
+                    <img
+                      className="img-fluid"
+                      src="./assets/images/slack-2.svg"
+                      alt="slack"
+                      width="55"
+                    />
+                  </span>
+                </button>
+              </div>
+              <div className="col">
+                <button className={`btn btn-primary ${styles.joinbtn}`}>
+                  Join us on{" "}
+                  <span>
+                    <img
+                      className="img-fluid"
+                      src="./assets/images/telegram.svg"
+                      alt="slack"
+                      width="90"
+                    />
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6" style={{ padding: "80px" }}>
+            Illustration Here
+          </div>
+        </div>
+      </div>
+      <div className="container  mt-4 mb-4">
+        <div className="row">
+          <div className="col-lg-6" style={{ padding: "80px" }}>
+            Tech Stack Illustration Here
+          </div>
+          <div className="col-lg-6">
+            <p
+              style={{
+                fontSize: "23px",
+                fontWeight: "700",
+              }}
+            >
+              Tech Stack
+            </p>
           </div>
         </div>
       </div>

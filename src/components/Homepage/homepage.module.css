@@ -1,0 +1,41 @@
+.sec_btn {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border: 0;
+  margin-left: 16px;
+  transition: 0.3s all ease;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.23);
+}
+
+.custom_btn {
+  color: #fff;
+  border-color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.23);
+  padding: 8px 16px;
+}
+
+.prime_btn:hover,
+.sec_btn:hover,
+.custom_btn:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16), 0px 4px 8px rgba(0, 0, 0, 0.23);
+}
+
+.joinbtn {
+  border: none;
+  background-color: #4a154b;
+  font-size: 14px;
+  font-weight: 600;
+  color: #f1f1f1;
+  padding: 8px 16px;
+  border: 0;
+  transition: 0.3s all ease;
+}
+
+.joinbtn:hover {
+  background-color: #4a154b;
+  box-shadow: 0 14px 26px -12px rgba(156, 39, 176, 0.42),
+    0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+}
