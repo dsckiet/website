@@ -15,6 +15,7 @@ const Role = styled.p`
 	font-family: Sen;
 	font-size: 16px;
 	color: #707070;
+	margin-bottom: 4px;
 	/* margin-top: 16px; */
 `;
 
@@ -22,23 +23,47 @@ const Image = styled.img`
 	width: 100%;
 	border-radius: 50%;
 	padding: 4px;
-	border: 4px solid #424242;
+	border: 2px solid #d5d5d5;
+	transition: 0.2s all ease-out;
+	&:hover {
+		transition: 0.2s all ease-in;
+		border: 4px solid #4285f4;
+	}
+`;
+
+const Social = styled.a`
+	text-decoration: none;
+	margin-right: 12px;
+	color: #565859;
+	font-size: 20px;
+	&:hover {
+		color: #4285f4;
+	}
 `;
 
 const TeamMember = ({ member }) => {
 	return (
 		<div className="col-lg-4 mb-5">
-			<div className="row">
+			<div className="row mb-2">
 				<div className="col-4">
-					<Image src="https://dsckiet-backend.herokuapp.com/uploads/team/aakash.jpeg" />
+					<Image
+						src="https://avatars0.githubusercontent.com/u/40598945"
+						alt={member.name}
+					/>
 				</div>
 				<div className="col-8">
 					<Name>{member.name}</Name>
 					<Role>{member.role ? member.role : "Volunteer"}</Role>
 					<div>
-						<a href="#">
+						<Social href={member.other_url} target="_blank">
 							<AiOutlineLink />
-						</a>
+						</Social>
+						<Social href={member.github} target="_blank">
+							<AiFillGithub />
+						</Social>
+						<Social href={member.linkedin} target="_blank">
+							<AiFillLinkedin />
+						</Social>
 					</div>
 				</div>
 			</div>

@@ -9,15 +9,12 @@ const Container = styled.nav`
 `;
 
 const Nav = styled.nav`
-	font-family: Sen;
+	font-family: Sen !important;
 `;
 
 const Navbar = ({ theme, toggleTheme }) => {
 	return (
-		<Nav
-			className="navbar navbar-expand-lg navbar-light"
-			style={{ boxShadow: "0px 1px 2px rgba(0,0,0,0.2)" }}
-		>
+		<Nav className="navbar navbar-expand-lg navbar-light">
 			<div className="container">
 				<a
 					href="/"

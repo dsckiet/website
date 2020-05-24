@@ -1,10 +1,12 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
+import About from "../components/About";
 
 const Index = props => (
 	<Layout>
 		<div>
 			<Header />
+			<About />
 			{/* <Prices bpi={props.bpi} /> */}
 		</div>
 	</Layout>
