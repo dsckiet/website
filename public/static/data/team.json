@@ -21,7 +21,7 @@
 		"other_url": "https://goelaakash79.github.io/",
 		"dob": "3/4/1998",
 		"role": "DSC Lead | Head of Design",
-		"image": ""
+		"image": "static/images/aakash_goel.JPG"
 	},
 	{
 		"name": "Aayush sharma",
@@ -81,7 +81,7 @@
 		"other_url": "https://anshulgupta.netlify.com/",
 		"dob": "7/15/1999",
 		"role": "Android TA | Developer",
-		"image": ""
+		"image": "static/images/anshul_gupta.jpg"
 	},
 	{
 		"name": "Ashutosh dubey",
@@ -105,7 +105,7 @@
 		"other_url": "https://www.hackerrank.com/dhruvagg987",
 		"dob": "11/29/2000",
 		"role": "",
-		"image": "static/images/dhruv_aggarwal.jpeg"
+		"image": "static/images/dhruv_aggarwal.jpg"
 	},
 	{
 		"name": "Harshal Sharma",
@@ -129,7 +129,7 @@
 		"other_url": "https://www.hackerrank.com/ishita_4m",
 		"dob": "3/4/2000",
 		"role": "",
-		"image": "static/images/ishita_jaiswal.jpeg"
+		"image": "static/images/ishita_jaiswal.jpg"
 	},
 	{
 		"name": "Lakshay Kumar",
