@@ -28,7 +28,6 @@ const Paragraph = styled.p`
 
 const Button = styled.button`
 	font-family: Sen;
-	margin-top: 16px;
 	font-weight: 700;
 	padding: 8px 32px;
 	border-radius: 4px;
@@ -40,34 +39,39 @@ const Button = styled.button`
 `;
 
 const Card = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 	background: #f9f9f9;
 	border-radius: 8px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+	div {
+		align-items: center;
+	}
+	.notice-head {
+		max-width: 600px;
+	}
 `;
 
 const Notice = () => {
 	return (
 		<div className="container pb-5">
 			<Card className="p-5 mb-5">
-				<div className="row">
-					<div className="col-3">
-						<NoticeTitle>May 25th, 2020</NoticeTitle>
-						<Paragraph>07:00 PM, E-Block, CSE Dept.</Paragraph>
-					</div>
-					<div className="col-lg-7">
-						<NoticeHeading>
-							Lorem ipsum dolor sit amet.
-						</NoticeHeading>
-						<Paragraph>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Quam magnam incidunt facere odit nesciunt.
-							Sapiente eligendi cupiditate rem cum debitis
-							corrupti ratione.
-						</Paragraph>
-					</div>
-					<div className="col-lg-2">
-						<Button>Register</Button>
-					</div>
+				<div className="notice-info">
+					<NoticeTitle>May 25th, 2020</NoticeTitle>
+					<Paragraph>07:00 PM, E-Block, CSE Dept.</Paragraph>
+				</div>
+				<div className="notice-head">
+					<NoticeHeading>Lorem ipsum dolor sit amet.</NoticeHeading>
+					<Paragraph>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Quam magnam incidunt facere odit nesciunt. Sapiente
+						eligendi cupiditate rem cum debitis corrupti ratione.
+					</Paragraph>
+				</div>
+				<div>
+					<Button>Register</Button>
 				</div>
 			</Card>
 		</div>
