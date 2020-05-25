@@ -64,6 +64,7 @@ const SocialWrapper = styled.div`
 
 const SocialMedia = styled.a`
 	text-decoration: none;
+	cursor: pointer;
 	svg {
 		border-radius: 50%;
 		background: #424242;
@@ -134,7 +135,7 @@ const Stack = styled.div`
 
 const About = () => {
 	return (
-		<div className="container  mt-5">
+		<div className="container mb-5 mt-5">
 			<SubHeading>What we do?</SubHeading>
 			<div className="row">
 				<div className="col-lg-6">
@@ -218,19 +219,19 @@ const About = () => {
 						build projects.
 					</Paragraph>
 					<SocialWrapper>
-						<SocialMedia>
+						<SocialMedia href="https://medium.com/dsckiet">
 							<AiOutlineMedium />
 						</SocialMedia>
 
-						<SocialMedia>
+						<SocialMedia href="https://instagram.com/dsckiet">
 							<AiOutlineInstagram />
 						</SocialMedia>
 
-						<SocialMedia>
+						<SocialMedia href="https://twitter.com/dsckiet">
 							<AiOutlineTwitter />
 						</SocialMedia>
 
-						<SocialMedia>
+						<SocialMedia href="https://github.com/dsckiet">
 							<AiOutlineGithub />
 						</SocialMedia>
 					</SocialWrapper>
