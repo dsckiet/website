@@ -93,7 +93,7 @@
 		"other_url": "https://codeforces.com/profile/ashutoshdubey2508",
 		"dob": "8/25/2000",
 		"role": "",
-		"image": ""
+		"image": "static/images/ashutosh_dubey.jpg"
 	},
 	{
 		"name": "Dhruv Aggarwal",
@@ -189,7 +189,7 @@
 		"other_url": "https://www.hackerrank.com/priyanshus_edu",
 		"dob": "12/20/2001",
 		"role": "",
-		"image": ""
+		"image": "static/images/priyanshu_sharma.jpg"
 	},
 	{
 		"name": "Ritik Srivastava",
@@ -237,7 +237,7 @@
 		"other_url": "https://www.hackerrank.com/satyamx64?hr_r=1",
 		"dob": "7/12/2001",
 		"role": "",
-		"image": ""
+		"image": "static/images/satyam_sharma.jpg"
 	},
 	{
 		"name": "Shashank Jaitly",
