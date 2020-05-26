@@ -139,7 +139,7 @@ const JoinSection = () => {
 						</Paragraph>
 						<InputWrapper>
 							<Input
-								placeholder="EMAIL ADDRESS"
+								placeholder="email address"
 								className="form-control mr-4"
 							/>
 							<Button type="dark">Subscribe</Button>

@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import About from "../components/About";
 import Notice from "../components/Notice";
 import JoinSection from "../components/JoinSection";
+import Footer from "../components/Footer";
 
 const Index = props => (
 	<Layout>
@@ -11,6 +12,7 @@ const Index = props => (
 			<Notice />
 			<About />
 			<JoinSection />
+			<Footer />
 			{/* <Prices bpi={props.bpi} /> */}
 		</div>
 	</Layout>
