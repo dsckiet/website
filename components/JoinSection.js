@@ -67,8 +67,22 @@ const Card = styled.div`
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 `;
 
+const CardOutline = styled.div`
+	margin-bottom: 40px;
+	padding: 40px;
+	color: #424242;
+	align-items: center;
+	border: 1.2px solid #db4437;
+	box-sizing: border-box;
+	border-bottom-width: 4px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+`;
+
 const Input = styled.input`
-	border: none;
+	border: 0.8px solid #424242;
+	box-sizing: border-box;
+	border-bottom-width: 2.4px;
 	font-family: Sen;
 	font-weight: 700;
 `;
@@ -89,7 +103,7 @@ const ButtonGroup = styled.div`
 
 const Hashtag = styled.span`
 	font-weight: 900;
-	opacity: 1;
+	opacity: 1 !important;
 	color: #ffffff;
 `;
 
@@ -117,7 +131,7 @@ const JoinSection = () => {
 				</div>
 
 				<div className="col-12 col-sm-12 col-md-6">
-					<Card type="green">
+					<CardOutline>
 						<CardTitle>Subscribe to our newsletter</CardTitle>
 						<Paragraph>
 							Join our Slack Channel to know more about the
@@ -130,7 +144,7 @@ const JoinSection = () => {
 							/>
 							<Button type="dark">Subscribe</Button>
 						</InputWrapper>
-					</Card>
+					</CardOutline>
 				</div>
 			</div>
 			{/* <Card className="p-5 mb-5">
