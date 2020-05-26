@@ -2,10 +2,6 @@ import React, { useState, useEffect } from "react";
 // import { func, string } from "prop-types";
 import styled from "styled-components";
 import Link from "next/link";
-import animationData from "../public/static/images/lf30_editor_qQ1FOd.json";
-import Member from "./TeamMember";
-import TEAM from "../public/static/data/team.json";
-import TeamMember from "./TeamMember";
 
 const NoticeTitle = styled.h4`
 	font-family: Sen;
