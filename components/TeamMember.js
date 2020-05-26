@@ -46,10 +46,7 @@ const TeamMember = ({ member }) => {
 		<div className="col-lg-4 mb-5">
 			<div className="row mb-2">
 				<div className="col-4">
-					<Image
-						src="https://avatars0.githubusercontent.com/u/40598945"
-						alt={member.name}
-					/>
+					<Image src={member.image} alt={member.name} />
 				</div>
 				<div className="col-8">
 					<Name>{member.name}</Name>

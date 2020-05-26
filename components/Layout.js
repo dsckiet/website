@@ -5,6 +5,7 @@ const Layout = props => (
 	<div>
 		<Head>
 			<title>DSC KIET</title>
+			<link rel="shortcut icon" href="static/images/favicon.ico" />
 			<link
 				rel="stylesheet"
 				href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
