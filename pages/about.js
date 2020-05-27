@@ -1,15 +1,10 @@
 import Layout from "../components/Layout";
+import AboutSection from "../components/About";
 
 const About = () => (
 	<Layout>
-		<div>
-			<h1>About us</h1>
-			<p>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
-				alias saepe voluptatibus officiis corporis nihil ipsa fuga,
-				soluta, nesciunt expedita et fugiat! Rerum reiciendis at magnam,
-				molestiae earum hic fuga.
-			</p>
+		<div className="container">
+			<AboutSection />
 		</div>
 	</Layout>
 );

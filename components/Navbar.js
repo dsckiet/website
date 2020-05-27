@@ -12,7 +12,7 @@ const Nav = styled.nav`
 	font-family: Sen !important;
 `;
 
-const Navbar = ({ theme, toggleTheme }) => {
+const Navbar = () => {
 	return (
 		<Nav className="navbar navbar-expand-lg navbar-light">
 			<div className="container">
@@ -59,25 +59,10 @@ const Navbar = ({ theme, toggleTheme }) => {
 									to="/"
 									style={{ fontWeight: "600" }}
 									className="nav-link"
-									exact
-									activeClassName="active"
+									exact="true"
+									// activeClassName="active"
 								>
 									Home
-								</a>
-							</Link>
-						</li>
-						<li
-							className="nav-item m-1"
-							style={{ fontWeight: "600" }}
-						>
-							<Link href="/events">
-								<a
-									to="/events"
-									style={{ fontWeight: "600" }}
-									className="nav-link"
-									activeClassName="active"
-								>
-									Events
 								</a>
 							</Link>
 						</li>
@@ -91,7 +76,7 @@ const Navbar = ({ theme, toggleTheme }) => {
 									to="/about"
 									style={{ fontWeight: "600" }}
 									className="nav-link"
-									activeClassName="active"
+									// activeClassName="active"
 								>
 									About
 								</a>
@@ -107,7 +92,7 @@ const Navbar = ({ theme, toggleTheme }) => {
 									to="/team"
 									style={{ fontWeight: "600" }}
 									className="nav-link"
-									activeClassName="active"
+									// activeClassName="active"
 								>
 									Team
 								</a>
@@ -122,7 +107,7 @@ const Navbar = ({ theme, toggleTheme }) => {
 									to="/contact"
 									style={{ fontWeight: "600" }}
 									className="nav-link"
-									activeClassName="active"
+									// activeClassName="active"
 								>
 									Contact
 								</a>

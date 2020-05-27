@@ -12,7 +12,6 @@ const Index = props => (
 			<Notice />
 			<About />
 			<JoinSection />
-			<Footer />
 			{/* <Prices bpi={props.bpi} /> */}
 		</div>
 	</Layout>
