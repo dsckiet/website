@@ -91,6 +91,7 @@ const InputWrapper = styled.div`
 	display: flex;
 	flex-direction: row;
 	margin-top: 20px;
+	flex-wrap: wrap;
 	align-items: center;
 `;
 

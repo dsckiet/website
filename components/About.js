@@ -69,7 +69,7 @@ const SocialMedia = styled.a`
 		border-radius: 50%;
 		background: #424242;
 		&:hover {
-			background: #1a73e8;
+			background: #4285f4;
 		}
 		color: #ffffff !important;
 		font-size: 40px;
@@ -88,7 +88,7 @@ const Icon = styled.div`
 			case "red":
 				return "#DB4437";
 			case "blue":
-				return "#1A73E8";
+				return "##4285F4";
 			case "green":
 				return "#0F9D58";
 			case "yellow":
