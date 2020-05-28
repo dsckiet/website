@@ -4,9 +4,7 @@ import Footer from "../components/Footer";
 
 const About = () => (
 	<Layout>
-		<div className="container">
-			<JoinSection />
-		</div>
+		<JoinSection />
 	</Layout>
 );
 

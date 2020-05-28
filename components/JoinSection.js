@@ -109,7 +109,7 @@ const Hashtag = styled.span`
 
 const JoinSection = () => {
 	return (
-		<div className="container pt-5 pb-5">
+		<div className="pt-5 pb-5">
 			<div className="row">
 				<div className="col-12 col-sm-12 col-md-6">
 					<Card type="red">
@@ -134,16 +134,35 @@ const JoinSection = () => {
 					<CardOutline>
 						<CardTitle>Subscribe to our newsletter</CardTitle>
 						<Paragraph>
-							Join our Slack Channel to know more about the
-							Activities, Sessions and other fun stuff.
+							Subscribe to our newsletter to get the latest
+							updates about our events and hacks right in your
+							inbox.
 						</Paragraph>
-						<InputWrapper>
-							<Input
-								placeholder="email address"
-								className="form-control mr-4"
-							/>
-							<Button type="dark">Subscribe</Button>
-						</InputWrapper>
+						<form
+							action="https://buttondown.email/api/emails/embed-subscribe/goelaakash79"
+							method="post"
+							target="popupwindow"
+							onsubmit="window.open('https://buttondown.email/goelaakash79', 'popupwindow')"
+							className="embeddable-buttondown-form"
+						>
+							<InputWrapper>
+								<Input
+									placeholder="email address"
+									className="form-control mr-4"
+									type="email"
+									name="email"
+									id="bd-email"
+								/>
+								<Input type="hidden" value="1" name="embed" />
+								<Button
+									type="submit"
+									type="dark"
+									value="Subscribe"
+								>
+									Subscribe
+								</Button>
+							</InputWrapper>
+						</form>
 					</CardOutline>
 				</div>
 			</div>

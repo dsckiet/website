@@ -3,9 +3,7 @@ import AboutSection from "../components/About";
 
 const About = () => (
 	<Layout>
-		<div className="container">
-			<AboutSection />
-		</div>
+		<AboutSection />
 	</Layout>
 );
 

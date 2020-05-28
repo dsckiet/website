@@ -52,7 +52,7 @@ const Card = styled.div`
 
 const Notice = () => {
 	return (
-		<div className="container pb-5">
+		<div className="pb-5">
 			<Card className="p-5 mb-5">
 				<div className="notice-info">
 					<NoticeTitle>May 25th, 2020</NoticeTitle>

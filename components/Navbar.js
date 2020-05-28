@@ -1,12 +1,12 @@
 import React from "react";
-import { func, string } from "prop-types";
+// import { func, string } from "prop-types";
 import styled from "styled-components";
 import Link from "next/link";
-const Container = styled.nav`
-	color: ${({ theme }) => theme.text} !important;
-	background-color: ${({ theme }) => theme.body};
-	margin-bottom: 1.45rem;
-`;
+// const Container = styled.nav`
+// 	color: ${({ theme }) => theme.text} !important;
+// 	background-color: ${({ theme }) => theme.body};
+// 	margin-bottom: 1.45rem;
+// `;
 
 const Nav = styled.nav`
 	font-family: Sen !important;
@@ -14,11 +14,11 @@ const Nav = styled.nav`
 
 const Navbar = () => {
 	return (
-		<Nav className="navbar navbar-expand-lg navbar-light">
-			<div className="container">
+		<div className="container">
+			<Nav className="navbar navbar-expand-lg navbar-light">
 				<a
 					href="/"
-					style={{ fontWeight: "600" }}
+					style={{ fontWeight: "700", color: "#424242" }}
 					className="nav-link navbar-brand"
 				>
 					<img
@@ -115,8 +115,8 @@ const Navbar = () => {
 						</li>
 					</ul>
 				</div>
-			</div>
-		</Nav>
+			</Nav>
+		</div>
 	);
 };
 

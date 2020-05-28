@@ -135,7 +135,7 @@ const Stack = styled.div`
 
 const About = () => {
 	return (
-		<div className="container mb-5 mt-5">
+		<div className="mb-5 mt-5">
 			<SubHeading>What we do?</SubHeading>
 			<div className="row">
 				<div className="col-lg-6">
