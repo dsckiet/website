@@ -85,11 +85,19 @@ const Input = styled.input`
 	border-bottom-width: 2.4px;
 	font-family: Sen;
 	font-weight: 700;
+	&:active,
+	&:focus {
+		border-color: #db4437;
+		border-right-width: 2.4px;
+		border-bottom-width: 3.6px;
+		box-shadow: 0 0 0 0.2rem rgba(219, 68, 55, 0.25);
+	}
 `;
 
 const InputWrapper = styled.div`
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	margin-top: 20px;
 	align-items: center;
 `;
@@ -120,10 +128,27 @@ const JoinSection = () => {
 							<Hashtag>#sessions</Hashtag> and other fun stuff.
 						</Paragraph>
 						<ButtonGroup>
-							<Button className="mr-4" type="dark">
+							<Button
+								onClick={() =>
+									window.open(
+										"https://join.slack.com/t/dsckiet/shared_invite/zt-ef1q4txj-D77khvaZVgBP2CyH2MQHLA",
+										"_blank"
+									)
+								}
+								className="mr-4"
+								type="dark"
+							>
 								<FaSlack /> Slack
 							</Button>{" "}
-							<Button type="dark">
+							<Button
+								onClick={() =>
+									window.open(
+										"https://t.me/dsckiet",
+										"_blank"
+									)
+								}
+								type="dark"
+							>
 								<FaTelegramPlane /> Telegram
 							</Button>
 						</ButtonGroup>
@@ -166,24 +191,6 @@ const JoinSection = () => {
 					</CardOutline>
 				</div>
 			</div>
-			{/* <Card className="p-5 mb-5">
-                
-				<div className="notice-info">
-					<NoticeTitle>May 25th, 2020</NoticeTitle>
-					<Paragraph>07:00 PM, E-Block, CSE Dept.</Paragraph>
-				</div>
-				<div className="notice-head">
-					<NoticeHeading>Lorem ipsum dolor sit amet.</NoticeHeading>
-					<Paragraph>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Quam magnam incidunt facere odit nesciunt. Sapiente
-						eligendi cupiditate rem cum debitis corrupti ratione.
-					</Paragraph>
-				</div>
-				<div>
-					<Button>Register</Button>
-				</div>
-			</Card> */}
 		</div>
 	);
 };

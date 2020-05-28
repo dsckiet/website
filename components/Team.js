@@ -42,7 +42,7 @@ const Team = ({ theme, toggleTheme }) => {
 	}, []);
 
 	return (
-		<div className="">
+		<div>
 			<div className="row mt-5">
 				<div className="col-lg-1"></div>
 				<div className="col-lg-6">

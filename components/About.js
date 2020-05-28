@@ -41,16 +41,17 @@ const TextBody = styled.p`
 	color: #707070;
 `;
 
-const Button = styled.button`
+const Button = styled.a`
+	text-decoration: none !important;
 	font-family: Sen;
-	margin-top: 16px;
+	cursor: pointer;
 	font-weight: 700;
-	padding: 8px 32px;
+	padding: 12px 32px;
 	border-radius: 4px;
 	background: #4285f4;
-	border: none;
+	border: none !important;
 	font-size: 16px;
-	color: #fff;
+	color: #fff !important;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.2);
 `;
 
@@ -88,7 +89,7 @@ const Icon = styled.div`
 			case "red":
 				return "#DB4437";
 			case "blue":
-				return "##4285F4";
+				return "#4285F4";
 			case "green":
 				return "#0F9D58";
 			case "yellow":
@@ -150,7 +151,12 @@ const About = () => {
 						workshops and events, and gain relevant industry
 						experience.
 					</Paragraph>
-					<Button>SIGN UP</Button>
+					<Button
+						href="https://forms.gle/YFTsmarHBrW57k5N8"
+						target="_blank"
+					>
+						SIGN UP
+					</Button>
 					<br />
 					<br />
 					<ExtLink

@@ -41,21 +41,19 @@ const Header = () => {
 		}
 	};
 	return (
-		<div className="">
-			<div className="row mt-5 pb-5 mb-5">
-				<div className="col-lg-1"></div>
-				<div className="col-lg-5">
-					<Heading>FAQs</Heading>
-					<SubText>
-						powered by <b>Google Developers</b>
-					</SubText>
-					<Button>Become a member</Button>
-				</div>
-				<div className="col-lg-5">
-					<Lottie options={defaultOptions} height={400} width={400} />
-				</div>
-				<div className="col-lg-1"></div>
+		<div className="row mt-5 pb-5 mb-5">
+			<div className="col-lg-1"></div>
+			<div className="col-lg-5">
+				<Heading>FAQs</Heading>
+				<SubText>
+					powered by <b>Google Developers</b>
+				</SubText>
+				<Button>Become a member</Button>
 			</div>
+			<div className="col-lg-5">
+				<Lottie options={defaultOptions} height={400} width={400} />
+			</div>
+			<div className="col-lg-1"></div>
 		</div>
 	);
 };
