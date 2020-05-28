@@ -13,10 +13,6 @@ const Layout = props => (
 				integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
 				crossorigin="anonymous"
 			/> */}
-			<link
-				href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap"
-				rel="stylesheet"
-			></link>
 		</Head>
 		<Navbar />
 		<div className="container">{props.children}</div>
