@@ -7,7 +7,7 @@
 		"domain": "Flutter",
 		"other_url": "https://twitter.com/akkushivani",
 		"dob": "5/15/1998",
-		"role": "Flutter TA | Developer",
+		"role": "Flutter Lead",
 		"image": "static/images/aakanksha_shivani.JPG"
 	},
 	{
@@ -18,7 +18,7 @@
 		"domain": "Web",
 		"other_url": "https://goelaakash79.github.io/",
 		"dob": "3/4/1998",
-		"role": "DSC Lead | Head of Design",
+		"role": "DSC Lead",
 		"image": "static/images/aakash_goel.jpg"
 	},
 	{
@@ -73,7 +73,7 @@
 		"domain": "Android",
 		"other_url": "https://anshulgupta.netlify.com/",
 		"dob": "7/15/1999",
-		"role": "Android TA | Developer",
+		"role": "Android Lead",
 		"image": "static/images/anshul_gupta.jpg"
 	},
 	{
@@ -150,7 +150,7 @@
 		"domain": "Web",
 		"other_url": "https://twitter.com/mayanksh99",
 		"dob": "7/28/1999",
-		"role": "Developer | Event Organiser",
+		"role": "Web Developer | Event Organiser",
 		"image": "static/images/mayank_shakya.jpg"
 	},
 	{
@@ -227,7 +227,7 @@
 		"domain": "Web",
 		"other_url": "http://nhi_hai.co.in",
 		"dob": "9/16/1998",
-		"role": "Content Lead | Developer",
+		"role": "Content Creator | Developer",
 		"image": "static/images/shashank_jaitly.jpg"
 	},
 	{
@@ -249,7 +249,7 @@
 		"domain": "Flutter",
 		"other_url": "https://sgshubham98.github.io",
 		"dob": "1/7/1998",
-		"role": "Algo TA | Flutter Lead",
+		"role": "Algo TA | Flutter Developer",
 		"image": "static/images/shubham_goswami.jpg"
 	},
 	{

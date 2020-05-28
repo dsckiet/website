@@ -167,7 +167,7 @@ const JoinSection = () => {
 							action="https://buttondown.email/api/emails/embed-subscribe/goelaakash79"
 							method="post"
 							target="popupwindow"
-							onsubmit="window.open('https://buttondown.email/goelaakash79', 'popupwindow')"
+							onSubmit="window.open('https://buttondown.email/goelaakash79', 'popupwindow')"
 							className="embeddable-buttondown-form"
 						>
 							<InputWrapper>
