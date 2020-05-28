@@ -15,4 +15,8 @@
         "query": "What should I bring when attending a workshop?",
         "response": "We recommend you bring a notebook, pen, and a laptop when attending a workshop, but most importantly a strong dose of curiosity and enthusiasm."
     }
+    {
+        "query": "Can a student with primary or no knowledge of programming join the community?",
+        "response": "###"
+    }
 ]
