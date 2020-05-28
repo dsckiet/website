@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout";
-import Team from "../components/Team";
 // import { func, string } from "prop-types";
 import styled from "styled-components";
 // import Link from "next/link";
