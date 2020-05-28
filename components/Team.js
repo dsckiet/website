@@ -3,8 +3,6 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Link from "next/link";
 import animationData from "../public/static/images/lf30_editor_qQ1FOd.json";
-import Member from "./TeamMember";
-import TEAM from "../public/static/data/team.json";
 import TeamMember from "./TeamMember";
 
 const Heading = styled.h2`
@@ -34,13 +32,7 @@ const Button = styled.button`
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.2);
 `;
 
-const Team = ({ theme, toggleTheme }) => {
-	const [team, setTeam] = useState([]);
-
-	useEffect(() => {
-		setTeam(TEAM);
-	}, []);
-
+const Team = ({ theme, toggleTheme, team }) => {
 	return (
 		<div className="">
 			<div className="row mt-5">
@@ -69,7 +61,9 @@ const Team = ({ theme, toggleTheme }) => {
 			</div>
 			<div className="row mt-5">
 				{team
-					? team.map(member => <TeamMember member={member} />)
+					? team.map((member, i) => (
+							<TeamMember key={i} member={member} />
+					  ))
 					: null}
 			</div>
 		</div>
