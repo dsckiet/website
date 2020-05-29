@@ -1,9 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Layout from "../components/Layout";
-// import { func, string } from "prop-types";
 import styled from "styled-components";
-// import Link from "next/link";
-// import animationData from "../public/static/images/lf30_editor_qQ1FOd.json";
 import TeamMember from "../components/TeamMember";
 
 const Heading = styled.h2`
@@ -20,18 +17,20 @@ const Paragraph = styled.p`
 	margin-top: 16px;
 `;
 
-const Button = styled.button`
-	font-family: Sen;
-	margin-top: 16px;
-	font-weight: 700;
-	padding: 8px 32px;
-	border-radius: 4px;
-	background: #4285f4;
-	border: none;
-	font-size: 16px;
-	color: #fff;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.2);
+const ImageWrapper = styled.div`
+	@media (max-width: 768px) {
+		/* display: none; */
+		position: absolute;
+		z-index: -99;
+		opacity: 0.2;
+		right: -120px;
+		overflow-x: hidden;
+		/* img {
+			width: 50%;
+		} */
+	}
 `;
+
 const TeamPage = ({ team }) => (
 	<Layout>
 		<div>
@@ -51,14 +50,14 @@ const TeamPage = ({ team }) => (
 							eos numquam.
 						</Paragraph>
 					</div>
-					<div className="col-lg-4">
+					<ImageWrapper className="col-lg-4">
 						<img
 							className="img-fluid mb-1"
 							src="static/images/team.png"
 							alt="logo"
 							width="100%"
 						/>
-					</div>
+					</ImageWrapper>
 					<div className="col-lg-1"></div>
 				</div>
 				<div className="row mt-5">
@@ -81,4 +80,5 @@ export async function getStaticProps() {
 		}
 	};
 }
+
 export default TeamPage;

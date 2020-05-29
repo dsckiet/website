@@ -66,6 +66,10 @@ const SocialWrapper = styled.div`
 const SocialMedia = styled.a`
 	text-decoration: none;
 	cursor: pointer;
+	@media (max-width: 768px) {
+		margin-right: 12px;
+		margin-bottom: 24px;
+	}
 	svg {
 		border-radius: 50%;
 		background: #424242;
@@ -125,8 +129,12 @@ const Slider = styled.div`
 const Stack = styled.div`
 	font-size: 32px;
 	opacity: 0.6;
-	width: 100px;
+	/* width: 100px; */
 	padding: 16px;
+	@media (max-width: 768px) {
+		padding-right: 32px;
+		padding-left: 0;
+	}
 	transition: 0.2s all ease;
 	&:hover {
 		transition: 0.2s all ease;

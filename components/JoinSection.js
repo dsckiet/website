@@ -97,9 +97,15 @@ const Input = styled.input`
 const InputWrapper = styled.div`
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	margin-top: 20px;
 	align-items: center;
+	@media (max-width: 768px) {
+		flex-wrap: wrap;
+		input {
+			margin-bottom: 8px;
+		}
+	}
 `;
 
 const ButtonGroup = styled.div`

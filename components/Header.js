@@ -33,6 +33,17 @@ const Button = styled.a`
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.2);
 `;
 
+const LottieImage = styled.div`
+	@media (max-width: 768px) {
+		/* display: none; */
+		position: absolute;
+		z-index: -99;
+		opacity: 0.4;
+		right: -120px;
+		overflow-x: hidden;
+	}
+`;
+
 const Header = () => {
 	const defaultOptions = {
 		loop: true,
@@ -60,9 +71,9 @@ const Header = () => {
 						Become a member
 					</Button>
 				</div>
-				<div className="col-lg-5">
+				<LottieImage className="col-lg-5">
 					<Lottie options={defaultOptions} height={400} width={400} />
-				</div>
+				</LottieImage>
 				<div className="col-lg-1"></div>
 			</div>
 		</div>
