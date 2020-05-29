@@ -23,7 +23,7 @@ const ImageWrapper = styled.div`
 		position: absolute;
 		z-index: -99;
 		opacity: 0.2;
-		right: -120px;
+		/* right: -120px; */
 		overflow-x: hidden;
 		/* img {
 			width: 50%;
