@@ -76,7 +76,7 @@ const Notice = ({ notice }) => {
 					<Paragraph>07:00 PM, E-Block, CSE Dept.</Paragraph>
 				</div>
 				<div className="notice-head">
-					<NoticeHeading>Lorem ipsum dolor sit amet.</NoticeHeading>
+					<NoticeHeading>Lorem dolor sit amet.</NoticeHeading>
 					<Paragraph>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Quam magnam incidunt facere odit nesciunt. Sapiente
