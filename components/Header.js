@@ -39,7 +39,7 @@ const LottieImage = styled.div`
 		position: absolute;
 		z-index: -99;
 		opacity: 0.4;
-		right: -120px;
+		/* right: -120px; */
 		overflow-x: hidden;
 	}
 `;
