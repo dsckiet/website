@@ -39,10 +39,18 @@ const Social = styled.a`
 	}
 `;
 
+const MemberWrapper = styled.div`
+	@media (max-width: 768px) {
+		display: flex;
+		align-content: center;
+		align-items: center;
+	}
+`;
+
 const TeamMember = ({ member }) => {
 	return (
 		<div className="col-lg-4 mb-5">
-			<div className="row mb-2">
+			<MemberWrapper className="row mb-2">
 				<div className="col-4">
 					<Image
 						loading="lazy"
@@ -65,7 +73,7 @@ const TeamMember = ({ member }) => {
 						</Social>
 					</div>
 				</div>
-			</div>
+			</MemberWrapper>
 		</div>
 	);
 };

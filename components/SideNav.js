@@ -58,7 +58,12 @@ const StyledList = styled.ul`
 const StyledListItem = styled.li`
 	padding: 1em 0.5em;
 	position: relative;
-	font-size: 1.2em;
+	font-size: 1em;
+`;
+
+const HR = styled.div`
+	height: 2px;
+	border-bottom: 2px solid #000;
 `;
 
 const SideNav = props => {
@@ -183,6 +188,24 @@ const SideNav = props => {
 									Contact
 								</a>
 							</Link>
+						</StyledListItem>
+						<StyledListItem>
+							<hr className="m-0 p-0" />
+						</StyledListItem>
+						<StyledListItem>
+							<img
+								src="/static/images/dsc_main.png"
+								width="100%"
+							/>
+							<span
+								style={{
+									fontSize: 14,
+									color: "#707070",
+									marginTop: 8
+								}}
+							>
+								KIET Group of Institutions
+							</span>
 						</StyledListItem>
 					</StyledList>
 				</StyledNavLinks>

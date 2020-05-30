@@ -6,9 +6,6 @@ import SEO from "./Seo";
 
 const Layout = props => (
 	<div>
-		<Head>
-			<link rel="shortcut icon" href="static/images/favicon.png" />
-		</Head>
 		<SEO metaData={config} />
 		<Navbar />
 		<div className="container">{props.children}</div>

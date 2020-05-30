@@ -59,125 +59,127 @@ const Navbar = () => {
 	const toggleMenu = () => setIsOpen(!isOpen);
 
 	return (
-		<div className="container">
-			<Nav className="navbar navbar-expand-lg navbar-light px-0">
-				<Link href="/">
-					<a
-						to="/"
-						style={{ fontWeight: "700", color: "#424242" }}
-						className="nav-link navbar-brand px-0"
-					>
-						<img
-							className="img-fluid mb-1"
-							src="static/images/logo.png"
-							alt="logo"
-							width="45"
-						/>{" "}
-						DSC KIET
-					</a>
-				</Link>
-
-				<StyledNavLinks>
-					<StyledList
-						className="navbar-nav mr-auto nav justify-content-end"
-						style={{ width: "100%" }}
-					>
-						<StyledListItem
-							className="nav-item m-1 "
-							style={{ fontWeight: "600" }}
+		<div style={{ boxShadow: "0 2px 4px rgba(0,0,0,.2)" }}>
+			<div className="container">
+				<Nav className="navbar navbar-expand-lg navbar-light px-0">
+					<Link href="/">
+						<a
+							to="/"
+							style={{ fontWeight: "700", color: "#424242" }}
+							className="nav-link navbar-brand px-0"
 						>
-							<Link href="/">
-								<a
-									to="/"
-									style={{ fontWeight: "600" }}
-									className="nav-link"
-									exact="true"
-									// activeClassName="active"
-								>
-									Home
-								</a>
-							</Link>
-						</StyledListItem>
+							<img
+								className="img-fluid mb-1"
+								src="static/images/logo.png"
+								alt="logo"
+								width="45"
+							/>{" "}
+							DSC KIET
+						</a>
+					</Link>
 
-						<StyledListItem
-							className="nav-item m-1"
-							style={{ fontWeight: "600" }}
+					<StyledNavLinks>
+						<StyledList
+							className="navbar-nav mr-auto nav justify-content-end"
+							style={{ width: "100%" }}
 						>
-							<Link href="/about">
-								<a
-									to="/about"
-									style={{ fontWeight: "600" }}
-									className="nav-link"
-									// activeClassName="active"
-								>
-									About
-								</a>
-							</Link>
-						</StyledListItem>
+							<StyledListItem
+								className="nav-item m-1 "
+								style={{ fontWeight: "600" }}
+							>
+								<Link href="/">
+									<a
+										to="/"
+										style={{ fontWeight: "600" }}
+										className="nav-link"
+										exact="true"
+										// activeClassName="active"
+									>
+										Home
+									</a>
+								</Link>
+							</StyledListItem>
 
-						<StyledListItem
-							className="nav-item m-1"
-							style={{ fontWeight: "600" }}
-						>
-							<Link href="/team">
-								<a
-									to="/team"
-									style={{ fontWeight: "600" }}
-									className="nav-link"
-									// activeClassName="active"
-								>
-									Team
-								</a>
-							</Link>
-						</StyledListItem>
+							<StyledListItem
+								className="nav-item m-1"
+								style={{ fontWeight: "600" }}
+							>
+								<Link href="/about">
+									<a
+										to="/about"
+										style={{ fontWeight: "600" }}
+										className="nav-link"
+										// activeClassName="active"
+									>
+										About
+									</a>
+								</Link>
+							</StyledListItem>
 
-						<StyledListItem
-							className="nav-item m-1"
-							style={{ fontWeight: "600" }}
-						>
-							<Link href="/faqs">
-								<a
-									to="/faqs"
-									style={{ fontWeight: "600" }}
-									className="nav-link"
-									// activeClassName="active"
-								>
-									FAQs
-								</a>
-							</Link>
-						</StyledListItem>
+							<StyledListItem
+								className="nav-item m-1"
+								style={{ fontWeight: "600" }}
+							>
+								<Link href="/team">
+									<a
+										to="/team"
+										style={{ fontWeight: "600" }}
+										className="nav-link"
+										// activeClassName="active"
+									>
+										Team
+									</a>
+								</Link>
+							</StyledListItem>
 
-						<StyledListItem
-							className="nav-item m-1"
-							style={{ fontWeight: "600" }}
-						>
-							<Link href="/contact">
-								<a
-									to="/contact"
-									style={{ fontWeight: "600" }}
-									className="nav-link"
-									// activeClassName="active"
-								>
-									Contact
-								</a>
-							</Link>
-						</StyledListItem>
-					</StyledList>
-				</StyledNavLinks>
-				<StyledMenu>
-					<RiMenu3Line
-						style={{ fontSize: 32, cursor: "pointer" }}
-						alt="menu"
-						onClick={toggleMenu}
-					/>
-					{/* <img
+							<StyledListItem
+								className="nav-item m-1"
+								style={{ fontWeight: "600" }}
+							>
+								<Link href="/faqs">
+									<a
+										to="/faqs"
+										style={{ fontWeight: "600" }}
+										className="nav-link"
+										// activeClassName="active"
+									>
+										FAQs
+									</a>
+								</Link>
+							</StyledListItem>
+
+							<StyledListItem
+								className="nav-item m-1"
+								style={{ fontWeight: "600" }}
+							>
+								<Link href="/contact">
+									<a
+										to="/contact"
+										style={{ fontWeight: "600" }}
+										className="nav-link"
+										// activeClassName="active"
+									>
+										Contact
+									</a>
+								</Link>
+							</StyledListItem>
+						</StyledList>
+					</StyledNavLinks>
+					<StyledMenu>
+						<RiMenu3Line
+							style={{ fontSize: 32, cursor: "pointer" }}
+							alt="menu"
+							onClick={toggleMenu}
+						/>
+						{/* <img
 						src={`/static/icons/menu.svg`}
 						alt="menu"
 						onClick={toggleMenu}
 					/> */}
-				</StyledMenu>
-				<SideNav isOpen={isOpen} openMenu={toggleMenu} />
-			</Nav>
+					</StyledMenu>
+					<SideNav isOpen={isOpen} openMenu={toggleMenu} />
+				</Nav>
+			</div>
 		</div>
 	);
 };
