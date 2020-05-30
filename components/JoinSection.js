@@ -188,6 +188,7 @@ const JoinSection = () => {
 									type="email"
 									name="email"
 									id="bd-email"
+									required
 								/>
 								<Input type="hidden" value="1" name="embed" />
 								<Button

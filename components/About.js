@@ -233,19 +233,19 @@ const About = () => {
 						build projects.
 					</Paragraph>
 					<SocialWrapper>
-						<SocialMedia href="https://medium.com/dsckiet">
+						<SocialMedia href="https://medium.com/dsckiet" target="_blank">
 							<AiOutlineMedium />
 						</SocialMedia>
 
-						<SocialMedia href="https://instagram.com/dsckiet">
+						<SocialMedia href="https://instagram.com/dsckiet" target="_blank">
 							<AiOutlineInstagram />
 						</SocialMedia>
 
-						<SocialMedia href="https://twitter.com/dsckiet">
+						<SocialMedia href="https://twitter.com/dsckiet" target="_blank">
 							<AiOutlineTwitter />
 						</SocialMedia>
 
-						<SocialMedia href="https://github.com/dsckiet">
+						<SocialMedia href="https://github.com/dsckiet" target="_blank">
 							<AiOutlineGithub />
 						</SocialMedia>
 					</SocialWrapper>
@@ -428,6 +428,7 @@ const About = () => {
 								height="2em"
 								xmlns="http://www.w3.org/2000/svg"
 							>
+								<title>Android</title>
 								<defs>
 									<linearGradient
 										x1="23.05%"

@@ -33,7 +33,9 @@ const Sidebar = styled.aside`
 	margin-left: auto;
 	box-shadow: -10px 0px 30px -15px rgba(0, 0, 0, 0.5);
 	@media (max-width: 480px) {
-		width: 75vw;
+		width: 64vw;
+		border-top-left-radius: 16px;
+		border-bottom-left-radius: 16px;
 	}
 `;
 

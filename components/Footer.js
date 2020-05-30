@@ -98,8 +98,11 @@ const Footer = () => {
 					<div className="col-lg-4">
 						<ul>
 							<li>
-								<Atag href="https://www.kiet.edu/">
-									KIET Group of Instiutions
+								<Atag
+									href="https://www.kiet.edu/"
+									target="_blank"
+								>
+									KIET Group of Institutions
 								</Atag>
 							</li>
 							<li>
@@ -108,7 +111,10 @@ const Footer = () => {
 								</Link>
 							</li>
 							<li>
-								<Atag href="https://forms.gle/YFTsmarHBrW57k5N8">
+								<Atag
+									href="https://forms.gle/YFTsmarHBrW57k5N8"
+									target="_blank"
+								>
 									Become a member
 								</Atag>
 							</li>
@@ -135,28 +141,49 @@ const Footer = () => {
 					</div>
 					<div className="col-lg-4">
 						<SocialWrapper>
-							<SocialMedia href="https://instagram.com/dsckiet">
+							<SocialMedia
+								href="https://instagram.com/dsckiet"
+								target="_blank"
+							>
 								<AiOutlineInstagram />
 							</SocialMedia>{" "}
-							<SocialMedia href="https://twitter.com/dsckiet">
+							<SocialMedia
+								href="https://twitter.com/dsckiet"
+								target="_blank"
+							>
 								<AiOutlineTwitter />
 							</SocialMedia>
-							<SocialMedia href="https://github.com/dsckiet">
+							<SocialMedia
+								href="https://github.com/dsckiet"
+								target="_blank"
+							>
 								<AiOutlineGithub />
 							</SocialMedia>{" "}
-							<SocialMedia href="https://medium.com/dsckiet">
+							<SocialMedia
+								href="https://medium.com/dsckiet"
+								target="_blank"
+							>
 								<AiOutlineMedium />
 							</SocialMedia>
-							<SocialMedia href="https://t.me/dsckiet">
+							<SocialMedia
+								href="https://t.me/dsckiet"
+								target="_blank"
+							>
 								<FaTelegramPlane />
 							</SocialMedia>{" "}
-							<SocialMedia href="https://app.slack.com/client/TGC5E7ZLG">
+							<SocialMedia
+								href="https://app.slack.com/client/TGC5E7ZLG"
+								target="_blank"
+							>
 								<AiOutlineSlack />
 							</SocialMedia>
 						</SocialWrapper>
 						<Paragraph className="mt-3">
 							Write to us at:{" "}
-							<Atag href="mailto:dsckiet@gmail.com">
+							<Atag
+								href="mailto:dsckiet@gmail.com"
+								target="_blank"
+							>
 								<b>dsckiet@gmail.com</b>
 							</Atag>
 						</Paragraph>
@@ -179,7 +206,9 @@ const Footer = () => {
 					<div>
 						<Paragraph>
 							&copy; copyright 2020 DSC KIET - Developed by
-							DSCKIET
+							<Atag href="https://dsckiet.com">
+								<b>DSC KIET</b>
+							</Atag>
 						</Paragraph>
 					</div>
 				</CopyrightWrapper>
