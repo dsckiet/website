@@ -19,15 +19,7 @@ const Paragraph = styled.p`
 
 const ImageWrapper = styled.div`
 	@media (max-width: 768px) {
-		/* display: none; */
-		position: absolute;
-		z-index: -99;
-		opacity: 0.1;
-		/* right: -120px; */
-		overflow-x: hidden;
-		/* img {
-			width: 50%;
-		} */
+		display: none;
 	}
 `;
 

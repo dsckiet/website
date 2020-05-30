@@ -70,7 +70,7 @@ const Card = styled.div`
 const Notice = ({ notice }) => {
 	const { title, venue, date, time, link, text } = notice;
 	return (
-		<div className="pb-5">
+		<div className="pb-2">
 			<Card className="p-5 mb-5">
 				<div className="notice-info">
 					<NoticeTitle>{date}</NoticeTitle>

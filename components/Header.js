@@ -35,12 +35,7 @@ const Button = styled.a`
 
 const LottieImage = styled.div`
 	@media (max-width: 768px) {
-		/* display: none; */
-		position: absolute;
-		z-index: -99;
-		opacity: 0.1;
-		/* right: -120px; */
-		overflow-x: hidden;
+		display: none;
 	}
 	pointer-events: none;
 `;
