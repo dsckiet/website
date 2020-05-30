@@ -31,7 +31,7 @@ const SEO = ({ metaData }) => {
 			/>
 			<link
 				rel="manifest"
-				href="/site.webmanifest"
+				href="/manifest.json"
 			></link>
 
 			<link rel="canonical" href={metaData.url} />
