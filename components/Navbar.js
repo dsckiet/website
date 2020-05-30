@@ -16,19 +16,21 @@ const Navbar = () => {
 	return (
 		<div className="container">
 			<Nav className="navbar navbar-expand-lg navbar-light">
-				<a
-					href="/"
-					style={{ fontWeight: "700", color: "#424242" }}
-					className="nav-link navbar-brand"
-				>
-					<img
-						className="img-fluid mb-1"
-						src="static/images/logo.png"
-						alt="logo"
-						width="45"
-					/>{" "}
-					DSC KIET
-				</a>
+				<Link href="/">
+					<a
+						to="/"
+						style={{ fontWeight: "700", color: "#424242" }}
+						className="nav-link navbar-brand"
+					>
+						<img
+							className="img-fluid mb-1"
+							src="static/images/logo.png"
+							alt="logo"
+							width="45"
+						/>{" "}
+						DSC KIET
+					</a>
+				</Link>
 
 				<button
 					className="navbar-toggler"
