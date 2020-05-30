@@ -57,12 +57,9 @@ const Card = styled.div`
 		p {
 			color: #ffffff;
 		}
-		button {
-			background: #222222;
-		}
 		.notice-info,
 		.notice-head {
-			margin-bottom: 16px;
+			margin-bottom: 28px !important;
 		}
 	}
 `;

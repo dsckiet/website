@@ -1,8 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-import Link from "next/link";
 import Lottie from "react-lottie";
 import animationData from "../public/static/images/lf30_editor_qQ1FOd.json";
+
+const Container = styled.div`
+	@media (max-width: 768px) {
+		div {
+			margin-top: 0 !important;
+		}
+	}
+`;
 
 const Heading = styled.h2`
 	font-family: Sen !important;
@@ -50,7 +57,7 @@ const Header = () => {
 		}
 	};
 	return (
-		<div className="container">
+		<Container className="container">
 			<div className="row mt-5 pb-5 mb-5">
 				<div className="col-lg-1"></div>
 				<div className="col-lg-5">
@@ -73,7 +80,7 @@ const Header = () => {
 				</LottieImage>
 				<div className="col-lg-1"></div>
 			</div>
-		</div>
+		</Container>
 	);
 };
 
