@@ -22,7 +22,9 @@ const Paragraph = styled.p`
 	margin-bottom: 0;
 `;
 
-const Button = styled.button`
+const Button = styled.a`
+	text-decoration: none !important;
+	cursor: pointer;
 	font-family: Sen;
 	font-weight: 700;
 	padding: 8px 32px;
@@ -30,7 +32,7 @@ const Button = styled.button`
 	background: #4285f4;
 	border: none;
 	font-size: 16px;
-	color: #fff;
+	color: #fff !important;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.2);
 `;
 
@@ -68,23 +70,22 @@ const Card = styled.div`
 `;
 
 const Notice = ({ notice }) => {
+	const { title, venue, date, time, link, text } = notice;
 	return (
 		<div className="pb-5">
 			<Card className="p-5 mb-5">
 				<div className="notice-info">
-					<NoticeTitle>May 25th, 2020</NoticeTitle>
-					<Paragraph>07:00 PM, E-Block, CSE Dept.</Paragraph>
-				</div>
-				<div className="notice-head">
-					<NoticeHeading>Lorem dolor sit amet.</NoticeHeading>
+					<NoticeTitle>{date}</NoticeTitle>
 					<Paragraph>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Quam magnam incidunt facere odit nesciunt. Sapiente
-						eligendi cupiditate rem cum debitis corrupti ratione.
+						{time}, {venue}
 					</Paragraph>
 				</div>
+				<div className="notice-head">
+					<NoticeHeading>{title}</NoticeHeading>
+					<Paragraph>{text}</Paragraph>
+				</div>
 				<div>
-					<Button>Register</Button>
+					<Button href={link}>Register</Button>
 				</div>
 			</Card>
 		</div>

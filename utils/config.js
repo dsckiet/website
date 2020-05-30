@@ -1,5 +1,5 @@
 module.exports = {
-	title: "Developer Student Clubs KIET",
+	title: "DSC KIET",
 	description:
 		"Developer Student Club KIET is inspired by Google Developers' Family. The motive is to create a ecosystem of programmers & developers in the campus by helping them to learn and build projects.",
 	keywords:

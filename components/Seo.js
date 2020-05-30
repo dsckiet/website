@@ -11,6 +11,7 @@ const SEO = ({ metaData }) => {
 				content="width=device-width,initial-scale=1, shrink-to-fit=no"
 			/>
 			<meta name="theme-color" content="#0F9D58" />
+			<link rel="shortcut icon" href="static/images/favicon.png" />
 			{/* <link
 				rel="apple-touch-icon"
 				sizes="180x180"

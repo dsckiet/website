@@ -15,12 +15,12 @@ const Nav = styled.nav`
 const Navbar = () => {
 	return (
 		<div className="container">
-			<Nav className="navbar navbar-expand-lg navbar-light">
+			<Nav className="navbar navbar-expand-lg navbar-light px-0">
 				<Link href="/">
 					<a
 						to="/"
 						style={{ fontWeight: "700", color: "#424242" }}
-						className="nav-link navbar-brand"
+						className="nav-link navbar-brand px-0"
 					>
 						<img
 							className="img-fluid mb-1"
