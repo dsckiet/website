@@ -42,6 +42,7 @@ const LottieImage = styled.div`
 		/* right: -120px; */
 		overflow-x: hidden;
 	}
+	pointer-events: none;
 `;
 
 const Header = () => {
