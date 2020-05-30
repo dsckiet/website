@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import config from "../utils/config";
+import { Seo } from "../components";
 
 const Layout = props => (
 	<div>
@@ -14,6 +16,7 @@ const Layout = props => (
 				crossorigin="anonymous"
 			/> */}
 		</Head>
+		<SEO metaData={config} />
 		<Navbar />
 		<div className="container">{props.children}</div>
 		<Footer />
