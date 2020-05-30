@@ -101,6 +101,7 @@ const Footer = () => {
 								<Atag
 									href="https://www.kiet.edu/"
 									target="_blank"
+									rel="noopener"
 								>
 									KIET Group of Institutions
 								</Atag>
@@ -145,36 +146,42 @@ const Footer = () => {
 							<SocialMedia
 								href="https://instagram.com/dsckiet"
 								target="_blank"
+								rel="noopener"
 							>
 								<AiOutlineInstagram />
 							</SocialMedia>{" "}
 							<SocialMedia
 								href="https://twitter.com/dsckiet"
 								target="_blank"
+								rel="noopener"
 							>
 								<AiOutlineTwitter />
 							</SocialMedia>
 							<SocialMedia
 								href="https://github.com/dsckiet"
 								target="_blank"
+								rel="noopener"
 							>
 								<AiOutlineGithub />
 							</SocialMedia>{" "}
 							<SocialMedia
 								href="https://medium.com/dsckiet"
 								target="_blank"
+								rel="noopener"
 							>
 								<AiOutlineMedium />
 							</SocialMedia>
 							<SocialMedia
 								href="https://t.me/dsckiet"
 								target="_blank"
+								rel="noopener"
 							>
 								<FaTelegramPlane />
 							</SocialMedia>{" "}
 							<SocialMedia
-								href="https://app.slack.com/client/TGC5E7ZLG"
+								href="https://join.slack.com/t/dsckiet/shared_invite/zt-ef1q4txj-D77khvaZVgBP2CyH2MQHLA"
 								target="_blank"
+								rel="noopener"
 							>
 								<AiOutlineSlack />
 							</SocialMedia>
@@ -184,6 +191,7 @@ const Footer = () => {
 							<Atag
 								href="mailto:dsckiet@gmail.com"
 								target="_blank"
+								rel="noopener"
 							>
 								<b>dsckiet@gmail.com</b>
 							</Atag>
@@ -207,7 +215,7 @@ const Footer = () => {
 					</div>
 					<div>
 						<Paragraph>
-							&copy; copyright 2020 DSC KIET - Developed by
+							&copy; copyright 2020 DSC KIET - Developed by{" "}
 							<Atag href="https://dsckiet.com">
 								<b>DSC KIET</b>
 							</Atag>

@@ -83,7 +83,7 @@ const Notice = ({ notice }) => {
 					<Paragraph>{text}</Paragraph>
 				</div>
 				<div>
-					<Button href={link} target="_blank" rel="noopener">
+					<Button target="_blank" href={link}>
 						Register
 					</Button>
 				</div>
