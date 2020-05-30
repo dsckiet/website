@@ -1,79 +1,85 @@
-import React, { useState } from "react";
-// import { func, string } from "prop-types";
-import styled from "styled-components";
+import React from "react";
 import Link from "next/link";
-import SideNav from "./SideNav";
-// const Container = styled.nav`
-// 	color: ${({ theme }) => theme.text} !important;
-// 	background-color: ${({ theme }) => theme.body};
-// 	margin-bottom: 1.45rem;
-// `;
+import styled from "styled-components";
 
-const Nav = styled.nav`
-	font-family: Sen !important;
-	justify-content: space-between !important;
-`;
-const StyledNavLinks = styled.div`
-	display: flex;
-	align-items: center;
-`;
-
-const StyledList = styled.ul`
-	display: flex;
-	justify-content: end;
-	align-items: center;
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	@media (max-width: 992px) {
-		display: none;
-	}
-`;
-const StyledListItem = styled.li`
-	position: relative;
-	& > a {
-		color: rgba(0, 0, 0, 0.5);
-	}
-`;
-
-const StyledMenu = styled(StyledListItem)`
-	margin: 0 0;
-	list-style: none;
-	height: 32px;
-	img {
-		width: 32px;
-		cursor: pointer;
-	}
+const StyledContainer = styled.div`
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 10;
+	outline: 0;
+	transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+	transform: translateX(${props => (props.isOpen ? 0 : 100)}vw);
+	visibility: ${props => (props.isOpen ? "visible" : "hidden")};
 	display: none;
 	@media (max-width: 992px) {
 		display: block;
 	}
 `;
+const Sidebar = styled.aside`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #f6f7f8;
+	padding: 20px;
+	width: 50vw;
+	height: 100%;
+	position: relative;
+	right: 0;
+	margin-left: auto;
+	box-shadow: -10px 0px 30px -15px rgba(0, 0, 0, 0.5);
+	@media (max-width: 480px) {
+		width: 75vw;
+	}
+`;
 
-const Navbar = () => {
-	const [isOpen, setIsOpen] = useState(false);
+const StyledNavLinks = styled.nav`
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+	text-align: center;
+	color: inherit;
+`;
+const StyledList = styled.ul`
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 100%;
+`;
+const StyledListItem = styled.li`
+	padding: 1em 0.5em;
+	position: relative;
+	font-size: 1.5em;
+`;
 
-	const toggleMenu = () => setIsOpen(!isOpen);
+const SideNav = props => {
+	const handleMenuClick = e => {
+		const target = e.target;
+		const isLink = target.hasAttribute("href");
+		if (isLink) props.openMenu();
+		else {
+			const isNotMenu =
+				target.classList &&
+				target.classList[0].includes("StyledContainer");
+
+			if (isNotMenu) props.openMenu();
+		}
+	};
 
 	return (
-		<div className="container">
-			<Nav className="navbar navbar-expand-lg navbar-light">
-				<Link href="/">
-					<a
-						to="/"
-						style={{ fontWeight: "700", color: "#424242" }}
-						className="nav-link navbar-brand"
-					>
-						<img
-							className="img-fluid mb-1"
-							src="static/images/logo.png"
-							alt="logo"
-							width="45"
-						/>{" "}
-						DSC KIET
-					</a>
-				</Link>
-
+		<StyledContainer
+			isOpen={props.isOpen}
+			onClick={handleMenuClick}
+			aria-hidden={!props.isOpen}
+			tabIndex={props.isOpen ? 1 : -1}
+		>
+			<Sidebar>
 				<StyledNavLinks>
 					<StyledList
 						className="navbar-nav mr-auto nav justify-content-end"
@@ -144,22 +150,9 @@ const Navbar = () => {
 						</StyledListItem>
 					</StyledList>
 				</StyledNavLinks>
-				<StyledMenu>
-					<img
-						src={`/static/icons/menu.svg`}
-						alt="menu"
-						onClick={toggleMenu}
-					/>
-				</StyledMenu>
-				<SideNav isOpen={isOpen} openMenu={toggleMenu} />
-			</Nav>
-		</div>
+			</Sidebar>
+		</StyledContainer>
 	);
 };
 
-// Navbar.propTypes = {
-//   theme: string.isRequired,
-//   toggleTheme: func.isRequired,
-// };
-
-export default Navbar;
+export default SideNav;
