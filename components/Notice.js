@@ -1,24 +1,20 @@
 import React, { useState, useEffect } from "react";
-// import { func, string } from "prop-types";
 import styled from "styled-components";
 import Link from "next/link";
 
 const NoticeTitle = styled.h4`
 	font-family: Sen;
 	font-weight: 700;
-	/* color: #121212; */
 `;
 
 const NoticeHeading = styled.h5`
 	font-family: Sen;
-	font-weight: 700;
-	/* color: #121212; */
+	font-weight: 900;
 `;
 
 const Paragraph = styled.p`
 	font-family: Sen;
 	font-size: 16px;
-	/* color: #707070; */
 	margin-bottom: 0;
 `;
 
@@ -44,7 +40,6 @@ const Card = styled.div`
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	/* flex-wrap: wrap; */
 	background: #f9f9f9;
 	border-radius: 8px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
