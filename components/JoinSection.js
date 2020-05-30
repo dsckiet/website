@@ -170,12 +170,12 @@ const JoinSection = () => {
 							inbox.
 						</Paragraph>
 						<form
-							action="https://buttondown.email/api/emails/embed-subscribe/goelaakash79"
+							action="https://buttondown.email/api/emails/embed-subscribe/dsckiet"
 							method="post"
 							target="popupwindow"
 							onSubmit={() =>
 								window.open(
-									"https://buttondown.email/goelaakash79",
+									"https://buttondown.email/dsckiet",
 									"popupwindow"
 								)
 							}

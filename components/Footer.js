@@ -172,7 +172,7 @@ const Footer = () => {
 								<FaTelegramPlane />
 							</SocialMedia>{" "}
 							<SocialMedia
-								href="https://app.slack.com/client/TGC5E7ZLG"
+								href="https://join.slack.com/t/dsckiet/shared_invite/zt-ef1q4txj-D77khvaZVgBP2CyH2MQHLA"
 								target="_blank"
 							>
 								<AiOutlineSlack />
@@ -205,7 +205,7 @@ const Footer = () => {
 					</div>
 					<div>
 						<Paragraph>
-							&copy; copyright 2020 DSC KIET - Developed by
+							&copy; copyright 2020 DSC KIET - Developed by{" "}
 							<Atag href="https://dsckiet.com">
 								<b>DSC KIET</b>
 							</Atag>
