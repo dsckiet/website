@@ -148,7 +148,7 @@ const About = () => {
 			<SubHeading>What we do?</SubHeading>
 			<div className="row">
 				<div className="col-lg-6">
-					<Paragraph>
+					<Paragraph className="mb-5">
 						Google collaborates with university students who are
 						passionate about growing developer communities.
 						<br />

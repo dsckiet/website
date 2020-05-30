@@ -22,7 +22,7 @@ const ImageWrapper = styled.div`
 		/* display: none; */
 		position: absolute;
 		z-index: -99;
-		opacity: 0.2;
+		opacity: 0.1;
 		/* right: -120px; */
 		overflow-x: hidden;
 		/* img {

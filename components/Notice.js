@@ -27,9 +27,12 @@ const Button = styled.a`
 	cursor: pointer;
 	font-family: Sen;
 	font-weight: 700;
-	padding: 8px 32px;
+	padding: 12px 32px;
 	border-radius: 4px;
 	background: #4285f4;
+	@media (max-width: 768px) {
+		background: #222222;
+	}
 	border: none;
 	font-size: 16px;
 	color: #fff !important;
