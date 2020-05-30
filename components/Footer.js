@@ -101,6 +101,7 @@ const Footer = () => {
 								<Atag
 									href="https://www.kiet.edu/"
 									target="_blank"
+									rel="noopener"
 								>
 									KIET Group of Institutions
 								</Atag>
@@ -114,6 +115,7 @@ const Footer = () => {
 								<Atag
 									href="https://forms.gle/YFTsmarHBrW57k5N8"
 									target="_blank"
+									rel="noopener"
 								>
 									Become a member
 								</Atag>
@@ -144,36 +146,42 @@ const Footer = () => {
 							<SocialMedia
 								href="https://instagram.com/dsckiet"
 								target="_blank"
+								rel="noopener"
 							>
 								<AiOutlineInstagram />
 							</SocialMedia>{" "}
 							<SocialMedia
 								href="https://twitter.com/dsckiet"
 								target="_blank"
+								rel="noopener"
 							>
 								<AiOutlineTwitter />
 							</SocialMedia>
 							<SocialMedia
 								href="https://github.com/dsckiet"
 								target="_blank"
+								rel="noopener"
 							>
 								<AiOutlineGithub />
 							</SocialMedia>{" "}
 							<SocialMedia
 								href="https://medium.com/dsckiet"
 								target="_blank"
+								rel="noopener"
 							>
 								<AiOutlineMedium />
 							</SocialMedia>
 							<SocialMedia
 								href="https://t.me/dsckiet"
 								target="_blank"
+								rel="noopener"
 							>
 								<FaTelegramPlane />
 							</SocialMedia>{" "}
 							<SocialMedia
 								href="https://join.slack.com/t/dsckiet/shared_invite/zt-ef1q4txj-D77khvaZVgBP2CyH2MQHLA"
 								target="_blank"
+								rel="noopener"
 							>
 								<AiOutlineSlack />
 							</SocialMedia>
@@ -183,6 +191,7 @@ const Footer = () => {
 							<Atag
 								href="mailto:dsckiet@gmail.com"
 								target="_blank"
+								rel="noopener"
 							>
 								<b>dsckiet@gmail.com</b>
 							</Atag>
@@ -196,12 +205,13 @@ const Footer = () => {
 						allowfullscreen=""
 						aria-hidden="false"
 						tabindex="0"
+						title="DSC KIET"
 					></Iframe>
 				</CardOutline>
 
 				<CopyrightWrapper className="mt-4">
 					<div>
-						<img src="static/images/dsc_main.png" width="240px" />
+						<img src="static/images/dsc_main.png" alt="dsckiet" width="240px" />
 					</div>
 					<div>
 						<Paragraph>

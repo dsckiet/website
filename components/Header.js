@@ -63,6 +63,7 @@ const Header = () => {
 					<Button
 						href="https://forms.gle/YFTsmarHBrW57k5N8"
 						target="_blank"
+						rel="noopener"
 					>
 						Become a member
 					</Button>
