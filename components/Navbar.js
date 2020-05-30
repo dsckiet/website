@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Link from "next/link";
 import SideNav from "./SideNav";
+import { RiMenu3Line } from "react-icons/ri";
+
 // const Container = styled.nav`
 // 	color: ${({ theme }) => theme.text} !important;
 // 	background-color: ${({ theme }) => theme.body};
@@ -13,6 +15,7 @@ const Nav = styled.nav`
 	font-family: Sen !important;
 	justify-content: space-between !important;
 `;
+
 const StyledNavLinks = styled.div`
 	display: flex;
 	align-items: center;
@@ -127,6 +130,23 @@ const Navbar = () => {
 								</a>
 							</Link>
 						</StyledListItem>
+
+						<StyledListItem
+							className="nav-item m-1"
+							style={{ fontWeight: "600" }}
+						>
+							<Link href="/faqs">
+								<a
+									to="/faqs"
+									style={{ fontWeight: "600" }}
+									className="nav-link"
+									// activeClassName="active"
+								>
+									FAQs
+								</a>
+							</Link>
+						</StyledListItem>
+
 						<StyledListItem
 							className="nav-item m-1"
 							style={{ fontWeight: "600" }}
@@ -145,11 +165,16 @@ const Navbar = () => {
 					</StyledList>
 				</StyledNavLinks>
 				<StyledMenu>
-					<img
-						src={`/static/icons/menu.svg`}
+					<RiMenu3Line
+						style={{ fontSize: 32, cursor: "pointer" }}
 						alt="menu"
 						onClick={toggleMenu}
 					/>
+					{/* <img
+						src={`/static/icons/menu.svg`}
+						alt="menu"
+						onClick={toggleMenu}
+					/> */}
 				</StyledMenu>
 				<SideNav isOpen={isOpen} openMenu={toggleMenu} />
 			</Nav>

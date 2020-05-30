@@ -1,5 +1,4 @@
 import React from "react";
-// import { func, string } from "prop-types";
 import styled from "styled-components";
 import Link from "next/link";
 import { AiOutlineLink, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
@@ -16,7 +15,6 @@ const Role = styled.p`
 	font-size: 16px;
 	color: #707070;
 	margin-bottom: 4px;
-	/* margin-top: 16px; */
 `;
 
 const Image = styled.img`

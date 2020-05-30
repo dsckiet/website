@@ -46,6 +46,7 @@ const StyledNavLinks = styled.nav`
 	text-align: center;
 	color: inherit;
 `;
+
 const StyledList = styled.ul`
 	padding: 0;
 	margin: 0;
@@ -55,7 +56,7 @@ const StyledList = styled.ul`
 const StyledListItem = styled.li`
 	padding: 1em 0.5em;
 	position: relative;
-	font-size: 1.5em;
+	font-size: 1.2em;
 `;
 
 const SideNav = props => {
@@ -133,6 +134,39 @@ const SideNav = props => {
 								</a>
 							</Link>
 						</StyledListItem>
+
+						<StyledListItem
+							className="nav-item m-1"
+							style={{ fontWeight: "600" }}
+						>
+							<Link href="/guidelines">
+								<a
+									to="/guidelines"
+									style={{ fontWeight: "600" }}
+									className="nav-link"
+									// activeClassName="active"
+								>
+									Guidelines
+								</a>
+							</Link>
+						</StyledListItem>
+
+						<StyledListItem
+							className="nav-item m-1"
+							style={{ fontWeight: "600" }}
+						>
+							<Link href="/faqs">
+								<a
+									to="/faqs"
+									style={{ fontWeight: "600" }}
+									className="nav-link"
+									// activeClassName="active"
+								>
+									FAQs
+								</a>
+							</Link>
+						</StyledListItem>
+
 						<StyledListItem
 							className="nav-item m-1"
 							style={{ fontWeight: "600" }}
