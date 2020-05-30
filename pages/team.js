@@ -53,7 +53,8 @@ const TeamPage = ({ team }) => (
 						<img
 							className="img-fluid mb-1"
 							src="static/images/team.png"
-							alt="logo"
+							alt="team at dsc kiet"
+							loading="lazy"
 							width="100%"
 						/>
 					</ImageWrapper>
