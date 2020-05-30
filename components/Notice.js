@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Link from "next/link";
 
-const NoticeTitle = styled.h4`
+const NoticeTitle = styled.h5`
 	font-family: Sen;
 	font-weight: 700;
 `;
 
-const NoticeHeading = styled.h5`
+const NoticeHeading = styled.h4`
 	font-family: Sen;
 	font-weight: 900;
 `;
@@ -80,7 +80,7 @@ const Notice = ({ notice }) => {
 					<Paragraph>{text}</Paragraph>
 				</div>
 				<div>
-					<Button target="_blank" href={link}>
+					<Button target="_blank" href={link} rel="noopener">
 						Register
 					</Button>
 				</div>
