@@ -1,15 +1,7 @@
 const withPlugins = require("next-compose-plugins");
-const withBundleAnalyzer = require("@next/bundle-analyzer");
 const withOffline = require("next-offline");
 
 module.exports = withPlugins([
-	[
-		withBundleAnalyzer,
-		{
-			enabled: process.env.ANALYZE === "true"
-		}
-	],
-
 	[
 		withOffline,
 		{
