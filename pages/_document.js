@@ -52,6 +52,7 @@ export default class MyDocument extends Document {
 							`
 						}}
 					/>
+					<link rel="manifest" href="/static/manifest.json" />
 				</Head>
 				<body>
 					<Main />
