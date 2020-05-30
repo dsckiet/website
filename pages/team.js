@@ -40,14 +40,13 @@ const TeamPage = ({ team }) => (
 					<div className="col-lg-6">
 						<Heading>Team</Heading>
 						<Paragraph>
-							Lorem ipsum dolor sit amet consectetur, adipisicing
-							elit. Porro modi possimus aspernatur fuga totam
-							impedit aut non. Voluptas veritatis explicabo
-							ratione accusamus nam saepe maxime laborum illo
-							minus officiis, atque suscipit? Odio vero,
-							aspernatur deserunt, voluptatibus tempora dicta
-							accusamus voluptatem fugiat doloribus ut recusandae
-							eos numquam.
+							We are a group of excited people with a clear sense
+							of purpose. We believe in continuous learning and
+							development. We are adaptive to upcoming challenges
+							in technology and management. We learn, code,
+							preach, and grow together. Here at DSC KIET, we are
+							not just a team, we are a growing family of
+							developers.
 						</Paragraph>
 					</div>
 					<ImageWrapper className="col-lg-4">

@@ -65,29 +65,6 @@ const SocialMedia = styled.a`
 	}
 `;
 
-const Card = styled.div`
-	margin-bottom: 40px;
-	padding: 40px;
-	color: #ffffff;
-	align-items: center;
-	background: ${props => {
-		switch (props.type) {
-			case "red":
-				return "#DB4437";
-			case "blue":
-				return "#1A73E8";
-			case "green":
-				return "#0F9D58";
-			case "yellow":
-				return "#F4B400";
-			default:
-				return "#565859";
-		}
-	}};
-	border-radius: 8px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
-`;
-
 const CardOutline = styled.div`
 	margin-bottom: 40px;
 	border: 1.2px solid #0f9d58;
@@ -106,6 +83,12 @@ const Iframe = styled.iframe`
 	width: 100% !important;
 `;
 
+const Atag = styled.a`
+	text-decoration: none !important;
+	color: inherit !important;
+	cursor: pointer;
+`;
+
 const Footer = () => {
 	return (
 		<FooterWrapper>
@@ -114,41 +97,68 @@ const Footer = () => {
 				<div className="row">
 					<div className="col-lg-4">
 						<ul>
-							<li>KIET Group of Instiutions</li>
-							<li>About us</li>
-							<li>Become a member</li>
+							<li>
+								<Atag href="https://www.kiet.edu/">
+									KIET Group of Instiutions
+								</Atag>
+							</li>
+							<li>
+								<Link href="/about">
+									<Atag>About us</Atag>
+								</Link>
+							</li>
+							<li>
+								<Atag href="https://forms.gle/YFTsmarHBrW57k5N8">
+									Become a member
+								</Atag>
+							</li>
 						</ul>
 					</div>
 					<div className="col-lg-4">
 						<ul>
-							<li>Community Guidelines</li>
-							<li>Meet the team</li>
-							<li>FAQs</li>
+							<li>
+								<Link href="/guidelines">
+									<Atag>Community Guidelines</Atag>
+								</Link>
+							</li>
+							<li>
+								<Link href="/team">
+									<Atag>Meet the team</Atag>
+								</Link>
+							</li>
+							<li>
+								<Link href="/faqs">
+									<Atag to="/faqs">FAQs</Atag>
+								</Link>
+							</li>
 						</ul>
 					</div>
 					<div className="col-lg-4">
 						<SocialWrapper>
-							<SocialMedia>
+							<SocialMedia href="https://instagram.com/dsckiet">
 								<AiOutlineInstagram />
 							</SocialMedia>{" "}
-							<SocialMedia>
+							<SocialMedia href="https://twitter.com/dsckiet">
 								<AiOutlineTwitter />
 							</SocialMedia>
-							<SocialMedia>
+							<SocialMedia href="https://github.com/dsckiet">
 								<AiOutlineGithub />
 							</SocialMedia>{" "}
-							<SocialMedia>
+							<SocialMedia href="https://medium.com/dsckiet">
 								<AiOutlineMedium />
 							</SocialMedia>
-							<SocialMedia>
+							<SocialMedia href="https://t.me/dsckiet">
 								<FaTelegramPlane />
 							</SocialMedia>{" "}
-							<SocialMedia>
+							<SocialMedia href="https://app.slack.com/client/TGC5E7ZLG">
 								<AiOutlineSlack />
 							</SocialMedia>
 						</SocialWrapper>
 						<Paragraph className="mt-3">
-							Write to us at: <b>dsckiet@gmail.com</b>
+							Write to us at:{" "}
+							<Atag href="mailto:dsckiet@gmail.com">
+								<b>dsckiet@gmail.com</b>
+							</Atag>
 						</Paragraph>
 					</div>
 				</div>
