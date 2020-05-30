@@ -83,7 +83,9 @@ const Notice = ({ notice }) => {
 					<Paragraph>{text}</Paragraph>
 				</div>
 				<div>
-					<Button href={link}>Register</Button>
+					<Button href={link} target="_blank" rel="noopener">
+						Register
+					</Button>
 				</div>
 			</Card>
 		</div>

@@ -114,6 +114,7 @@ const Footer = () => {
 								<Atag
 									href="https://forms.gle/YFTsmarHBrW57k5N8"
 									target="_blank"
+									rel="noopener"
 								>
 									Become a member
 								</Atag>
@@ -196,12 +197,13 @@ const Footer = () => {
 						allowfullscreen=""
 						aria-hidden="false"
 						tabindex="0"
+						title="DSC KIET"
 					></Iframe>
 				</CardOutline>
 
 				<CopyrightWrapper className="mt-4">
 					<div>
-						<img src="static/images/dsc_main.png" width="240px" />
+						<img src="static/images/dsc_main.png" alt="dsckiet" width="240px" />
 					</div>
 					<div>
 						<Paragraph>
