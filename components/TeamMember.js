@@ -1,5 +1,4 @@
 import React from "react";
-// import { func, string } from "prop-types";
 import styled from "styled-components";
 import Link from "next/link";
 import { AiOutlineLink, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
@@ -16,7 +15,6 @@ const Role = styled.p`
 	font-size: 16px;
 	color: #707070;
 	margin-bottom: 4px;
-	/* margin-top: 16px; */
 `;
 
 const Image = styled.img`
@@ -41,10 +39,18 @@ const Social = styled.a`
 	}
 `;
 
+const MemberWrapper = styled.div`
+	@media (max-width: 768px) {
+		display: flex;
+		align-content: center;
+		align-items: center;
+	}
+`;
+
 const TeamMember = ({ member }) => {
 	return (
 		<div className="col-lg-4 mb-5">
-			<div className="row mb-2">
+			<MemberWrapper className="row mb-2">
 				<div className="col-4">
 					<Image
 						loading="lazy"
@@ -67,7 +73,7 @@ const TeamMember = ({ member }) => {
 						</Social>
 					</div>
 				</div>
-			</div>
+			</MemberWrapper>
 		</div>
 	);
 };

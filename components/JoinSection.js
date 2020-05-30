@@ -170,10 +170,15 @@ const JoinSection = () => {
 							inbox.
 						</Paragraph>
 						<form
-							action="https://buttondown.email/api/emails/embed-subscribe/goelaakash79"
+							action="https://buttondown.email/api/emails/embed-subscribe/dsckiet"
 							method="post"
 							target="popupwindow"
-							onSubmit="window.open('https://buttondown.email/goelaakash79', 'popupwindow')"
+							onSubmit={() =>
+								window.open(
+									"https://buttondown.email/dsckiet",
+									"popupwindow"
+								)
+							}
 							className="embeddable-buttondown-form"
 						>
 							<InputWrapper>
@@ -183,6 +188,7 @@ const JoinSection = () => {
 									type="email"
 									name="email"
 									id="bd-email"
+									required
 								/>
 								<Input type="hidden" value="1" name="embed" />
 								<Button

@@ -15,6 +15,8 @@
   "dependencies": {
     "bootstrap": "^4.5.0",
     "next": "^9.4.2",
+    "next-compose-plugins": "^2.2.0",
+    "next-offline": "^5.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",

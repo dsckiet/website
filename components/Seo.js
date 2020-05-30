@@ -10,28 +10,29 @@ const SEO = ({ metaData }) => {
 				name="viewport"
 				content="width=device-width,initial-scale=1, shrink-to-fit=no"
 			/>
-			<meta name="theme-color" content="#0F9D58" />
-			{/* <link
+			<meta name="theme-color" content="#222222" />
+			<link rel="shortcut icon" href="/static/favicon_io/favicon.ico" />
+			<link
 				rel="apple-touch-icon"
 				sizes="180x180"
-				href="/static/icons/favicon_io/apple-touch-icon.png"
+				href="/static/favicon_io/apple-touch-icon.png"
 			/>
 			<link
 				rel="icon"
 				type="image/png"
 				sizes="32x32"
-				href="/static/icons/favicon_io/favicon-32x32.png"
-			/> */}
+				href="/static/favicon_io/favicon-32x32.png"
+			/>
 			<link
 				rel="icon"
 				type="image/png"
 				sizes="16x16"
-				href="/static/images/favicon.png"
+				href="/static/favicon_io/favicon-16x16.png"
 			/>
-			{/* <link
+			<link
 				rel="manifest"
-				href="/static/icons/favicon_io/site.webmanifest"
-			></link> */}
+				href="/static/favicon_io/site.webmanifest"
+			></link>
 
 			<link rel="canonical" href={metaData.url} />
 

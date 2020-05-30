@@ -1,11 +1,11 @@
 {
     "notice": {
-        "isVisible": false,
-        "date": "",
-        "time": "",
-        "venue": "",
-        "title": "",
-        "text": "",
-        "link": ""
+        "isVisible": true,
+        "date": "June 5th, 2020",
+        "time": "01:00 PM",
+        "venue": "Google Meet",
+        "title": "Get Started with JavaScript",
+        "text": "Get to learn the most fundamental concepts of JavaScript that will broaden your knowledge of JS Frameworks. Join us on June 5th.",
+        "link": "https://meet.google.com/mehta-sabke-dil-mai-rehta"
     }
 }

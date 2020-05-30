@@ -33,7 +33,9 @@ const Sidebar = styled.aside`
 	margin-left: auto;
 	box-shadow: -10px 0px 30px -15px rgba(0, 0, 0, 0.5);
 	@media (max-width: 480px) {
-		width: 75vw;
+		width: 64vw;
+		border-top-left-radius: 16px;
+		border-bottom-left-radius: 16px;
 	}
 `;
 
@@ -46,6 +48,7 @@ const StyledNavLinks = styled.nav`
 	text-align: center;
 	color: inherit;
 `;
+
 const StyledList = styled.ul`
 	padding: 0;
 	margin: 0;
@@ -55,7 +58,12 @@ const StyledList = styled.ul`
 const StyledListItem = styled.li`
 	padding: 1em 0.5em;
 	position: relative;
-	font-size: 1.5em;
+	font-size: 1em;
+`;
+
+const HR = styled.div`
+	height: 2px;
+	border-bottom: 2px solid #000;
 `;
 
 const SideNav = props => {
@@ -133,6 +141,39 @@ const SideNav = props => {
 								</a>
 							</Link>
 						</StyledListItem>
+
+						<StyledListItem
+							className="nav-item m-1"
+							style={{ fontWeight: "600" }}
+						>
+							<Link href="/guidelines">
+								<a
+									to="/guidelines"
+									style={{ fontWeight: "600" }}
+									className="nav-link"
+									// activeClassName="active"
+								>
+									Guidelines
+								</a>
+							</Link>
+						</StyledListItem>
+
+						<StyledListItem
+							className="nav-item m-1"
+							style={{ fontWeight: "600" }}
+						>
+							<Link href="/faqs">
+								<a
+									to="/faqs"
+									style={{ fontWeight: "600" }}
+									className="nav-link"
+									// activeClassName="active"
+								>
+									FAQs
+								</a>
+							</Link>
+						</StyledListItem>
+
 						<StyledListItem
 							className="nav-item m-1"
 							style={{ fontWeight: "600" }}
@@ -147,6 +188,24 @@ const SideNav = props => {
 									Contact
 								</a>
 							</Link>
+						</StyledListItem>
+						<StyledListItem>
+							<hr className="m-0 p-0" />
+						</StyledListItem>
+						<StyledListItem>
+							<img
+								src="/static/images/dsc_main.png"
+								width="100%"
+							/>
+							<span
+								style={{
+									fontSize: 14,
+									color: "#707070",
+									marginTop: 8
+								}}
+							>
+								KIET Group of Institutions
+							</span>
 						</StyledListItem>
 					</StyledList>
 				</StyledNavLinks>

@@ -148,7 +148,7 @@ const About = () => {
 			<SubHeading>What we do?</SubHeading>
 			<div className="row">
 				<div className="col-lg-6">
-					<Paragraph>
+					<Paragraph className="mb-5">
 						Google collaborates with university students who are
 						passionate about growing developer communities.
 						<br />
@@ -162,6 +162,7 @@ const About = () => {
 					<Button
 						href="https://forms.gle/YFTsmarHBrW57k5N8"
 						target="_blank"
+						rel="noopener"
 					>
 						SIGN UP
 					</Button>
@@ -170,6 +171,7 @@ const About = () => {
 					<ExtLink
 						href="https://developers.google.com/programs/dsc/"
 						target="_blank"
+						rel="noopener"
 					>
 						Learn more about the Program
 					</ExtLink>
@@ -233,19 +235,19 @@ const About = () => {
 						build projects.
 					</Paragraph>
 					<SocialWrapper>
-						<SocialMedia href="https://medium.com/dsckiet">
+						<SocialMedia href="https://medium.com/dsckiet" target="_blank" rel="noopener">
 							<AiOutlineMedium />
 						</SocialMedia>
 
-						<SocialMedia href="https://instagram.com/dsckiet">
+						<SocialMedia href="https://instagram.com/dsckiet" target="_blank" rel="noopener">
 							<AiOutlineInstagram />
 						</SocialMedia>
 
-						<SocialMedia href="https://twitter.com/dsckiet">
+						<SocialMedia href="https://twitter.com/dsckiet" target="_blank" rel="noopener">
 							<AiOutlineTwitter />
 						</SocialMedia>
 
-						<SocialMedia href="https://github.com/dsckiet">
+						<SocialMedia href="https://github.com/dsckiet" target="_blank" rel="noopener">
 							<AiOutlineGithub />
 						</SocialMedia>
 					</SocialWrapper>
@@ -428,6 +430,7 @@ const About = () => {
 								height="2em"
 								xmlns="http://www.w3.org/2000/svg"
 							>
+								<title>Android</title>
 								<defs>
 									<linearGradient
 										x1="23.05%"
