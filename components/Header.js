@@ -44,7 +44,7 @@ const LottieImage = styled.div`
 	@media (max-width: 768px) {
 		display: none;
 	}
-	pointer-events: none;
+	/* pointer-events: none; mak ko isse dikkt hai*/
 `;
 
 const Header = () => {
