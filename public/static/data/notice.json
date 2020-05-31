@@ -3,9 +3,9 @@
         "isVisible": true,
         "date": "June 5th, 2020",
         "time": "01:00 PM",
-        "venue": "Google Meet",
-        "title": "Get Started with JavaScript",
-        "text": "Get to learn the most fundamental concepts of JavaScript that will broaden your knowledge of JS Frameworks. Join us on June 5th.",
-        "link": "https://meet.google.com/mehta-sabke-dil-mai-rehta"
+        "venue": "YouTube",
+        "title": "Getting Started with JavaScript",
+        "text": "Were you thinking of getting hands-on with Javascript lately? DSC KIET is organizing an online session for you to get started with Javascript.",
+        "link": "https://go.dsckiet.com/learnjs"
     }
 }
