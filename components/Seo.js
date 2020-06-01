@@ -58,7 +58,7 @@ const SEO = ({ metaData }) => {
 			{/* <meta property="twitter:image" content="/static/images/about.jpg" /> */}
 			<meta name="twitter:image:alt" content={metaData.title} />
 			<link
-				href="/static/images/dsc_main.jpg"
+				href="/static/images/dsc_main.png"
 				rel="icon"
 				type="image/jpeg"
 			/>
