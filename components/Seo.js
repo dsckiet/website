@@ -45,8 +45,8 @@ const SEO = ({ metaData }) => {
 			<meta property="og:url" content={metaData.url} />
 			<meta property="og:title" content={metaData.title} />
 			<meta property="og:description" content={metaData.description} />
-			{/* <meta property="og:image" content="/static/images/about.jpg" /> */}
-			<meta property="og:image:type" content="image/jpeg" />
+			<meta property="og:image" content="/static/favicon_io/apple-touch-icon.png" />
+			<meta property="og:image:type" content="image/png" />
 
 			<meta property="twitter:card" content="summary_large_image" />
 			<meta property="twitter:url" content={metaData.url} />
@@ -55,12 +55,12 @@ const SEO = ({ metaData }) => {
 				property="twitter:description"
 				content={metaData.description}
 			/>
-			{/* <meta property="twitter:image" content="/static/images/about.jpg" /> */}
+			<meta property="twitter:image" content="/static/favicon_io/apple-touch-icon.png" />
 			<meta name="twitter:image:alt" content={metaData.title} />
 			<link
-				href="/static/images/dsc_main.png"
+				href="/static/favicon_io/apple-touch-icon.png"
 				rel="icon"
-				type="image/jpeg"
+				type="image/png"
 			/>
 		</Head>
 	);
