@@ -45,7 +45,7 @@ const SEO = ({ metaData }) => {
 			<meta property="og:url" content={metaData.url} />
 			<meta property="og:title" content={metaData.title} />
 			<meta property="og:description" content={metaData.description} />
-			<meta property="og:image" content="/static/images/logo.png" />
+			<meta property="og:image" content="/static/favicon_io/android-chrome-512x512.png" />
 			<meta property="og:image:type" content="image/png" />
 
 			<meta property="twitter:card" content="summary_large_image" />
@@ -55,10 +55,10 @@ const SEO = ({ metaData }) => {
 				property="twitter:description"
 				content={metaData.description}
 			/>
-			<meta property="twitter:image" content="/static/images/logo.png" />
+			<meta property="twitter:image" content="/static/favicon_io/android-chrome-512x512.png" />
 			<meta name="twitter:image:alt" content={metaData.title} />
 			<link
-				href="/static/images/logo.png"
+				href="/static/favicon_io/android-chrome-512x512.png"
 				rel="icon"
 				type="image/png"
 			/>
