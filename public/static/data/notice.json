@@ -1,11 +1,11 @@
 {
     "notice": {
-        "isVisible": false,
-        "date": "June 5th, 2020",
-        "time": "11:00 AM",
+        "isVisible": true,
+        "date": "June 14th, 2020",
+        "time": "12:00 PM",
         "venue": "YouTube",
-        "title": "Getting Started with JavaScript",
-        "text": "Were you thinking of getting hands-on with Javascript lately? DSC KIET is organizing an online session for you to get started with Javascript.",
-        "link": "https://go.dsckiet.com/learnjs"
+        "title": "Scaling with Serverless",
+        "text": "In this webinar, join Shomik Goswami, Software Engineer from DLT Labs as he explores the features of AWS Lambda along with its real-time implementation using NodeJS.",
+        "link": "https://go.dsckiet.com/live"
     }
 }
