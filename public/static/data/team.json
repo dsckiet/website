@@ -18,7 +18,7 @@
 		"domain": "Web",
 		"other_url": "https://goelaakash79.github.io/",
 		"dob": "3/4/1998",
-		"role": "DSC Lead",
+		"role": "Alumni(Ex-Lead)",
 		"image": "static/images/aakash_goel.jpg"
 	},
 	{
@@ -99,17 +99,6 @@
 		"image": "static/images/dhruv_aggarwal.jpg"
 	},
 	{
-		"name": "Harshal Sharma",
-		"linkedin": "https://www.linkedin.com/in/harshal-sharma-0509",
-		"github": "https://github.com/harshal-509",
-		"email": "sharma.harshal509@gmail.com",
-		"domain": "Flutter",
-		"other_url": "https://www.hackerrank.com/hs509",
-		"dob": "9/5/2002",
-		"role": "",
-		"image": "https://avatars.dicebear.com/v2/identicon/18110.svg"
-	},
-	{
 		"name": "Ishita Jaiswal",
 		"linkedin": "http://www.linkedin.com/in/ishita-jaiswal-5838b116a",
 		"github": "https://github.com/ishitajaiswal4m",
@@ -150,7 +139,7 @@
 		"domain": "Web",
 		"other_url": "https://twitter.com/mayanksh99",
 		"dob": "7/28/1999",
-		"role": "Web Developer | Event Organiser",
+		"role": "DSC Lead",
 		"image": "static/images/mayank_shakya.jpg"
 	},
 	{
@@ -194,7 +183,7 @@
 		"domain": "Web",
 		"other_url": "https://drive.google.com/file/d/1W6aFjVFJLH8t_9o9vL7LpY0ABfn4Z3ct/view?usp=sharing",
 		"dob": "1/28/1999",
-		"role": "Web Developer | Mentor",
+		"role": "Alumni",
 		"image": "static/images/ritwick_bhargav.jpeg"
 	},
 	{
@@ -238,7 +227,7 @@
 		"domain": "Web",
 		"other_url": "https://www.linkedin.com/in/shrynshigupta06",
 		"dob": "11/21/1997",
-		"role": "Event Organiser | Mentor",
+		"role": "Alumni",
 		"image": "static/images/shreeyanshi_gupta.jpeg"
 	},
 	{
@@ -249,7 +238,7 @@
 		"domain": "Flutter",
 		"other_url": "https://sgshubham98.github.io",
 		"dob": "1/7/1998",
-		"role": "Algo TA | Flutter Developer",
+		"role": "Alumni",
 		"image": "static/images/shubham_goswami.jpg"
 	},
 	{
