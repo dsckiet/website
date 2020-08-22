@@ -7,19 +7,8 @@
 		"domain": "Flutter",
 		"other_url": "https://twitter.com/akkushivani",
 		"dob": "5/15/1998",
-		"role": "Flutter Lead",
+		"role": "Head of Flutter Dept.",
 		"image": "static/images/aakanksha_shivani.JPG"
-	},
-	{
-		"name": "Aakash Goel",
-		"linkedin": "https://www.linkedin.com/in/goelaakash79/",
-		"github": "https://github.com/goelaakash79",
-		"email": "goelaakash79@gmail.com",
-		"domain": "Web",
-		"other_url": "https://goelaakash79.github.io/",
-		"dob": "3/4/1998",
-		"role": "DSC Lead",
-		"image": "static/images/aakash_goel.jpg"
 	},
 	{
 		"name": "Aayush sharma",
@@ -29,7 +18,7 @@
 		"domain": "Flutter",
 		"other_url": "https://codeforces.com/profile/Ayush_b58",
 		"dob": "5/29/2000",
-		"role": "",
+		"role": "Flutter Developer",
 		"image": "static/images/Aayush_Sharma.jpg"
 	},
 	{
@@ -51,7 +40,7 @@
 		"domain": "Android",
 		"other_url": "https://www.codechef.com/users/ydasc815",
 		"dob": "12/14/1999",
-		"role": "",
+		"role": "Designer | Kotlin Developer",
 		"image": "static/images/aditya_pandey.jpg"
 	},
 	{
@@ -62,7 +51,7 @@
 		"domain": "Web",
 		"other_url": "https://www.hackerrank.com/padmansh_20",
 		"dob": "1/20/2002",
-		"role": "",
+		"role": "Frontend Developer",
 		"image": "static/images/Aniket_Padmansh.jpg"
 	},
 	{
@@ -73,7 +62,7 @@
 		"domain": "Android",
 		"other_url": "https://anshulgupta.netlify.com/",
 		"dob": "7/15/1999",
-		"role": "Android Lead",
+		"role": "Head of Anrdoid Dept.",
 		"image": "static/images/anshul_gupta.jpg"
 	},
 	{
@@ -97,17 +86,6 @@
 		"dob": "11/29/2000",
 		"role": "",
 		"image": "static/images/dhruv_aggarwal.jpg"
-	},
-	{
-		"name": "Harshal Sharma",
-		"linkedin": "https://www.linkedin.com/in/harshal-sharma-0509",
-		"github": "https://github.com/harshal-509",
-		"email": "sharma.harshal509@gmail.com",
-		"domain": "Flutter",
-		"other_url": "https://www.hackerrank.com/hs509",
-		"dob": "9/5/2002",
-		"role": "",
-		"image": "https://avatars.dicebear.com/v2/identicon/18110.svg"
 	},
 	{
 		"name": "Ishita Jaiswal",
@@ -139,7 +117,7 @@
 		"domain": "Android",
 		"other_url": "https://www.instagram.com/manvendra966/?hl=en",
 		"dob": "7/22/2000",
-		"role": "",
+		"role": "Android Developer",
 		"image": "static/images/Manvendra_Singh.jpg"
 	},
 	{
@@ -150,7 +128,7 @@
 		"domain": "Web",
 		"other_url": "https://twitter.com/mayanksh99",
 		"dob": "7/28/1999",
-		"role": "Web Developer | Event Organiser",
+		"role": "DSC Lead",
 		"image": "static/images/mayank_shakya.jpg"
 	},
 	{
@@ -172,7 +150,7 @@
 		"domain": "Web",
 		"other_url": "https://www.hackerrank.com/priyanshus_edu",
 		"dob": "12/20/2001",
-		"role": "",
+		"role": "Backend Developer",
 		"image": "static/images/priyanshu_sharma.jpg"
 	},
 	{
@@ -183,19 +161,8 @@
 		"domain": "Web",
 		"other_url": "https://ritiksr25.tech",
 		"dob": "9/11/2000",
-		"role": "Project Lead",
+		"role": "Head of Projects",
 		"image": "static/images/ritik_srivastava.jpeg"
-	},
-	{
-		"name": "Ritwick Bhargav",
-		"linkedin": "https://www.linkedin.com/in/ritwickbhargav80",
-		"github": "https://github.com/ritwickbhargav80",
-		"email": "ritwickbhargav80@gmail.com",
-		"domain": "Web",
-		"other_url": "https://drive.google.com/file/d/1W6aFjVFJLH8t_9o9vL7LpY0ABfn4Z3ct/view?usp=sharing",
-		"dob": "1/28/1999",
-		"role": "Web Developer | Mentor",
-		"image": "static/images/ritwick_bhargav.jpeg"
 	},
 	{
 		"name": "Rohan Mehta",
@@ -205,7 +172,7 @@
 		"domain": "Web",
 		"other_url": "https://rhnmht30.dev",
 		"dob": "12/30/1997",
-		"role": "Tech Lead",
+		"role": "Head of Tech",
 		"image": "static/images/rohan_mehta.jpg"
 	},
 	{
@@ -216,7 +183,7 @@
 		"domain": "Flutter",
 		"other_url": "https://www.hackerrank.com/satyamx64?hr_r=1",
 		"dob": "7/12/2001",
-		"role": "",
+		"role": "Flutter Developer",
 		"image": "static/images/satyam_sharma.jpg"
 	},
 	{
@@ -225,32 +192,10 @@
 		"github": "https://github.com/ShashankJaitly",
 		"email": "shashank16vasu@gmail.com",
 		"domain": "Web",
-		"other_url":"https://github.com/ShashankJaitly",
+		"other_url": "https://github.com/ShashankJaitly",
 		"dob": "9/16/1998",
 		"role": "Content Creator | Developer",
 		"image": "static/images/shashank_jaitly.jpg"
-	},
-	{
-		"name": "Shreeyanshi Gupta",
-		"linkedin": "https://www.linkedin.com/in/shrynshigupta06",
-		"github": "https://github.com/shrynshigupta06",
-		"email": "shree21gupta@gmail.com",
-		"domain": "Web",
-		"other_url": "https://www.linkedin.com/in/shrynshigupta06",
-		"dob": "11/21/1997",
-		"role": "Event Organiser | Mentor",
-		"image": "static/images/shreeyanshi_gupta.jpeg"
-	},
-	{
-		"name": "Shubham Goswami",
-		"linkedin": "https://linkedin.com/in/sgshubham98",
-		"github": "https://github.com/sgshubham98",
-		"email": "sgshubham98@gmail.com",
-		"domain": "Flutter",
-		"other_url": "https://sgshubham98.github.io",
-		"dob": "1/7/1998",
-		"role": "Algo TA | Flutter Developer",
-		"image": "static/images/shubham_goswami.jpg"
 	},
 	{
 		"name": "Shubham Singh",
@@ -260,7 +205,7 @@
 		"domain": "Flutter",
 		"other_url": "https://twitter.com/shubham100ev",
 		"dob": "11/10/1998",
-		"role": "Designer | Flutter Developer",
+		"role": "Head of Design | Flutter Developer",
 		"image": "static/images/shubham_singh.jpg"
 	},
 	{
@@ -293,7 +238,51 @@
 		"domain": "Android",
 		"other_url": "https://www.stopstalk.com/user/profile/jhavidit",
 		"dob": "10/28/2000",
-		"role": "",
+		"role": "Android Developer",
 		"image": "static/images/vidit_jha.jpg"
+	},
+	{
+		"name": "Aakash Goel",
+		"linkedin": "https://www.linkedin.com/in/goelaakash79/",
+		"github": "https://github.com/goelaakash79",
+		"email": "goelaakash79@gmail.com",
+		"domain": "Web",
+		"other_url": "https://goelaakash79.github.io/",
+		"dob": "3/4/1998",
+		"role": "Class of 2020",
+		"image": "static/images/aakash_goel.jpg"
+	},
+	{
+		"name": "Ritwick Bhargav",
+		"linkedin": "https://www.linkedin.com/in/ritwickbhargav80",
+		"github": "https://github.com/ritwickbhargav80",
+		"email": "ritwickbhargav80@gmail.com",
+		"domain": "Web",
+		"other_url": "https://drive.google.com/file/d/1W6aFjVFJLH8t_9o9vL7LpY0ABfn4Z3ct/view?usp=sharing",
+		"dob": "1/28/1999",
+		"role": "Class of 2020",
+		"image": "static/images/ritwick_bhargav.jpeg"
+	},
+	{
+		"name": "Shubham Goswami",
+		"linkedin": "https://linkedin.com/in/sgshubham98",
+		"github": "https://github.com/sgshubham98",
+		"email": "sgshubham98@gmail.com",
+		"domain": "Flutter",
+		"other_url": "https://sgshubham98.github.io",
+		"dob": "1/7/1998",
+		"role": "Class of 2020",
+		"image": "static/images/shubham_goswami.jpg"
+	},
+	{
+		"name": "Shreeyanshi Gupta",
+		"linkedin": "https://www.linkedin.com/in/shrynshigupta06",
+		"github": "https://github.com/shrynshigupta06",
+		"email": "shree21gupta@gmail.com",
+		"domain": "Web",
+		"other_url": "https://www.linkedin.com/in/shrynshigupta06",
+		"dob": "11/21/1997",
+		"role": "Class of 2020",
+		"image": "static/images/shreeyanshi_gupta.jpeg"
 	}
 ]
