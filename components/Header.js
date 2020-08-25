@@ -47,6 +47,21 @@ const LottieImage = styled.div`
 	/* pointer-events: none; mak ko isse dikkt hai*/
 `;
 
+const ExtLink = styled.a`
+	text-decoration: none;
+	font-family: Sen !important;
+	margin-right: 12px;
+	color: #0f9d58;
+	font-weight: 700;
+	font-size: 16px;
+	transition: 0.2s all ease;
+	&:hover {
+		transition: 0.2s all ease;
+		color: #4285f4;
+		text-decoration: underline;
+	}
+`;
+
 const Header = () => {
 	const defaultOptions = {
 		loop: true,
@@ -74,6 +89,15 @@ const Header = () => {
 					>
 						Become a member
 					</Button>
+					<br />
+					<br />
+					<ExtLink
+						href="https://dsc.community.dev/kiet-group-of-institutions-ghaziabad/"
+						target="_blank"
+						rel="noopener"
+					>
+						Join Community Platform by Google Develoeprs
+					</ExtLink>
 				</div>
 				<LottieImage className="col-lg-5">
 					<Lottie options={defaultOptions} height={400} width={400} />

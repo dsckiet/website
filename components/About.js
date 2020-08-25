@@ -160,7 +160,7 @@ const About = () => {
 						experience.
 					</Paragraph>
 					<Button
-						href="https://forms.gle/YFTsmarHBrW57k5N8"
+						href="https://dsc.community.dev/kiet-group-of-institutions-ghaziabad/"
 						target="_blank"
 						rel="noopener"
 					>
@@ -235,19 +235,35 @@ const About = () => {
 						build projects.
 					</Paragraph>
 					<SocialWrapper>
-						<SocialMedia href="https://medium.com/dsckiet" target="_blank" rel="noopener">
+						<SocialMedia
+							href="https://medium.com/dsckiet"
+							target="_blank"
+							rel="noopener"
+						>
 							<AiOutlineMedium />
 						</SocialMedia>
 
-						<SocialMedia href="https://instagram.com/dsckiet" target="_blank" rel="noopener">
+						<SocialMedia
+							href="https://instagram.com/dsckiet"
+							target="_blank"
+							rel="noopener"
+						>
 							<AiOutlineInstagram />
 						</SocialMedia>
 
-						<SocialMedia href="https://twitter.com/dsckiet" target="_blank" rel="noopener">
+						<SocialMedia
+							href="https://twitter.com/dsckiet"
+							target="_blank"
+							rel="noopener"
+						>
 							<AiOutlineTwitter />
 						</SocialMedia>
 
-						<SocialMedia href="https://github.com/dsckiet" target="_blank" rel="noopener">
+						<SocialMedia
+							href="https://github.com/dsckiet"
+							target="_blank"
+							rel="noopener"
+						>
 							<AiOutlineGithub />
 						</SocialMedia>
 					</SocialWrapper>
