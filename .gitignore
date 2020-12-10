@@ -27,3 +27,6 @@ yarn-error.log*
 
 .vercel
 out
+
+#tailwindcss full config
+tailwind-full.config.js
