@@ -60,7 +60,7 @@ const AboutSection = () => {
 							Learn more about the Program
 						</a>
 					</div>
-					<div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8">
 						<div className="flex flex-col space-y-1">
 							<div className="text-6xl text-red-dsc">
 								<AiOutlineRocket />
@@ -140,7 +140,7 @@ const AboutSection = () => {
 							))}
 						</div>
 					</div>
-					<div className="grid grid-cols-3 sm:grid-cols-4">
+					<div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4">
 						{[
 							<HTMLIcon />,
 							<CSSIcon />,
@@ -156,7 +156,7 @@ const AboutSection = () => {
 								return (
 									<div
 										key={i}
-										className="sm:col-start-2 sm:col-span-2 sm:justify-self-center text-2xl opacity-60 p-4 transition-all duration-200 ease-in hover:opacity-100"
+										className="sm:col-start-2 sm:col-span-2 sm:justify-self-center md:col-start-2 md:col-span-2 md:justify-self-center text-2xl opacity-60 p-4 transition-all duration-200 ease-in hover:opacity-100"
 									>
 										{ele}
 									</div>

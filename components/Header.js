@@ -12,9 +12,8 @@ const Header = () => {
 		}
 	};
 	return (
-		<div className="cntr">
+		<section className="cntr">
 			<div className="flex flex-col lg:flex-row">
-				<div className=""></div>
 				<div className="flex flex-col space-y-4 md:px-16 lg:py-16">
 					<h2 className="text-3xl font-bold text-gray-700">
 						Developer Student Clubs KIET Group of Institutions
@@ -45,7 +44,7 @@ const Header = () => {
 				</div>
 				<div className=""></div>
 			</div>
-		</div>
+		</section>
 	);
 };
 

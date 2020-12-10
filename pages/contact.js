@@ -1,11 +1,4 @@
-// import Layout from "../components/Layout";
-// import JoinSection from "../components/JoinSection";
+import JoinSection from "../components/JoinSection";
 
-// const About = () => (
-// 	<Layout>
-// 		<JoinSection />
-// 	</Layout>
-// );
-const Contact = () => <></>;
-
+const Contact = () => <JoinSection />;
 export default Contact;

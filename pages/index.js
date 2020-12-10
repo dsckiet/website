@@ -1,9 +1,7 @@
 import Header from "../components/Header";
-// import Notice from "../components/Notice";
-// import JoinSection from "../components/JoinSection";
-// import styled from "styled-components";
-
+import JoinSection from "../components/JoinSection";
 import AboutSection from "../components/AboutSection";
+// import Notice from "../components/Notice";
 
 // const NoticeSection = styled.div`
 // 	display: ${({ isVisible }) => (isVisible ? "block" : "none")};
@@ -16,7 +14,7 @@ const Index = ({ notice }) => (
 			<Notice notice={notice} />
 		</NoticeSection> */}
 		<AboutSection />
-		{/* <JoinSec/tion /> */}
+		<JoinSection />
 	</>
 );
 
