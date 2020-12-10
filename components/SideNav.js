@@ -20,14 +20,14 @@ const SideNav = props => {
 	return (
 		<div
 			className={`fixed inset-0 w-full h-screen z-10 outline-none transition-all duration-500 ease-in-out transform ${
-				props.isopen
+				props.open
 					? "visible translate-x-0"
 					: "invisible translate-x-full"
 			}`}
-			isOpen={props.isopen}
+			open={props.open}
 			onClick={handleMenuClick}
-			aria-hidden={!props.isopen}
-			tabIndex={props.isopen ? 1 : -1}
+			aria-hidden={!props.open}
+			tabIndex={props.open ? 1 : -1}
 		>
 			<aside
 				className={`relative bg-gray-100 flex flex-col items-center w-3/4 sm:w-1/2 h-full right-0 ml-auto md:hidden`}

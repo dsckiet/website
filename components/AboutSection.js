@@ -43,14 +43,14 @@ const AboutSection = () => {
 							peer to peer workshops and events, and gain relevant
 							industry experience.
 						</p>
-						<button
+						<a
 							className="btn self-start"
 							href="https://dsc.community.dev/kiet-group-of-institutions-ghaziabad/"
 							target="_blank"
 							rel="noopener"
 						>
-							SIGN UP
-						</button>
+							Sign Up
+						</a>
 						<a
 							className="text-green-dsc font-bold text-base transition-all duration-200 ease-in hover:text-blue-dsc hover:underline"
 							href="https://developers.google.com/programs/dsc/"
@@ -130,7 +130,7 @@ const AboutSection = () => {
 							].map((ele, i) => (
 								<a
 									key={i}
-									className="social h-8 w-8 rounded-full bg-gray-700 hover:bg-blue-dsc text-white flex justify-center items-center"
+									className="social h-8 w-8 rounded-full bg-gray-900 hover:bg-blue-dsc text-white flex justify-center items-center"
 									href="https://medium.com/dsckiet"
 									target="_blank"
 									rel="noopener"

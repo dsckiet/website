@@ -1,5 +1,4 @@
-// import Layout from "../components/Layout";
-// import Header from "../components/Header";
+import Header from "../components/Header";
 // import Notice from "../components/Notice";
 // import JoinSection from "../components/JoinSection";
 // import styled from "styled-components";
@@ -12,7 +11,7 @@ import AboutSection from "../components/AboutSection";
 
 const Index = ({ notice }) => (
 	<>
-		{/* <Header /> */}
+		<Header />
 		{/* <NoticeSection isVisible={notice.isVisible}>
 			<Notice notice={notice} />
 		</NoticeSection> */}

@@ -7,9 +7,9 @@ import { RiMenu3Line } from "react-icons/ri";
 
 const Navbar = () => {
 	const router = useRouter();
-	const [isOpen, setIsOpen] = useState(false);
+	const [open, setopen] = useState(false);
 
-	const toggleMenu = () => setIsOpen(!isOpen);
+	const toggleMenu = () => setopen(!open);
 
 	return (
 		<header style={{ boxShadow: "rgba(0,0,0,.2) 0 2px 4px" }}>
@@ -97,7 +97,7 @@ const Navbar = () => {
 					<RiMenu3Line alt="menu" onClick={toggleMenu} />
 				</button>
 			</nav>
-			<SideNav isopen={isOpen} openMenu={toggleMenu} />
+			<SideNav open={open} openMenu={toggleMenu} />
 		</header>
 	);
 };
