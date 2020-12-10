@@ -122,41 +122,22 @@ const AboutSection = () => {
 							and build projects.
 						</p>
 						<div className="flex justify-start space-x-2">
-							<a
-								className="social h-8 w-8 rounded-full bg-gray-700 hover:bg-blue-dsc text-white flex justify-center items-center"
-								href="https://medium.com/dsckiet"
-								target="_blank"
-								rel="noopener"
-							>
-								<AiOutlineMedium />
-							</a>
-
-							<a
-								className="social h-8 w-8 rounded-full bg-gray-700 hover:bg-blue-dsc text-white flex justify-center items-center"
-								href="https://instagram.com/dsckiet"
-								target="_blank"
-								rel="noopener"
-							>
-								<AiOutlineInstagram />
-							</a>
-
-							<a
-								className="social h-8 w-8 rounded-full bg-gray-700 hover:bg-blue-dsc text-white flex justify-center items-center"
-								href="https://twitter.com/dsckiet"
-								target="_blank"
-								rel="noopener"
-							>
-								<AiOutlineTwitter />
-							</a>
-
-							<a
-								className="social h-8 w-8 rounded-full bg-gray-700 hover:bg-blue-dsc text-white flex justify-center items-center"
-								href="https://github.com/dsckiet"
-								target="_blank"
-								rel="noopener"
-							>
+							{[
+								<AiOutlineMedium />,
+								<AiOutlineInstagram />,
+								<AiOutlineTwitter />,
 								<AiOutlineGithub />
-							</a>
+							].map((ele, i) => (
+								<a
+									key={i}
+									className="social h-8 w-8 rounded-full bg-gray-700 hover:bg-blue-dsc text-white flex justify-center items-center"
+									href="https://medium.com/dsckiet"
+									target="_blank"
+									rel="noopener"
+								>
+									{ele}
+								</a>
+							))}
 						</div>
 					</div>
 					<div className="grid grid-cols-3 sm:grid-cols-4">

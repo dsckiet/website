@@ -103,7 +103,7 @@ const SideNav = props => {
 							width={4050}
 							height={371}
 						/>
-						<span className="text-base self-end">
+						<span className="text-xs self-end">
 							KIET Group of Institutions
 						</span>
 					</div>
