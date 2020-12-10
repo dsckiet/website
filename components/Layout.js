@@ -1,19 +1,16 @@
 import Head from "next/head";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
-import config from "../utils/config";
-import SEO from "./Seo";
+// import Footer from "./Footer";
+// import config from "../utils/config";
+// import SEO from "./Seo";
 
 const Layout = props => (
-	<div>
-		<SEO metaData={config} />
-		<script>
-			{(console.log = console.warn = console.error = () => {})}
-		</script>
+	<>
+		{/* <SEO metaData={config} /> */}
 		<Navbar />
-		<div className="container">{props.children}</div>
-		<Footer />
-	</div>
+		<main className="mt-8">{props.children}</main>
+		{/* <Footer /> */}
+	</>
 );
 
 export default Layout;

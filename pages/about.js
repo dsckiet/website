@@ -1,10 +1,8 @@
-import Layout from "../components/Layout";
-import AboutSection from "../components/About";
+import React from "react";
+import AboutSection from "../components/AboutSection";
 
-const About = () => (
-	<Layout>
-		<AboutSection />
-	</Layout>
-);
+const About = () => {
+	return <AboutSection />;
+};
 
 export default About;

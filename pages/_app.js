@@ -1,24 +1,11 @@
 import { register, unregister } from "next-offline/runtime";
-import React from "react";
+import React, { useEffect } from "react";
 import Router from "next/router";
 // import * as gtag from "../utils/gtag";
 import "../styles/tailwind.css";
 import "tailwindcss/utilities.css";
 import "../styles/global.css";
-
-export default class MyApp extends React.Component {
-	componentDidMount() {
-		register();
-	}
-	componentWillUnmount() {
-		unregister();
-	}
-
-	render() {
-		const { Component, pageProps } = this.props;
-		return <Component {...pageProps} />;
-	}
-}
+import Layout from "../components/Layout";
 
 export default function MyApp({ Component, pageProps }) {
 	useEffect(() => {
@@ -30,8 +17,6 @@ export default function MyApp({ Component, pageProps }) {
 	}, []);
 
 	useEffect(() => {
-		setHasMounted(true);
-
 		const handleRouteChange = url => {
 			// gtag.pageview(url);
 		};
@@ -42,10 +27,9 @@ export default function MyApp({ Component, pageProps }) {
 		};
 	}, []);
 
-	if (!hasMounted) return <></>;
 	return (
-		<Layout darkMode={darkMode.value} toggle={darkMode}>
-			<Component {...pageProps} darkMode={darkMode.value} />
+		<Layout>
+			<Component {...pageProps} />
 		</Layout>
 	);
 }
