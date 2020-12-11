@@ -67,7 +67,7 @@ const JoinSection = () => {
 							<div className="flex flex-col lg:flex-row lg:space-x-2">
 								<input
 									placeholder="email address"
-									className="p-2 my-2 border border-solid border-gray-800 focus:border-red-dsc border-b-4 rounded-lg"
+									className="p-2 my-2 border border-solid border-gray-800 focus:border-red-dsc border-b-4 rounded-lg outline-none"
 									type="email"
 									name="email"
 									id="bd-email"
