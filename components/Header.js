@@ -1,6 +1,5 @@
 import React, { useState, useEffect, Suspense } from "react";
-
-const Lottie = React.lazy(() => import("react-lottie"));
+import Lottie from "react-lottie";
 
 const Header = () => {
 	const [options, setOptions] = useState({
