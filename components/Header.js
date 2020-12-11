@@ -22,7 +22,7 @@ const Header = () => {
 						powered by <b>Google Developers</b>
 					</p>
 					<a
-						className="btn self-start"
+						className="btn self-start hover:bg-blue-dsc transition-all duration-200 ease-in"
 						href="https://forms.gle/YFTsmarHBrW57k5N8"
 						target="_blank"
 						rel="noopener"

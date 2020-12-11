@@ -12,8 +12,11 @@ const Navbar = () => {
 	const toggleMenu = () => setopen(!open);
 
 	return (
-		<header style={{ boxShadow: "rgba(0,0,0,.2) 0 2px 4px" }}>
-			<nav className="cntr py-2 flex justify-between">
+		<header
+			className="sticky top-0 z-40 bg-gray-100"
+			style={{ boxShadow: "rgba(0,0,0,.2) 0 2px 4px" }}
+		>
+			<nav className=" cntr py-2 flex justify-between">
 				<Link href="/">
 					<a
 						to="/"

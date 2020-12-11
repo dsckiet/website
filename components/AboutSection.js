@@ -44,7 +44,7 @@ const AboutSection = () => {
 							industry experience.
 						</p>
 						<a
-							className="btn self-start"
+							className="btn self-start hover:bg-blue-dsc transition-all duration-200 ease-in"
 							href="https://dsc.community.dev/kiet-group-of-institutions-ghaziabad/"
 							target="_blank"
 							rel="noopener"

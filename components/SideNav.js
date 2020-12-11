@@ -97,11 +97,13 @@ const SideNav = props => {
 							Contact
 						</a>
 					</Link>
-					<div className="py-8 mx-8 flex flex-col border-t-2">
+					<div className="py-4 mx-8 flex flex-col border-t-2">
 						<Image
 							src="/static/images/dsc_main.png"
-							width={4050}
-							height={371}
+							width={200}
+							height={20}
+							layout="fixed"
+							objectFit="contain"
 						/>
 						<span className="text-xs self-end">
 							KIET Group of Institutions
