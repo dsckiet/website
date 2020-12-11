@@ -1,5 +1,5 @@
 import { register, unregister } from "next-offline/runtime";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Router from "next/router";
 // import * as gtag from "../utils/gtag";
 import "../styles/tailwind.css";

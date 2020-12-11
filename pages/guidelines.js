@@ -1,50 +1,30 @@
-// import Layout from "../components/Layout";
-// import styled from "styled-components";
-// import { AiOutlineTags } from "react-icons/ai";
-
-// const Heading = styled.h3`
-// 	font-family: Sen;
-// 	font-weight: 700;
-// 	color: #424242;
-// `;
-
-// const Paragraph = styled.p`
-// 	font-family: Sen;
-// 	font-size: 16px;
-// 	color: #707070;
-// 	margin-top: 16px;
-// 	margin-bottom: 40px;
-// 	svg {
-// 		color: #424242;
-// 		font-size: 20px;
-// 	}
-// `;
+import { AiOutlineTags } from "react-icons/ai";
 
 const Guidelines = ({ guidelines }) => (
-	// <Layout>
-	// 	<div className="mb-5 mt-5">
-	// 		<Heading>Community Guidelines</Heading>
-	// 		<div className="mt-4">
-	// 			{guidelines.map(rule => (
-	// 				<Paragraph>
-	// 					<AiOutlineTags /> {rule}
-	// 				</Paragraph>
-	// 			))}
-	// 		</div>
-	// 	</div>
-	// </Layout>
-	<></>
+	<section className="cntr py-4 mb-8">
+		<h2 className="text-2xl font-extrabold text-gray-700">
+			Community Guidelines
+		</h2>
+		<div className="flex flex-col space-y-8 mt-4">
+			{guidelines.map(rule => (
+				<p className="text-base flex space-x-2">
+					<AiOutlineTags className="text-xl mt-1" />{" "}
+					<span className="flex-1">{rule}</span>
+				</p>
+			))}
+		</div>
+	</section>
 );
 
-// export async function getStaticProps() {
-// 	const data = await import(
-// 		"../public/static/data/community-guidelines.json"
-// 	);
-// 	return {
-// 		props: {
-// 			guidelines: data.default
-// 		}
-// 	};
-// }
+export async function getStaticProps() {
+	const data = await import(
+		"../public/static/data/community-guidelines.json"
+	);
+	return {
+		props: {
+			guidelines: data.default
+		}
+	};
+}
 
 export default Guidelines;

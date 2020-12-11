@@ -1,4 +1,3 @@
-import React from "react";
 import Lottie from "react-lottie";
 import animationData from "../public/static/images/lf30_editor_qQ1FOd.json";
 
