@@ -22,6 +22,7 @@
     "react-lottie": "^1.2.3"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^10.0.3",
     "autoprefixer": "^10.1.0",
     "postcss": "^8.2.1",
     "postcss-preset-env": "^6.7.0",

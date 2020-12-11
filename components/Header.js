@@ -1,15 +1,23 @@
-import Lottie from "react-lottie";
-import animationData from "../public/static/images/lf30_editor_qQ1FOd.json";
+import React, { useState, useEffect, Suspense } from "react";
+
+const Lottie = React.lazy(() => import("react-lottie"));
 
 const Header = () => {
-	const defaultOptions = {
+	const [options, setOptions] = useState({
 		loop: true,
 		autoplay: true,
-		animationData: animationData,
+		animationData: null,
 		rendererSettings: {
 			preserveAspectRatio: "xMidYMid slice"
 		}
-	};
+	});
+
+	useEffect(() => {
+		import("../public/static/images/lf30_editor_qQ1FOd.json").then(data =>
+			setOptions({ ...options, animationData: data })
+		);
+	}, []);
+
 	return (
 		<section className="cntr">
 			<div className="flex flex-col lg:flex-row">
@@ -39,7 +47,15 @@ const Header = () => {
 					</a>
 				</div>
 				<div className="hidden md:block ">
-					<Lottie options={defaultOptions} height={400} width={400} />
+					{options.animationData ? (
+						<Suspense fallback={<div></div>}>
+							<Lottie
+								options={options}
+								height={400}
+								width={400}
+							/>
+						</Suspense>
+					) : null}
 				</div>
 				<div className=""></div>
 			</div>

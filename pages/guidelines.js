@@ -7,7 +7,7 @@ const Guidelines = ({ guidelines }) => (
 		</h2>
 		<div className="flex flex-col space-y-8 mt-4">
 			{guidelines.map(rule => (
-				<p className="text-base flex space-x-2">
+				<p key={rule} className="text-base flex space-x-2">
 					<AiOutlineTags className="text-xl mt-1" />{" "}
 					<span className="flex-1">{rule}</span>
 				</p>
