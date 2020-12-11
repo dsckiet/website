@@ -18,7 +18,7 @@ const SideNav = props => {
 
 	return (
 		<div
-			className={`fixed inset-0 w-full h-screen z-10 outline-none transition-all duration-500 ease-in-out transform ${
+			className={`fixed inset-0 w-full h-screen z-10 outline-none transition-all duration-75 ease-in-out transform ${
 				props.open
 					? "visible translate-x-0"
 					: "invisible translate-x-full"
@@ -29,7 +29,9 @@ const SideNav = props => {
 			tabIndex={props.open ? 1 : -1}
 		>
 			<aside
-				className={`relative bg-gray-100 flex flex-col items-center w-3/4 sm:w-1/2 h-full right-0 ml-auto md:hidden`}
+				className={`relative ${
+					props.open ? "visible" : "invisible"
+				} bg-gray-100 flex flex-col items-center w-3/4 sm:w-1/2 h-full right-0 ml-auto md:hidden`}
 				style={{
 					boxShadow: "rgba(0,0,0,.2) -4px 0 4px"
 				}}
