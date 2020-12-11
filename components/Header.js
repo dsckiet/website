@@ -22,7 +22,8 @@ const Header = () => {
 			<div className="flex flex-col lg:flex-row">
 				<div className="flex flex-col space-y-4 md:px-16 lg:py-16">
 					<h2 className="text-3xl font-bold text-gray-700">
-						Developer Student Clubs KIET Group of Institutions
+						Developer Student Clubs
+						<br /> KIET Group of Institutions
 					</h2>
 					<p className="text-base">
 						powered by <b>Google Developers</b>
