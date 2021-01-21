@@ -107,7 +107,7 @@ const Footer = () => {
 				<div className="">
 					<Image
 						loading="lazy"
-						src="/static/images/dsc_main.png"
+						src="https://dsckiet.com/static/images/dsc_main.png"
 						width={400}
 						height={36}
 					/>

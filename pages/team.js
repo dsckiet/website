@@ -18,7 +18,7 @@ const TeamPage = ({ team }) => (
 			<div className="max-w-md hidden md:block">
 				<Image
 					className="object-contain"
-					src="/static/images/team.png"
+					src="https://dsckiet.com/static/images/team.png"
 					alt="team at dsc kiet"
 					width={289}
 					height={244}

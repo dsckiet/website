@@ -24,7 +24,7 @@ const Navbar = () => {
 					>
 						<Image
 							className="object-contain"
-							src="/static/images/logo.png"
+							src="https://dsckiet.com/static/images/logo.png"
 							alt="dsckiet logo"
 							width={48}
 							height={48}

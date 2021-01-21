@@ -100,7 +100,7 @@ const SideNav = props => {
 					</Link>
 					<div className="py-4 mx-8 flex flex-col border-t-2">
 						<Image
-							src="/static/images/dsc_main.png"
+							src="https://dsckiet.com/static/images/dsc_main.png"
 							width={200}
 							height={20}
 							layout="fixed"

@@ -11,7 +11,7 @@ const TeamMember = ({ member }) => {
 					width={84}
 					height={84}
 					layout="intrinsic"
-					src={`/${member.image}`}
+					src={`https://dsckiet.com/${member.image}`}
 					alt={member.name}
 				/>
 			</div>
