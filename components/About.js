@@ -149,15 +149,10 @@ const About = () => {
 			<div className="row">
 				<div className="col-lg-6">
 					<Paragraph className="mb-5">
-						Google collaborates with university students who are
-						passionate about growing developer communities.
-						<br />
-						<br />
-						Developer Student Clubs powered by Google Developers is
-						an initiative to help students to grow their knowledge
-						on developer technologies and more through peer to peer
-						workshops and events, and gain relevant industry
-						experience.
+						Developer Student Circuit is an initiative to help
+						students to grow their knowledge on developer
+						technologies and more through peer to peer workshops and
+						events, and gain relevant industry experience.
 					</Paragraph>
 					<Button
 						href="https://dsc.community.dev/kiet-group-of-institutions-ghaziabad/"
@@ -168,13 +163,13 @@ const About = () => {
 					</Button>
 					<br />
 					<br />
-					<ExtLink
+					{/* <ExtLink
 						href="https://developers.google.com/programs/dsc/"
 						target="_blank"
 						rel="noopener"
 					>
 						Learn more about the Program
-					</ExtLink>
+					</ExtLink> */}
 				</div>
 				<div className="col-lg-6">
 					<div className="row">
@@ -226,11 +221,11 @@ const About = () => {
 			<div className="row">
 				<div className="col-lg-6">
 					<Paragraph>
-						Developer Student Club KIET is inspired by Google
-						Developers' Family.
+						We try to engage student developers through our hack,
+						events, codelabs, and meetups.
 						<br />
 						<br />
-						The motive is to create a ecosystem of programmers &
+						The motive is to create an ecosystem of programmers &
 						developers in the campus by helping them to learn and
 						build projects.
 					</Paragraph>

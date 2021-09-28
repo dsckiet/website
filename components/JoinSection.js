@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Link from "next/link";
 import animationData from "../public/static/images/lf30_editor_qQ1FOd.json";
-import { FaTelegramPlane, FaSlack } from "react-icons/fa";
+import { FaTelegramPlane, FaDiscord } from "react-icons/fa";
 
 const CardTitle = styled.h4`
 	font-family: Sen;
@@ -137,14 +137,14 @@ const JoinSection = () => {
 							<Button
 								onClick={() =>
 									window.open(
-										"https://join.slack.com/t/dsckiet/shared_invite/zt-ef1q4txj-D77khvaZVgBP2CyH2MQHLA",
+										"https://go.dsckiet.com/discord",
 										"_blank"
 									)
 								}
 								className="mr-4"
 								type="dark"
 							>
-								<FaSlack /> Slack
+								<FaDiscord /> Discord
 							</Button>{" "}
 							<Button
 								onClick={() =>

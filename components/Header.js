@@ -16,6 +16,7 @@ const Heading = styled.h2`
 	font-weight: 700;
 	color: #424242;
 	margin-top: 120px;
+	padding-bottom: 48px;
 `;
 
 const SubText = styled.p`
@@ -77,11 +78,11 @@ const Header = () => {
 				<div className="col-lg-1"></div>
 				<div className="col-lg-5">
 					<Heading>
-						Developer Student Clubs KIET Group of Institutions
+						Developer Student Circuit KIET Group of Institutions
 					</Heading>
-					<SubText className="mb-4">
+					{/* <SubText className="mb-4">
 						powered by <b>Google Developers</b>
-					</SubText>
+					</SubText> */}
 					<Button
 						href="https://forms.gle/YFTsmarHBrW57k5N8"
 						target="_blank"
@@ -91,13 +92,13 @@ const Header = () => {
 					</Button>
 					<br />
 					<br />
-					<ExtLink
+					{/* <ExtLink
 						href="https://dsc.community.dev/kiet-group-of-institutions-ghaziabad/"
 						target="_blank"
 						rel="noopener"
 					>
 						Join Community Platform by Google Develoeprs
-					</ExtLink>
+					</ExtLink> */}
 				</div>
 				<LottieImage className="col-lg-5">
 					<Lottie options={defaultOptions} height={400} width={400} />
