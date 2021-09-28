@@ -1,7 +1,7 @@
 {
 	"name": "Developer Student Circuit KIET",
 	"short_name": "DSC KIET",
-	"description": "Developer Student Circuit KIET Family. The motive is to create a ecosystem of programmers & developers in the campus by helping them to learn and build projects. Developer Student Circuit is an initiative to help students to grow their knowledge on developer technologies and more through peer to peer workshops and events, and gain relevant industry experience.",
+	"description": "Developer Student Circuit KIET. The motive is to create an ecosystem of programmers & developers in the campus by helping them to learn and build projects. Developer Student Circuit is an initiative to help students to grow their knowledge on developer technologies and more through peer to peer workshops and events, and gain relevant industry experience.",
 	"icons": [
 		{
 			"src": "/static/favicon_io/android-chrome-192x192.png",

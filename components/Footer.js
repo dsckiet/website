@@ -6,9 +6,9 @@ import {
 	AiOutlineMedium,
 	AiOutlineInstagram,
 	AiOutlineTwitter,
-	AiOutlineGithub,
-	AiOutlineSlack
+	AiOutlineGithub
 } from "react-icons/ai";
+import { FaDiscord } from "react-icons/fa";
 import { FaTelegramPlane, FaSlack } from "react-icons/fa";
 
 const FooterHead = styled.h5`
@@ -179,11 +179,12 @@ const Footer = () => {
 								<FaTelegramPlane />
 							</SocialMedia>{" "}
 							<SocialMedia
-								href="https://join.slack.com/t/dsckiet/shared_invite/zt-ef1q4txj-D77khvaZVgBP2CyH2MQHLA"
+								href="https://go.dsckiet.com/discord"
 								target="_blank"
 								rel="noopener"
+								style={{ marginTop: "3px" }}
 							>
-								<AiOutlineSlack />
+								<FaDiscord />
 							</SocialMedia>
 						</SocialWrapper>
 						<Paragraph className="mt-3">
@@ -211,7 +212,11 @@ const Footer = () => {
 
 				<CopyrightWrapper className="mt-4">
 					<div>
-						<img src="static/images/dsc_main.png" alt="dsckiet" width="240px" />
+						<img
+							src="static/images/dsc_main.png"
+							alt="dsckiet"
+							width="240px"
+						/>
 					</div>
 					<div>
 						<Paragraph>

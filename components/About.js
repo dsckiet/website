@@ -221,11 +221,11 @@ const About = () => {
 			<div className="row">
 				<div className="col-lg-6">
 					<Paragraph>
-						Developer Student Circuit KIET is inspired by
-						Developers' Family.
+						We try to engage student developers through our hack,
+						events, codelabs, and meetups.
 						<br />
 						<br />
-						The motive is to create a ecosystem of programmers &
+						The motive is to create an ecosystem of programmers &
 						developers in the campus by helping them to learn and
 						build projects.
 					</Paragraph>
