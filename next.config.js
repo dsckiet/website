@@ -1,4 +1,4 @@
-const withPlugins = require("next-compose-plugins");
-const withOffline = require("next-offline");
+// const withPlugins = require("next-compose-plugins");
+// const withOffline = require("next-offline");
 
-module.exports = withPlugins([[withOffline, { dontAutoRegisterSw: true }]]);
+// module.exports = withPlugins([[withOffline, { dontAutoRegisterSw: true }]]);

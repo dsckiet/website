@@ -9,6 +9,7 @@ const Heading = styled.h2`
 	font-weight: 700;
 	color: #424242;
 	margin-top: 120px;
+	padding-bottom: 24px;
 `;
 
 const SubText = styled.p`
@@ -45,9 +46,8 @@ const Header = () => {
 			<div className="col-lg-1"></div>
 			<div className="col-lg-5">
 				<Heading>FAQs</Heading>
-				<SubText>
-					powered by <b>Google Developers</b>
-				</SubText>
+				{/* <SubText></SubText> */}
+
 				<Button>Become a member</Button>
 			</div>
 			<div className="col-lg-5">
