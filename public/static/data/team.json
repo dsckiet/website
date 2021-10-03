@@ -32,18 +32,6 @@
 		"role": "Frontend Developer",
 		"image": "static/images/Aniket_Padmansh.jpg"
 	},
-
-	{
-		"name": "Dhruv Aggarwal",
-		"linkedin": "https://www.linkedin.com/in/dhruv-aggarwal-902aa31a0",
-		"github": "https://github.com/dhruvagg987",
-		"email": "dhruv.1822it1051@kiet.edu",
-		"domain": "Web",
-		"other_url": "https://www.hackerrank.com/dhruvagg987",
-		"dob": "11/29/2000",
-		"role": "Python Developer",
-		"image": "static/images/dhruv_aggarwal.jpg"
-	},
 	{
 		"name": "Ishita Jaiswal",
 		"linkedin": "http://www.linkedin.com/in/ishita-jaiswal-5838b116a",
