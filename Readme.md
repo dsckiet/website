@@ -1,5 +1,5 @@
 <p align="left">
-	<img width="240" src="../website/public/static/images/logo.png" />
+	<img width="240" src="https://github.com/avi-11/website/blob/master/public/static/images/logo.png" />
 	<h2 align="left"> DSC KIET Website </h2>
 	<h4 align="left"> We try to engage student developers through our hack, events, codelabs, and meetups.
 
@@ -29,23 +29,23 @@ The motive is to create an ecosystem of programmers & developers in the campus b
 ```bash
 1)   Fork this repository.
 
-2)   copy the forked repository address.
- 
+2)   Copy the forked repository address.
+
 3)   Go to the command prompt.
 
-4)   use command => git clone <-- forked repository address -->
+4)   Use command => git clone <forked repository address>
 
 5)   A folder will be installed .
 
 6)   open the folder in VS code, and open the terminal.
 
-7)   use command => <-- npm install --> #to install the required node modules
+7)   Use command => <npm install> #to install the required node modules
 
-8)   use command => <-- npm start -->  # site will be opened in your browser.
+8)   Use command => <npm start>  # site will be opened in your browser.
 
 9)   Make a new branch using =>  git branch <newBranch_name>.
 
-10)  Go to the main branch using => git checkout <newBranch_name>.
+10)  Go to the new branch using => git checkout <newBranch_name>.
 
 11)  You are ready to make changes, give it a go 👍.
 ```
