@@ -23,19 +23,31 @@ The motive is to create an ecosystem of programmers & developers in the campus b
 * Pre-requisites:
 	-  Knowledge about github.
 	-   Install Git and VS Code. 
-	-   
+	-  Have basic knowledge of git commands. 
 
 * Directions to setup/install
 ```bash
 1)   Fork this repository.
-2)   copy the forked repository address. 
+
+2)   copy the forked repository address.
+ 
 3)   Go to the command prompt.
+
 4)   use command => git clone <-- forked repository address -->
+
 5)   A folder will be installed .
+
 6)   open the folder in VS code, and open the terminal.
-7)	 use command => <-- npm install --> #to install the required node modules
+
+7)   use command => <-- npm install --> #to install the required node modules
+
 8)   use command => <-- npm start -->  # site will be opened in your browser.
-9)   update the code in your local and then push it.
+
+9)   Make a new branch using =>  git branch <newBranch_name>.
+
+10)  Go to the main branch using => git checkout <newBranch_name>.
+
+11)  You are ready to make changes, give it a go 👍.
 ```
 
 <!-- * Directions to execute
