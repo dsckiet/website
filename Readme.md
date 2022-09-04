@@ -1,9 +1,12 @@
 <p align="left">
-	<img width="240" src="https://github.com/avi-11/website/blob/master/public/static/images/logo.png" />
-	<h2 align="left"> DSC KIET Website </h2>
+	<img width="240" src="https://github.com/avi-11/website/blob/master/public/static/images/new_logo.png" />
+	<h1 align="left"> DSC KIET Website </h1>
+	<br>
+	<h4>Developer Student Circuit is an initiative to help students to grow their knowledge on developer technologies and more through peer to peer workshops and events, and gain relevant industry experience.</h4>
 	<h4 align="left"> We try to engage student developers through our hack, events, codelabs, and meetups.
 
 The motive is to create an ecosystem of programmers & developers in the campus by helping them to learn and build projects. </h4>
+
 </p>
 
 ---
