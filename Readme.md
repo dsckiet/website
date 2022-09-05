@@ -30,7 +30,7 @@ The motive is to create an ecosystem of programmers & developers in the campus b
 
 * Directions to setup/install
 ```bash
-1)   Fork this repository.
+1)   Fork the repository.
 
 2)   Copy the forked repository address.
 
@@ -40,11 +40,11 @@ The motive is to create an ecosystem of programmers & developers in the campus b
 
 5)   A folder will be installed .
 
-6)   open the folder in VS code, and open the terminal.
+6)   open the folder in VS code with terminal.
 
 7)   Use command => <npm install> #to install the required node modules
 
-8)   Use command => <npm start>  # site will be opened in your browser.
+8)   Use command => <npm start>  # to open the site in browser.
 
 9)   Make a new branch using =>  git branch <newBranch_name>.
 
