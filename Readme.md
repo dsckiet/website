@@ -1,75 +1,174 @@
-<p align="left">
-	<img width="240" src="https://github.com/avi-11/website/blob/master/public/static/images/new_logo.png" />
-	<h1 align="left"> DSC KIET Website </h1>
-	<br>
-	<h4>Developer Student Circuit is an initiative to help students to grow their knowledge on developer technologies and more through peer to peer workshops and events, and gain relevant industry experience.</h4>
-	<h4 align="left"> We try to engage student developers through our hack, events, codelabs, and meetups.
+<p align="center">
+	<img width="240" src="https://github.com/avi-11/website/raw/master/public/static/images/new_logo.png" />
+	</p>
+
+
+<p align="center">
+  <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200225182221/How-to-Become-Google-Developer-Students-ClubDSC-Lead.png" />
+</p>
+
+This repository contains the assets required to build the [DSC KIET Website](https://dsckiet.com/). We're glad that you want to contribute!
+
+# DSC KIET
+
+<h4>Developer Student Circuit is an initiative to help students to grow their knowledge on developer technologies and more through peer to peer workshops and events, and gain relevant industry experience.</h4>
+<h4 align="left"> We try to engage student developers through our hack, events, codelabs, and meetups.
 
 The motive is to create an ecosystem of programmers & developers in the campus by helping them to learn and build projects. </h4>
 
-</p>
+# An overview of the website
 
----
-<!-- [![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=for-the-badge&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
-  [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=for-the-badge&logo=appveyor)](INSERT_UI_LINK_HERE) -->
+![name-of-you-image](./public/static/images/website_preview.png)
 
 
-<!-- ## Functionalities
-- [ ]  < ADD FUNCTIONALITY >
-- [ ]  < ADD FUNCTIONALITY > -->
+## Prerequisites
 
-<br>
+To use this repository, you need the following installed locally:
 
+-  Knowledge about github.
+- [Git](https://git-scm.com)
+- [VS Code](https://code.visualstudio.com/download). 
+-  Have basic knowledge of git commands. 
 
 ## Instructions to run
 
-* Pre-requisites:
-	-  Knowledge about github.
-	-   Install Git and VS Code. 
-	-  Have basic knowledge of git commands. 
+```
+ Fork the repository
+```
+Fork this repository by clicking on the fork button on the top of the page. This will create a copy of this repository in your account.
 
-* Directions to setup/install
-```bash
-1)   Fork the repository.
 
-2)   Copy the forked repository address.
 
-3)   Go to the command prompt.
 
-4)   Use command => git clone <forked repository address>
 
-5)   A folder will be installed .
 
-6)   open the folder in VS code with terminal.
+```
+ Clone the repository
+```
+Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
 
-7)   Use command => <npm install> #to install the required node modules
+Open a terminal and run the following git command:
 
-8)   Use command => <npm start>  # to open the site in browser.
-
-9)   Make a new branch using =>  git branch <newBranch_name>.
-
-10)  Go to the new branch using => git checkout <newBranch_name>.
-
-11)  You are ready to make changes, give it a go 👍.
+```
+git clone "url you just copied"
 ```
 
-<!-- * Directions to execute
+where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
 
-```bash
-< insert code >
-``` -->
-
-<br>
-
-<!-- ## Contributors
-
-* [ < ADD YOUR NAME > ](ADD_PROFILE_URL_HERE)
+For example:
 
 
+```
+git clone https://github.com/this-is-you/website.git
+```
 
-<br> -->
+where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
+
+```
+A folder will be installed
+```
+
+
+
+## Create a branch
+
+Change to the repository directory on your computer (if you are not already there):
+
+
+Now create a branch using the `git checkout` command:
+
+```
+git checkout -b <your-new-branch-name>
+```
+For example:
+
+```
+git checkout -b add-new-file
+```
+
+```
+open the folder in VS code with terminal
+```
+```
+Use command => <npm install> 
+```
+this will install all the package that are required for run the project.
+
+```
+Use command => <npm start>  
+```
+to open the site in browser.
+
+```
+You are ready to make changes, give it a go 👍
+```
+
+## 🙏 Support
+
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://www.linkedin.com/pulse/20-ways-make-someone-smile-ingrid-kelada/?trk=read_related_article-card_title)
+ 
 <br>
 
 <p align="center">
 	Made during 🌙 by DSC KIET
 </p>
+
+<!-- <!-- ## Make necessary changes and commit those changes
+
+Now open add or edit file in a text editor. Add code for any existing algorithm in other language or add some new algorithms. Make sure to update correspond README.md file if needed. Now, save the file. -->
+
+<!-- If you go to the project directory and execute the command `git status`, you'll see there are changes.
+
+Add those changes to the branch you just created using the `git add` command:
+
+```
+git add "name of the file you add or edit"
+```
+
+Now commit those changes using the `git commit` command:
+
+```
+git commit -m "Add message for the change"
+```
+
+## Push changes to GitHub
+
+Push your changes using the command `git push`:
+
+```
+git push origin <add-your-branch-name>
+```
+
+replacing `<add-your-branch-name>` with the name of the branch you created earlier.
+
+## Submit your changes for review
+
+If you go to your repository on GitHub, you'll see a `Contribute` button. Click on that button.
+
+![name-of-you-image](/assets/openpull.png)
+
+click on `Open pull request`.
+
+![name-of-you-image](/assets/createpull.png)
+
+click on `Create pull request`.
+
+![name-of-you-image](/assets/createRequest.png)
+
+
+click on `Create pull request`.
+
+## Where to go from here?
+
+Congrats! You just completed the standard _fork -> clone -> edit -> pull request_ workflow that you'll encounter often as a contributor!
+
+## 💪 Thanks to all Contributors
+
+Thanks a lot for spending your time helping FOSSC grow. Thanks a lot! Keep rocking 🍻
+
+[![Contributors](https://contrib.rocks/image?repo=FOSS-Community/website-fossc)](https://github.com/FOSS-Community/website-fossc)
+
+ -->
