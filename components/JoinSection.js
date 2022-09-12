@@ -193,7 +193,7 @@ const JoinSection = () => {
 								<Input type="hidden" value="1" name="embed" />
 								<Button
 									type="submit"
-									type="dark"
+									
 									value="Subscribe"
 								>
 									Subscribe

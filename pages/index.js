@@ -4,13 +4,28 @@ import About from "../components/About";
 import Notice from "../components/Notice";
 import JoinSection from "../components/JoinSection";
 import styled from "styled-components";
+import { useState } from "react";
 
 const NoticeSection = styled.div`
 	display: ${({ isVisible }) => (isVisible ? "block" : "none")};
 `;
 
-const Index = ({ notice }) => (
-	<Layout>
+
+const Index = ({ notice }) => {
+	const [isdark, setIsdark] = useState('light');
+	const toggleDark=()=>{
+		if(isdark==='light'){
+			setIsdark('dark')
+			document.body.style.backgroundColor='black'
+		}
+		else{
+			setIsdark('light');
+			document.body.style.backgroundColor='white'
+		}
+	}
+	
+    return(
+	<Layout isdark={isdark} toggleDark={toggleDark} >
 		<div>
 			<Header />
 			<NoticeSection isVisible={notice.isVisible}>
@@ -20,7 +35,7 @@ const Index = ({ notice }) => (
 			<JoinSection />
 		</div>
 	</Layout>
-);
+)};
 
 export async function getStaticProps() {
 	const data = await import("../public/static/data/notice.json");

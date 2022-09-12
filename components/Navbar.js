@@ -53,26 +53,30 @@ const StyledMenu = styled(StyledListItem)`
 	}
 `;
 
-const Navbar = () => {
+const Navbar = (props) => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const toggleMenu = () => setIsOpen(!isOpen);
-
+	
 	return (
 		<div style={{ boxShadow: "0 2px 4px rgba(0,0,0,.2)" }}>
-			<div className="container">
+			<div className="container"
+			style={{color: props.isdark==='light'? "white" : "black"}}>
 				<Nav className="navbar navbar-expand-lg navbar-light px-0">
 					<Link href="/">
 						<a
 							to="/"
-							style={{ fontWeight: "700", color: "#424242" }}
+							style={{color: props.isdark==='light'? "#424242" : "white",
+							fontWeight: "700"}}
 							className="nav-link navbar-brand px-0"
+							
 						>
 							<img
 								className="img-fluid mb-1"
 								src="static/images/logo.png"
 								alt="logo"
 								width="45"
+								
 							/>{" "}
 							DSC KIET
 						</a>
@@ -81,7 +85,7 @@ const Navbar = () => {
 					<StyledNavLinks>
 						<StyledList
 							className="navbar-nav mr-auto nav justify-content-end"
-							style={{ width: "100%" }}
+							style={{ width: "100%" ,color: props.isdark==='light'? "#424242" : "white"}}
 						>
 							<StyledListItem
 								className="nav-item m-1 "
@@ -90,7 +94,7 @@ const Navbar = () => {
 								<Link href="/">
 									<a
 										to="/"
-										style={{ fontWeight: "600" }}
+										style={{ fontWeight: "600",color: props.isdark==='light'? "#424242" : "white" }}
 										className="nav-link"
 										exact="true"
 										// activeClassName="active"
@@ -102,12 +106,12 @@ const Navbar = () => {
 
 							<StyledListItem
 								className="nav-item m-1"
-								style={{ fontWeight: "600" }}
+								style={{ fontWeight: "600",color: props.isdark==='light'? "#424242" : "white" }}
 							>
 								<Link href="/about">
 									<a
 										to="/about"
-										style={{ fontWeight: "600" }}
+										style={{ fontWeight: "600" ,color: props.isdark==='light'? "#424242" : "white"}}
 										className="nav-link"
 										// activeClassName="active"
 									>
@@ -118,12 +122,12 @@ const Navbar = () => {
 
 							<StyledListItem
 								className="nav-item m-1"
-								style={{ fontWeight: "600" }}
+								style={{ fontWeight: "600",color: props.isdark==='light'? "#424242" : "white" }}
 							>
 								<Link href="/team">
 									<a
 										to="/team"
-										style={{ fontWeight: "600" }}
+										style={{ fontWeight: "600",color: props.isdark==='light'? "#424242" : "white" }}
 										className="nav-link"
 										// activeClassName="active"
 									>
@@ -134,12 +138,12 @@ const Navbar = () => {
 
 							<StyledListItem
 								className="nav-item m-1"
-								style={{ fontWeight: "600" }}
+								style={{ fontWeight: "600",color: props.isdark==='light'? "#424242" : "white" }}
 							>
 								<Link href="/faqs">
 									<a
 										to="/faqs"
-										style={{ fontWeight: "600" }}
+										style={{ fontWeight: "600" ,color: props.isdark==='light'? "#424242" : "white"}}
 										className="nav-link"
 										// activeClassName="active"
 									>
@@ -150,12 +154,12 @@ const Navbar = () => {
 
 							<StyledListItem
 								className="nav-item m-1"
-								style={{ fontWeight: "600" }}
+								style={{ fontWeight: "600" ,color: props.isdark==='light'? "#424242" : "white"}}
 							>
 								<Link href="/contact">
 									<a
 										to="/contact"
-										style={{ fontWeight: "600" }}
+										style={{ fontWeight: "600" ,color: props.isdark==='light'? "#424242" : "white"}}
 										className="nav-link"
 										// activeClassName="active"
 									>
@@ -178,6 +182,7 @@ const Navbar = () => {
 					/> */}
 					</StyledMenu>
 					<SideNav isOpen={isOpen} openMenu={toggleMenu} />
+					<button onClick={props.toggleDark} className={`btn btn-${props.isdark==='light'? "dark" : "light"}`}>Enable {props.isdark==='light'? "Dark" : "Light"} mode</button>
 				</Nav>
 			</div>
 		</div>
