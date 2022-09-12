@@ -12,9 +12,10 @@ const Container = styled.div`
 `;
 
 const Heading = styled.h2`
+   
 	font-family: Sen !important;
 	font-weight: 700;
-	color: #424242;
+	
 	margin-top: 120px;
 	padding-bottom: 48px;
 `;
@@ -63,7 +64,7 @@ const ExtLink = styled.a`
 	}
 `;
 
-const Header = () => {
+const Header = (props) => {
 	const defaultOptions = {
 		loop: true,
 		autoplay: true,
@@ -76,7 +77,8 @@ const Header = () => {
 		<Container className="container">
 			<div className="row mt-5 pb-5 mb-5">
 				<div className="col-lg-1"></div>
-				<div className="col-lg-5">
+				<div className="col-lg-5"
+				style={{color: props.isdark==='light'? "#424242" : "white"}}>
 					<Heading>
 						Developer Student Circuit KIET Group of Institutions
 					</Heading>

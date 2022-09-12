@@ -14,13 +14,13 @@ import { FaTelegramPlane, FaSlack } from "react-icons/fa";
 const FooterHead = styled.h5`
 	font-family: Sen;
 	font-weight: 700;
-	color: #222222;
+	
 `;
 
 const Paragraph = styled.p`
 	font-family: Sen;
 	font-size: 16px;
-	color: #626262;
+	
 	margin-bottom: 0;
 `;
 
@@ -40,7 +40,7 @@ const FooterWrapper = styled.div`
 	}
 
 	li {
-		color: #626262;
+		
 	}
 `;
 
@@ -57,9 +57,9 @@ const SocialMedia = styled.a`
 	svg {
 		&:hover {
 			transition: 0.2s all ease;
-			color: #424242;
+			
 		}
-		color: #4285f4;
+		
 		font-size: 28px;
 		transition: 0.2s all ease;
 	}
@@ -85,20 +85,23 @@ const Iframe = styled.iframe`
 
 const Atag = styled.a`
 	text-decoration: none !important;
-	color: inherit !important;
+	color:inherit !important,
 	cursor: pointer;
 `;
 
-const Footer = () => {
+const Footer = (props) => {
 	return (
 		<FooterWrapper>
-			<div className="container pt-4 pb-4">
+			<div className="container pt-4 pb-4"
+			style={{color: props.isdark==='light'? "#424242" : "white"}}>
 				<FooterHead className="mb-2">Explore</FooterHead>
 				<div className="row">
-					<div className="col-lg-4">
+					<div className="col-lg-4"
+					>
 						<ul>
 							<li>
 								<Atag
+								style={{color: props.isdark==='light'? "#424242" : "white"}}
 									href="https://www.kiet.edu/"
 									target="_blank"
 									rel="noopener"
@@ -108,11 +111,13 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link href="/about">
-									<Atag>About us</Atag>
+									<Atag
+									style={{color: props.isdark==='light'? "#424242" : "white"}}>About us</Atag>
 								</Link>
 							</li>
 							<li>
 								<Atag
+								style={{color: props.isdark==='light'? "#424242" : "white"}}
 									href="https://forms.gle/YFTsmarHBrW57k5N8"
 									target="_blank"
 									rel="noopener"
@@ -122,21 +127,29 @@ const Footer = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="col-lg-4">
+					<div className="col-lg-4"
+					>
 						<ul>
 							<li>
 								<Link href="/guidelines">
-									<Atag>Community Guidelines</Atag>
+									<Atag
+									style={{color: props.isdark==='light'? "#424242" : "white"}}
+									>Community Guidelines</Atag>
 								</Link>
 							</li>
 							<li>
 								<Link href="/team">
-									<Atag>Meet the team</Atag>
+									<Atag
+									style={{color: props.isdark==='light'? "#424242" : "white"}}
+									>Meet the team</Atag>
 								</Link>
 							</li>
 							<li>
 								<Link href="/faqs">
-									<Atag to="/faqs">FAQs</Atag>
+									<Atag 
+									to="/faqs"
+									style={{color: props.isdark==='light'? "#424242" : "white"}}
+									>FAQs</Atag>
 								</Link>
 							</li>
 						</ul>
@@ -151,6 +164,7 @@ const Footer = () => {
 								<AiOutlineInstagram />
 							</SocialMedia>{" "}
 							<SocialMedia
+							
 								href="https://twitter.com/dsckiet"
 								target="_blank"
 								rel="noopener"

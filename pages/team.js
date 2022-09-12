@@ -23,7 +23,8 @@ const ImageWrapper = styled.div`
 	}
 `;
 
-const TeamPage = ({ team }) => (
+const TeamPage = ({ team }) => {
+	return(
 	<Layout>
 		<div>
 			<div className="">
@@ -62,7 +63,7 @@ const TeamPage = ({ team }) => (
 			</div>
 		</div>
 	</Layout>
-);
+)};
 
 export async function getStaticProps() {
 	const data = await import("../public/static/data/team.json");

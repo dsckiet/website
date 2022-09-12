@@ -59,10 +59,11 @@ const Navbar = (props) => {
 	const toggleMenu = () => setIsOpen(!isOpen);
 	
 	return (
-		<div style={{ boxShadow: "0 2px 4px rgba(0,0,0,.2)" }}>
+		<div style={{ boxShadow: "0 2px 4px rgba(0,0,0,.2)",backgroundColor: props.isdark==='light'? "white" : "#242424",}}>
 			<div className="container"
-			style={{color: props.isdark==='light'? "white" : "black"}}>
-				<Nav className="navbar navbar-expand-lg navbar-light px-0">
+			style={{backgroundColor: props.isdark==='light'? "white" : "#242424"}}>
+				<Nav className="navbar navbar-expand-lg navbar-light px-0"
+				style={{backgroundColor: props.isdark==='light'? "white" : "#242424"}}>
 					<Link href="/">
 						<a
 							to="/"

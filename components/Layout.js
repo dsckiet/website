@@ -20,7 +20,7 @@ const Layout = (props) =>{
 		</script>
 		<Navbar isdark={props.isdark} toggleDark={props.toggleDark} />
 		<div className="container">{props.children}</div>
-		<Footer />
+		<Footer isdark={props.isdark}/>
 	</div>
 	</>
 )};

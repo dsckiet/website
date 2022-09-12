@@ -27,12 +27,12 @@ const Index = ({ notice }) => {
     return(
 	<Layout isdark={isdark} toggleDark={toggleDark} >
 		<div>
-			<Header />
+			<Header isdark={isdark} />
 			<NoticeSection isVisible={notice.isVisible}>
 				<Notice notice={notice} />
 			</NoticeSection>
-			<About />
-			<JoinSection />
+			<About isdark={isdark} />
+			<JoinSection isdark={isdark}/>
 		</div>
 	</Layout>
 )};

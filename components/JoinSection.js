@@ -70,7 +70,7 @@ const Card = styled.div`
 const CardOutline = styled.div`
 	margin-bottom: 40px;
 	padding: 40px;
-	color: #424242;
+	
 	align-items: center;
 	border: 1.2px solid #db4437;
 	box-sizing: border-box;
@@ -121,12 +121,12 @@ const Hashtag = styled.span`
 	color: #ffffff;
 `;
 
-const JoinSection = () => {
+const JoinSection = (props) => {
 	return (
 		<div className="pt-5 pb-5">
 			<div className="row">
 				<div className="col-12 col-sm-12 col-md-6">
-					<Card type="red">
+					<Card type="red" style={{color: props.isdark==='light'? "#424242" : "white"}}>
 						<CardTitle>Join the workspace</CardTitle>
 						<Paragraph>
 							Join our Slack and Telegram Channels get instant
@@ -161,7 +161,8 @@ const JoinSection = () => {
 					</Card>
 				</div>
 
-				<div className="col-12 col-sm-12 col-md-6">
+				<div className="col-12 col-sm-12 col-md-6"
+				style={{color: props.isdark==='light'? "#424242" : "white"}}>
 					<CardOutline>
 						<CardTitle>Subscribe to our newsletter</CardTitle>
 						<Paragraph>

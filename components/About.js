@@ -17,28 +17,28 @@ import {
 const SubHeading = styled.h3`
 	font-family: Sen !important;
 	font-weight: 700;
-	color: #424242;
+	
 	margin-top: 40px;
 `;
 
 const Title = styled.h4`
 	font-family: Sen !important;
 	font-weight: 700;
-	color: #424242;
+	
 	margin-top: 12px;
 `;
 
 const Paragraph = styled.p`
 	font-family: Sen !important;
 	font-size: 16px;
-	color: #707070;
+	
 	margin-top: 16px;
 `;
 
 const TextBody = styled.p`
 	font-family: Sen !important;
 	font-size: 14px;
-	color: #707070;
+	
 `;
 
 const Button = styled.a`
@@ -142,13 +142,16 @@ const Stack = styled.div`
 	}
 `;
 
-const About = () => {
+const About = (props) => {
 	return (
-		<div className="mb-5 mt-5">
+		<div className="mb-5 mt-5"
+		style={{color: props.isdark==='light'? "#424242" : "white"}}>
 			<SubHeading>What we do?</SubHeading>
 			<div className="row">
-				<div className="col-lg-6">
-					<Paragraph className="mb-5">
+				<div className="col-lg-6"
+				style={{color: props.isdark==='light'? "#424242" : "white"}}>
+					<Paragraph className="mb-5"
+					style={{color: props.isdark==='light'? "#424242" : "white"}}>
 						Developer Student Circuit is an initiative to help
 						students to grow their knowledge on developer
 						technologies and more through peer to peer workshops and
@@ -173,7 +176,8 @@ const About = () => {
 				</div>
 				<div className="col-lg-6">
 					<div className="row">
-						<div className="col-12 col-sm-6">
+						<div className="col-12 col-sm-6"
+						style={{color: props.isdark==='light'? "#424242" : "white"}}>
 							<Icon type="red">
 								<AiOutlineRocket />
 							</Icon>

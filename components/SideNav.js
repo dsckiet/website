@@ -92,6 +92,7 @@ const SideNav = props => {
 					<StyledList
 						className="navbar-nav mr-auto nav justify-content-end"
 						style={{ width: "100%" }}
+						
 					>
 						<StyledListItem
 							className="nav-item m-1 "
