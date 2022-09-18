@@ -35,10 +35,7 @@ const StyledList = styled.ul`
 `;
 const StyledListItem = styled.li`
 	position: relative;
-	& > a {
-		color: #242424;
-		text-decoration:none;
-	}
+	
 	
 `;
 
@@ -62,7 +59,7 @@ const Navbar = (props) => {
 	const toggleMenu = () => setIsOpen(!isOpen);
 
 	return (
-		<div style={{ boxShadow: "0 2px 4px rgba(0,0,0,.2)" }}>
+		<div style={{ boxShadow: "0 2px 4px rgba(0,0,0,.2)" ,backgroundColor:props.mode==='light'?"white":"#242424"}}>
 			<div className="container">
 				<Nav className="navbar navbar-expand-lg navbar-light px-0">
 					<div className="logo" style={{color:"#242424"}}>
@@ -91,7 +88,8 @@ const Navbar = (props) => {
 								className="nav-item m-1 "
 								style={{ fontWeight: "600" }}
 							>
-								<Link href="/">
+								<Link href="/"
+								style={{color:props.mode==='light'?"#242424":"white"}}>
 									{/* <a
 										to="/"
 										style={{ fontWeight: "600" }}
@@ -163,7 +161,10 @@ const Navbar = (props) => {
 					/> */}
 					</StyledMenu>
 					<SideNav isOpen={isOpen} openMenu={toggleMenu} />
-					<button onClick={props.toggleDark} className={`btn btn-${props.mode==='light'?'dark':'light'}`}>Enable {props.mode==='light'?'Dark':'Light'} Mode</button>
+					<div className={`form-check form-switch text-${props.mode==="light"?'#242424':'white'}`}>
+  <input className="form-check-input" onClick={props.toggleDark} type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
+  <label className="form-check-label" htmlfor="flexSwitchCheckDefault">Enable {props.mode==="light"?'Dark':'Light'} Mode</label>
+</div>
 				</Nav>
 			</div>
 		</div>

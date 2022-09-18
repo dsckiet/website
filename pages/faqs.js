@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import styled from "styled-components";
+import { useState } from "react";
 
 const Heading = styled.h3`
 	font-family: Sen;
@@ -23,8 +24,21 @@ const Paragraph = styled.p`
 	margin-bottom: 40px;
 `;
 
-const FAQs = ({ faqs }) => (
-	<Layout>
+const FAQs = ({ faqs }) =>{
+	const [mode, setMode] = useState("light");
+	const toggleDark=()=>{
+		if (mode==="light"){
+			setMode('dark');
+			// document.body.style.backgroundColor="black"
+		}
+		else{
+			setMode('light');
+			// document.body.style.backgroundColor="white"
+		}
+
+	}
+	return (
+	<Layout mode={mode} toggleDark={toggleDark}>
 		<div className="mb-5 mt-5">
 			<Heading>FAQs</Heading>
 			<div className="mt-4">
@@ -37,7 +51,7 @@ const FAQs = ({ faqs }) => (
 			</div>
 		</div>
 	</Layout>
-);
+)};
 
 export async function getStaticProps() {
 	const data = await import("../public/static/data/faqs.json");

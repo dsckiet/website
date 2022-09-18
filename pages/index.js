@@ -15,11 +15,11 @@ const Index = ({ notice }) => {
 	const toggleDark=()=>{
 		if (mode==="light"){
 			setMode('dark');
-			document.body.style.backgroundColor="black"
+			// document.body.style.backgroundColor="black"
 		}
 		else{
 			setMode('light');
-			document.body.style.backgroundColor="white"
+			// document.body.style.backgroundColor="white"
 		}
 
 	}
@@ -30,7 +30,7 @@ const Index = ({ notice }) => {
 			<NoticeSection isVisible={notice.isVisible}>
 				<Notice notice={notice} />
 			</NoticeSection>
-			<About  />
+			<About />
 			<JoinSection />
 		</div>
 	</Layout>

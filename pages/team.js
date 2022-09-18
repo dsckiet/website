@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import styled from "styled-components";
 import TeamMember from "../components/TeamMember";
+import { useState } from "react";
 
 const Heading = styled.h2`
 	font-family: Sen;
@@ -23,8 +24,21 @@ const ImageWrapper = styled.div`
 	}
 `;
 
-const TeamPage = ({ team }) => (
-	<Layout>
+const TeamPage = ({ team }) =>{ 
+	const [mode, setMode] = useState("dark");
+	const toggleDark=()=>{
+		if (mode==="light"){
+			setMode('dark');
+			// document.body.style.backgroundColor="black"
+		}
+		else{
+			setMode('light');
+			// document.body.style.backgroundColor="white"
+		}
+
+	}
+	return(
+	<Layout  mode={mode} toggleDark={toggleDark}>
 		<div>
 			<div className="">
 				<div className="row mt-5">
@@ -62,7 +76,7 @@ const TeamPage = ({ team }) => (
 			</div>
 		</div>
 	</Layout>
-);
+)};
 
 export async function getStaticProps() {
 	const data = await import("../public/static/data/team.json");

@@ -36,6 +36,8 @@ export default class MyDocument extends Document {
 						href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap"
 						rel="stylesheet"
 					></link>
+					<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+					rel="stylesheet"></link>
 					<script
 						async
 						src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
