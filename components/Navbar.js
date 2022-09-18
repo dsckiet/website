@@ -27,6 +27,7 @@ const StyledList = styled.ul`
 	align-items: center;
 	padding: 0;
 	margin: 0;
+	gap:1em;
 	list-style: none;
 	@media (max-width: 992px) {
 		display: none;
@@ -35,8 +36,10 @@ const StyledList = styled.ul`
 const StyledListItem = styled.li`
 	position: relative;
 	& > a {
-		color: rgba(0, 0, 0, 0.5);
+		color: #242424;
+		text-decoration:none;
 	}
+	
 `;
 
 const StyledMenu = styled(StyledListItem)`
@@ -62,25 +65,26 @@ const Navbar = () => {
 		<div style={{ boxShadow: "0 2px 4px rgba(0,0,0,.2)" }}>
 			<div className="container">
 				<Nav className="navbar navbar-expand-lg navbar-light px-0">
-					<Link href="/">
-						<a
-							to="/"
-							style={{ fontWeight: "700", color: "#424242" }}
-							className="nav-link navbar-brand px-0"
-						>
+					<div className="logo" style={{color:"#242424"}}>
+						
 							<img
 								className="img-fluid mb-1"
 								src="static/images/logo.png"
 								alt="logo"
 								width="45"
 							/>{" "}
+							<Link href='/'>
+
 							DSC KIET
-						</a>
-					</Link>
+
+							</Link>
+							</div>
+						
+					
 
 					<StyledNavLinks>
 						<StyledList
-							className="navbar-nav mr-auto nav justify-content-end"
+							className="navbar-nav mr-auto nav justify-content-end "
 							style={{ width: "100%" }}
 						>
 							<StyledListItem
@@ -88,15 +92,15 @@ const Navbar = () => {
 								style={{ fontWeight: "600" }}
 							>
 								<Link href="/">
-									<a
+									{/* <a
 										to="/"
 										style={{ fontWeight: "600" }}
 										className="nav-link"
 										exact="true"
 										// activeClassName="active"
-									>
+									> */}
 										Home
-									</a>
+									
 								</Link>
 							</StyledListItem>
 
@@ -105,14 +109,10 @@ const Navbar = () => {
 								style={{ fontWeight: "600" }}
 							>
 								<Link href="/about">
-									<a
-										to="/about"
-										style={{ fontWeight: "600" }}
-										className="nav-link"
-										// activeClassName="active"
-									>
+
+									
 										About
-									</a>
+									
 								</Link>
 							</StyledListItem>
 
@@ -121,14 +121,9 @@ const Navbar = () => {
 								style={{ fontWeight: "600" }}
 							>
 								<Link href="/team">
-									<a
-										to="/team"
-										style={{ fontWeight: "600" }}
-										className="nav-link"
-										// activeClassName="active"
-									>
+									
 										Team
-									</a>
+									
 								</Link>
 							</StyledListItem>
 
@@ -137,14 +132,9 @@ const Navbar = () => {
 								style={{ fontWeight: "600" }}
 							>
 								<Link href="/faqs">
-									<a
-										to="/faqs"
-										style={{ fontWeight: "600" }}
-										className="nav-link"
-										// activeClassName="active"
-									>
+									
 										FAQs
-									</a>
+									
 								</Link>
 							</StyledListItem>
 
@@ -153,14 +143,9 @@ const Navbar = () => {
 								style={{ fontWeight: "600" }}
 							>
 								<Link href="/contact">
-									<a
-										to="/contact"
-										style={{ fontWeight: "600" }}
-										className="nav-link"
-										// activeClassName="active"
-									>
+									
 										Contact
-									</a>
+									
 								</Link>
 							</StyledListItem>
 						</StyledList>
