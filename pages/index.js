@@ -9,7 +9,10 @@ const NoticeSection = styled.div`
 	display: ${({ isVisible }) => (isVisible ? "block" : "none")};
 `;
 
-const Index = ({ notice }) => (
+const Index = ({ notice }) => {
+	const [mode, setMode] = useState("light");
+	
+	return(
 	<Layout>
 		<div>
 			<Header />
@@ -20,7 +23,7 @@ const Index = ({ notice }) => (
 			<JoinSection />
 		</div>
 	</Layout>
-);
+)};
 
 export async function getStaticProps() {
 	const data = await import("../public/static/data/notice.json");
