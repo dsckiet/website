@@ -1,9 +1,9 @@
 import Layout from "../components/Layout";
 import AboutSection from "../components/About";
 
-const About = () => (
-	<Layout>
-		<AboutSection />
+const About = (props) => (
+	<Layout >
+		<AboutSection mode={props.mode} />
 	</Layout>
 );
 

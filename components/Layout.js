@@ -4,16 +4,18 @@ import Footer from "./Footer";
 import config from "../utils/config";
 import SEO from "./Seo";
 
-const Layout = props => (
+const Layout =(props) => 
+{
+return(
 	<div>
 		<SEO metaData={config} />
 		<script>
 			{(console.log = console.warn = console.error = () => {})}
 		</script>
-		<Navbar />
+		<Navbar mode={props.mode} toggleDark={props.toggleDark} />
 		<div className="container">{props.children}</div>
-		<Footer />
+		<Footer mode={props.mode} />
 	</div>
-);
+)};
 
 export default Layout;

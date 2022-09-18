@@ -56,7 +56,7 @@ const StyledMenu = styled(StyledListItem)`
 	}
 `;
 
-const Navbar = () => {
+const Navbar = (props) => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const toggleMenu = () => setIsOpen(!isOpen);
@@ -163,6 +163,7 @@ const Navbar = () => {
 					/> */}
 					</StyledMenu>
 					<SideNav isOpen={isOpen} openMenu={toggleMenu} />
+					<button onClick={props.toggleDark} className={`btn btn-${props.mode==='light'?'dark':'light'}`}>Enable {props.mode==='light'?'Dark':'Light'} Mode</button>
 				</Nav>
 			</div>
 		</div>
