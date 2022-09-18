@@ -25,7 +25,7 @@ const ImageWrapper = styled.div`
 `;
 
 const TeamPage = ({ team }) =>{ 
-	const [mode, setMode] = useState("dark");
+	const [mode, setMode] = useState("light");
 	const toggleDark=()=>{
 		if (mode==="light"){
 			setMode('dark');
