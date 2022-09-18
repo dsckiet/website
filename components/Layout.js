@@ -14,7 +14,7 @@ return(
 		</script>
 		<Navbar mode={props.mode} toggleDark={props.toggleDark} />
 		<div className="container">{props.children}</div>
-		<Footer mode={props.mode} />
+		<Footer/>
 	</div>
 )};
 
