@@ -19,7 +19,10 @@ const Role = styled.p`
 
 const Image = styled.img`
 	width: 100%;
+	object_fit: contain;
+    aspect-ratio: 1/1;
 	border-radius: 50%;
+	align-self: center;
 	padding: 4px;
 	border: 2px solid #d5d5d5;
 	transition: 0.2s all ease-out;
@@ -58,13 +61,13 @@ const TeamMember = ({ member }) => {
 						alt={member.name}
 					/>
 				</div>
-				<div className="col-8">
+				<div className="col-8 m-auto">
 					<Name>{member.name}</Name>
 					<Role>{member.role ? member.role : "Volunteer"}</Role>
 					<div>
-						<Social href={member.other_url} target="_blank">
+						{member.other_url && <Social href={member.other_url} target="_blank">
 							<AiOutlineLink />
-						</Social>
+						</Social>}
 						<Social href={member.github} target="_blank">
 							<AiFillGithub />
 						</Social>

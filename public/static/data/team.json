@@ -1,5 +1,121 @@
 [
 	{
+		"name": "Ananya Punia",
+		"linkedin": " https://www.linkedin.com/in/ananyapunia28",
+		"github": "https://github.com/ananyapunia28",
+		"email": " ananyapunia12@gmail.com",
+		"domain": "Android",
+		
+		"dob": "28/03/2002",
+		"role": "Lead | Android Developer",
+		"image": "static/images/Ananya_Punia.jpeg"
+	},
+	{
+		"name": "Kushagra Srivastava",
+		"linkedin": "https://www.linkedin.com/in/kushagrathisside",
+		"github": "https://github.com/kushagrathisside",
+		"email": "kushagrathisside@gmail.com",
+		"domain": "Machine Learning",
+		"dob": "24-09-2001",
+		"role": "Machine Learning",
+		"image": "static/images/Kushagra.png"
+	},
+	{
+		"name": "Ananya Sharma ",
+		"linkedin": "https://www.linkedin.com/in/ananya23101",
+		"github": "https://github.com/ananya23101",
+		"email": "ananya23102001@gmail.com",
+		"domain": "Designer | Frontend developer",
+		"dob": "23-10-2001",
+		"role": "Designer | Frontend developer",
+		"image": "static/images/Ananaya_Sharma.jpeg"
+		
+	},
+	{
+		"name": "Shiva Agrahari",
+		"linkedin": "https://www.linkedin.com/in/shiva-agrahari-ab0772207/",
+		"github": "https://github.com/shivaAg04",
+		"email": "shivashivank12345@gmail.com",
+		"domain": "FLUTTER DEVELOPMENT",
+		
+		"dob": "30/01/2002",
+		"role": "Flutter Developer | Video Editor",
+		"image": "static/images/Shiva.JPG"
+	},
+	{
+		"name": "Mridul Kumar Pandey",
+		"linkedin": "https://www.linkedin.com/in/mridul-pandey-492733211/",
+		"github": "https://github.com/mridulcr7",
+		"email": "mridulpandey5277@gmail.com",
+		"domain": "Competitive Programmer",
+		"other_url": "https://codeforces.com/profile/mridulpandeycr7",
+		"dob": "5/7/2001",
+		"role": "Competitive Programmer",
+		"image": "static/images/Mridul.jpg"
+	},
+	{
+		"name": "Avish Saini",
+		"linkedin": "https://www.linkedin.com/in/avish-saini-48ab1020a/",
+		"github": "https://github.com/avish-20",
+		"email": "avishsaini2001@gmail.com",
+		"domain": "AR/VR Developer",
+		
+		"dob": "20/04/2001",
+		"role": "AR/VR Developer",
+		"image": "static/images/Avish.jpg"
+	},
+	{
+		"name": "Shivendu Mishra",
+		"linkedin": "https://www.linkedin.com/in/shivendu-mishra-94ba36200/",
+		"github": "https://github.com/shivenducs1136",
+		"email": "shivenduaps986@gmail.com",
+		"domain": "Android Developer",
+		"dob": "5/29/2000",
+		"role": "Android Developer",
+		"image": "static/images/Shivendu.jpeg"
+	},
+	{
+		"name": "Avaneesh Singh",
+		"linkedin": "https://www.linkedin.com/in/avaneesh-singh11/",
+		"github": "https://github.com/avi-11",
+		"email": "singh.aavi1109@gmail.com",
+		"domain": "Frontend Developer",
+		"other_url": "https://twitter.com/avaneesh_1109",
+		"dob": "11/09/2002",
+		"role": "Frontend Developer",
+		"image": "static/images/Avaneesh.jpg"
+	},
+	{
+		"name": "Akhil Raj Srivastava",
+		"linkedin": "https://www.linkedin.com/in/akhil-raj-srivastava/",
+		"github": "https://github.com/GeekCoderRaj",
+		"email": "akhilrajsrivastava.lko@gmail.com",
+		"domain": "Web Development",
+		"dob": "11/14/2000",
+		"role": "Full Stack Developer",
+		"image": "static/images/Akhil.jpeg"
+	},
+	{
+		"name": "Yashveer Singh",
+		"linkedin": "https://www.linkedin.com/in/yashveer-singh1062/",
+		"github": "https://github.com/GeekCoderRaj",
+		"email": "yashveer9311@gmail.com",
+		"domain": "AR/VR",
+		"dob": "22/06/2003",
+		"role": "AR/VR Developer ",
+		"image": "static/images/Yashveer.jpg"
+	},
+	{
+		"name": "Anshika Dubey",
+		"linkedin": "https://www.linkedin.com/in/danshika42",
+		"github": " https://github.com/danshika42",
+		"email": "danshika42@gmail.com",
+		"domain": "Web Development",
+		"dob": "06/06/2001",
+		"role": "Web Developer |  Content Writer ",
+		"image": "static/images/Anshika_Dubey.jpg"
+	},
+	{
 		"name": "Aayush sharma",
 		"linkedin": "https://www.linkedin.com/in/ayushb58/",
 		"github": "https://github.com/Ayush783",
@@ -84,7 +200,7 @@
 		"domain": "Web",
 		"other_url": "https://www.hackerrank.com/priyanshus_edu",
 		"dob": "12/20/2001",
-		"role": "Lead",
+		"role": "Ex - Lead",
 		"image": "static/images/priyanshu_sharma.jpg"
 	},
 	{
@@ -110,17 +226,7 @@
 		"role": "Flutter Developer",
 		"image": "static/images/satyam_sharma.jpg"
 	},
-	{
-		"name": "Kanishk Pachauri",
-		"linkedin": "https://www.linkedin.com/in/kanishk-pachauri-0161261b0/",
-		"github": "https://github.com/Mr-Sunglasses",
-		"email": "kanishkpachauri2020@gmail.com",
-		"domain": "Flutter",
-		"other_url": "https://kanishkpachauri.netlify.app/",
-		"dob": "15/03/2003",
-		"role": "Flutter Developer",
-		"image": "static/images/kanishk_pachauri.jpeg"
-	},
+	
 	{
 		"name": "Shashank Jaitly",
 		"linkedin": "https://www.linkedin.com/in/shashank-jaitly-648655172",
