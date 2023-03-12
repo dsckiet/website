@@ -116,6 +116,17 @@
 		"image": "static/images/Anshika_Dubey.jpg"
 	},
 	{
+		"name": "Priyanshu Sharma",
+		"linkedin": "https://www.linkedin.com/in/priyanshusharma20/",
+		"github": "https://github.com/priyanshu20",
+		"email": "priyanshus.edu@gmail.com",
+		"domain": "Web",
+		"other_url": "https://www.hackerrank.com/priyanshus_edu",
+		"dob": "12/20/2001",
+		"role": "Ex - Lead",
+		"image": "static/images/priyanshu_sharma.jpg"
+	},
+	{
 		"name": "Aayush sharma",
 		"linkedin": "https://www.linkedin.com/in/ayushb58/",
 		"github": "https://github.com/Ayush783",
@@ -148,17 +159,7 @@
 		"role": "Frontend Developer",
 		"image": "static/images/Nidhaan_Srivastava.jpg"
 	},
-	{
-		"name": "Priyanshu Sharma",
-		"linkedin": "https://www.linkedin.com/in/priyanshusharma20/",
-		"github": "https://github.com/priyanshu20",
-		"email": "priyanshus.edu@gmail.com",
-		"domain": "Web",
-		"other_url": "https://www.hackerrank.com/priyanshus_edu",
-		"dob": "12/20/2001",
-		"role": "Ex - Lead",
-		"image": "static/images/priyanshu_sharma.jpg"
-	},
+	
 	{
 		"name": "Satyam Sharma",
 		"linkedin": "https://www.linkedin.com/in/satyam-sharma-1b376518b/",
