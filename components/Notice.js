@@ -17,7 +17,7 @@ const Paragraph = styled.p`
 	font-size: 16px;
 	margin-bottom: 0;
 `;
-
+//#4285f4;
 const Button = styled.a`
 	text-decoration: none !important;
 	cursor: pointer;
@@ -25,13 +25,13 @@ const Button = styled.a`
 	font-weight: 700;
 	padding: 12px 32px;
 	border-radius: 4px;
-	background: #4285f4;
+	background: #ffffff;
 	@media (max-width: 768px) {
-		background: #222222;
+		background: #ffffff;
 	}
 	border: none;
 	font-size: 16px;
-	color: #fff !important;
+	color: #222222 !important;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.2);
 `;
 
@@ -40,8 +40,9 @@ const Card = styled.div`
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	background: #f9f9f9;
+	background: #db4437;
 	border-radius: 8px;
+	color: #ffffff !important;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 	div {
 		align-items: center;
@@ -60,22 +61,23 @@ const Card = styled.div`
 		.notice-info,
 		.notice-head {
 			margin-bottom: 28px !important;
+			margin-left: 0 !important;
 		}
 	}
 `;
-
+//F4B400
 const Notice = ({ notice }) => {
 	const { title, venue, date, time, link, text } = notice;
 	return (
 		<div className="pb-2">
 			<Card className="p-5 mb-5">
-				<div className="notice-info">
+				<div className="notice-info mr-2">
 					<NoticeTitle>{date}</NoticeTitle>
 					<Paragraph>
-						{time}, {venue}
+						{time!="" &&{time,}} {venue}
 					</Paragraph>
 				</div>
-				<div className="notice-head">
+				<div className="notice-head m-3">
 					<NoticeHeading>{title}</NoticeHeading>
 					<Paragraph>{text}</Paragraph>
 				</div>
