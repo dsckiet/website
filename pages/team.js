@@ -36,7 +36,7 @@ const TeamPage = ({ team }) => (
 							of purpose. We believe in continuous learning and
 							development. We are adaptive to upcoming challenges
 							in technology and management. We learn, code,
-							preach, and grow together. Here at DSC KIET, we are
+							preach, and grow together. Here at GDSC KIET, we are
 							not just a team, we are a growing family of
 							developers.
 						</Paragraph>
@@ -45,7 +45,7 @@ const TeamPage = ({ team }) => (
 						<img
 							className="img-fluid mb-1"
 							src="static/images/team.png"
-							alt="team at dsc kiet"
+							alt="team at gdsc kiet"
 							loading="lazy"
 							width="100%"
 						/>

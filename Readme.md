@@ -7,9 +7,9 @@
   <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200225182221/How-to-Become-Google-Developer-Students-ClubDSC-Lead.png" />
 </p>
 
-This repository contains the assets required to build the [DSC KIET Website](https://dsckiet.com/). We're glad that you want to contribute!
+This repository contains the assets required to build the [GDSC KIET Website](https://dsckiet.com/). We're glad that you want to contribute!
 
-# DSC KIET
+# GDSC KIET
 
 <h4>Developer Student Circuit is an initiative to help students to grow their knowledge on developer technologies and more through peer to peer workshops and events, and gain relevant industry experience.</h4>
 <h4 align="left"> We try to engage student developers through our hack, events, codelabs, and meetups.
@@ -113,7 +113,7 @@ This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
 <br>
 
 <p align="center">
-	Made during 🌙 by DSC KIET
+	Made during 🌙 by GDSC KIET
 </p>
 
 <!-- <!-- ## Make necessary changes and commit those changes
