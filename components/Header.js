@@ -78,7 +78,7 @@ const Header = () => {
 				<div className="col-lg-1"></div>
 				<div className="col-lg-5">
 					<Heading>
-						Developer Student Circuit KIET Group of Institutions
+						Google Developer Student Club KIET Group of Institutions
 					</Heading>
 					{/* <SubText className="mb-4">
 						powered by <b>Google Developers</b>
