@@ -149,7 +149,7 @@ const About = () => {
 			<div className="row">
 				<div className="col-lg-6">
 					<Paragraph className="mb-5">
-						Developer Student Circuit is an initiative to help
+						Developer Student Club is an initiative to help
 						students to grow their knowledge on developer
 						technologies and more through peer to peer workshops and
 						events, and gain relevant industry experience.
@@ -217,7 +217,7 @@ const About = () => {
 				</div>
 			</div>
 
-			<SubHeading className="mt-5">What DSC KIET does?</SubHeading>
+			<SubHeading className="mt-5">What GDSC KIET does?</SubHeading>
 			<div className="row">
 				<div className="col-lg-6">
 					<Paragraph>

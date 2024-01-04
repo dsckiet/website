@@ -206,23 +206,23 @@ const Footer = () => {
 						allowfullscreen=""
 						aria-hidden="false"
 						tabindex="0"
-						title="DSC KIET"
+						title="GDSC KIET"
 					></Iframe>
 				</CardOutline>
 
 				<CopyrightWrapper className="mt-4">
 					<div>
 						<img
-							src="static/images/dsc_main.png"
+							src="static/images/logo.svg"
 							alt="dsckiet"
 							width="240px"
 						/>
 					</div>
 					<div>
 						<Paragraph>
-							&copy; copyright 2020 DSC KIET - Developed by{" "}
+							&copy; copyright 2020 GDSC KIET - Developed by{" "}
 							<Atag href="https://dsckiet.com">
-								<b>DSC KIET</b>
+								<b>GDSC KIET</b>
 							</Atag>
 						</Paragraph>
 					</div>

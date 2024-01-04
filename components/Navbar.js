@@ -70,11 +70,11 @@ const Navbar = () => {
 						>
 							<img
 								className="img-fluid mb-1"
-								src="static/images/logo.png"
+								src="static/images/logo.svg"
 								alt="logo"
-								width="45"
+								width="245"
 							/>{" "}
-							DSC KIET
+							
 						</a>
 					</Link>
 
