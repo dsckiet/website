@@ -1,5 +1,17 @@
 [
 	{
+		"name": "Sneha Aggarwal",
+		"linkedin": "https://www.linkedin.com/in/decode08",
+		"github": "https://github.com/decode08",
+		"email": " ananyapunia12@gmail.com",
+		"domain": "Android",
+
+		"dob": "28/03/2002",
+		"role": "Lead | Flutter Developer",
+		"image": "static/images/sneha.png"
+
+	},
+	{
 		"name": "Ananya Punia",
 		"linkedin": " https://www.linkedin.com/in/ananyapunia28",
 		"github": "https://github.com/ananyapunia28",
@@ -7,7 +19,7 @@
 		"domain": "Android",
 
 		"dob": "28/03/2002",
-		"role": "Lead | Android Developer",
+		"role": "Ex-Lead | Android Developer",
 		"image": "static/images/Ananya_Punia.jpeg"
 	},
 	{
@@ -123,7 +135,7 @@
 		"domain": "Web",
 		"other_url": "https://www.hackerrank.com/priyanshus_edu",
 		"dob": "12/20/2001",
-		"role": "Ex - Lead",
+		"role": "Class of 2023",
 		"image": "static/images/priyanshu_sharma.jpg"
 	},
 	{
@@ -134,7 +146,7 @@
 		"domain": "Flutter",
 		"other_url": "https://codeforces.com/profile/Ayush_b58",
 		"dob": "5/29/2000",
-		"role": "Flutter Developer",
+		"role": "Class of 2023",
 		"image": "static/images/Aayush_Sharma.jpg"
 	},
 	{
@@ -145,7 +157,7 @@
 		"domain": "ML",
 		"other_url": "https://www.stopstalk.com/user/profile/lakshaykumar0510",
 		"dob": "5/10/2001",
-		"role": "Competitive Programmer",
+		"role": "Class of 2023",
 		"image": "static/images/Lakshay_Kumar.jpg"
 	},
 	{
@@ -156,7 +168,7 @@
 		"domain": "Web",
 		"other_url": "https://www.hackerearth.com/@nidhanranjan",
 		"dob": "9/17/2000",
-		"role": "Frontend Developer",
+		"role": "Class of 2023",
 		"image": "static/images/Nidhaan_Srivastava.jpg"
 	},
 	
@@ -168,7 +180,7 @@
 		"domain": "Flutter",
 		"other_url": "https://www.hackerrank.com/satyamx64?hr_r=1",
 		"dob": "7/12/2001",
-		"role": "Flutter Developer",
+		"role": "Class of 2023",
 		"image": "static/images/satyam_sharma.jpg"
 	},
 	{
@@ -179,7 +191,7 @@
 		"domain": "Android",
 		"other_url": "https://www.stopstalk.com/user/profile/jhavidit",
 		"dob": "10/28/2000",
-		"role": "Android Developer",
+		"role": "Class of 2023",
 		"image": "static/images/vidit_jha.jpg"
 	},
 	{
@@ -190,7 +202,7 @@
 		"domain": "Web",
 		"other_url": "https://www.hackerrank.com/padmansh_20",
 		"dob": "1/20/2002",
-		"role": "Frontend Developer",
+		"role": "Class of 2023",
 		"image": "static/images/Aniket_Padmansh.jpg"
 	},
 	{

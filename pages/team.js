@@ -53,6 +53,7 @@ const TeamPage = ({ team }) => (
 					<div className="col-lg-1"></div>
 				</div>
 				<div className="row mt-5">
+					{console.log(team)}
 					{team
 						? team.map((member, i) => (
 								<TeamMember key={i} member={member} />
@@ -66,6 +67,7 @@ const TeamPage = ({ team }) => (
 
 export async function getStaticProps() {
 	const data = await import("../public/static/data/team.json");
+	console.log(data);
 	return {
 		props: {
 			team: data.default
