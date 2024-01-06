@@ -3,7 +3,7 @@
 		"name": "Sneha Aggarwal",
 		"linkedin": "https://www.linkedin.com/in/decode08",
 		"github": "https://github.com/decode08",
-		"email": " ananyapunia12@gmail.com",
+		"email": " snehaaggarwal2002@gmail.com",
 		"domain": "Android",
 
 		"dob": "28/03/2002",
@@ -11,6 +11,129 @@
 		"image": "static/images/sneha.png"
 
 	},
+	{
+		"name": "Prashant Rai",
+		"linkedin": "https://www.linkedin.com/in/prashant-rai-5a726822a/",
+		"github": "https://github.com/Prashant7451",
+		
+		"domain": "Web Development",
+
+		"dob": "09/04/2002",
+		"role": "Full Stack Developer",
+		"image": "static/images/prashant.jpeg"
+
+	},
+	{
+		"name": "Yash Varshney",
+		"linkedin": "https://www.linkedin.com/in/yash-varshney-7b81ab1b1/",
+		"github": "https://github.com/Yash-Var",
+		
+		"domain": "Web Development",
+		"email": "yashvarshney7011@gmail.com",
+
+		"dob": "21/07/2002",
+		"role": "Full Stack Developer",
+		"image": "static/images/yash.jpeg"
+
+	},
+	{
+		"name": "Ashutosh Sharma",
+		"linkedin": "https://www.linkedin.com/in/ashutosh-sharma-4077b522a/",
+		"github": "https://github.com/Hackintosh-02",
+		
+		"domain": "Designer",
+
+		"dob": "02/04/2003",
+		"role": "Designer | Frontend developer",
+		"image": "static/images/ashutosh.jpeg"
+
+	},
+	{
+		"name": "Akshat Srivastava",
+		"linkedin": "https://www.linkedin.com/in/akshat-srivastava-098826229/",
+		"github": "https://github.com/akshatsri11/",
+		
+		"domain": "Android",
+
+		"dob": "11/04/2003",
+		"role": "Flutter Developer",
+		"image": "static/images/akshat.jpeg"
+
+	},
+	{
+		"name": "Ashish Bhatt",
+		"linkedin": "https://www.linkedin.com/in/ashibh/",
+		"github": "https://github.com/ashibh21",
+		
+		"domain": "CP",
+
+		"dob": "24/07/2004",
+		"role": "Competitive Programmer",
+		"image": "static/images/ashish.jpeg"
+
+	},
+	{
+		"name": "Disha Goel",
+		"linkedin": "https://www.linkedin.com/in/disha-goel-862782233/",
+		"github": "https://github.com/disha100",
+		
+		"domain": "CP",
+
+		"dob": "02/04/2003",
+		"role": "Designer | Frontend developer",
+		"image": "static/images/disha.jpeg"
+
+	},
+	{
+		"name": "Devanshu Saxena ",
+		"linkedin": "https://www.linkedin.com/in/devanshucodes/",
+		"github": "https://github.com/devanshucodes",
+		
+		"domain": "Open Source",
+
+		"dob": "02/04/2003",
+		"role": "Open Source",
+		"image": "static/images/devanshu.jpeg"
+
+	},
+	{
+		"name": "Sambhrant Tiwari ",
+		"linkedin": "https://www.linkedin.com/in/sambhrant-tiwari-3998b5218/",
+		"github": "https://github.com/cyclotron17",
+		
+		"domain": "Android",
+
+		"dob": "17/11/2004",
+		"role": "Android Developer",
+		"image": "static/images/sambhrant.jpeg"
+
+	},
+	{
+		"name": "Raunak Seth ",
+		"linkedin": "https://www.linkedin.com/in/raunak-seth-4482b021a/",
+		"github": "https://github.com/RaunakSeth",
+		
+		"domain": "Android",
+
+		"dob": "17/10/2001",
+		"role": "Android Developer",
+		"image": "static/images/raunak.jpeg"
+
+	},
+	{
+		"name": "Ritiesh Bhatia",
+		"linkedin": "https://www.linkedin.com/in/ritiesh-bhatia-126125204/",
+		"github": "https://github.com/ritz-17",
+		
+		"domain": "Android",
+
+		"dob": "17/03/2004",
+		"role": "Android Developer",
+		"image": "static/images/ritiesh.jpeg"
+
+	},
+	
+
 	{
 		"name": "Ananya Punia",
 		"linkedin": " https://www.linkedin.com/in/ananyapunia28",
