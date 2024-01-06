@@ -193,11 +193,8 @@ const SideNav = props => {
 							<hr className="m-0 p-0" />
 						</StyledListItem>
 						<StyledListItem>
-							<img
-								src="/static/images/dsc_main.png"
-								width="100%"
-							/>
-							<span
+							<img src="static/images/logo.svg" width="100%" />
+							{/* <span
 								style={{
 									fontSize: 14,
 									color: "#707070",
@@ -205,7 +202,7 @@ const SideNav = props => {
 								}}
 							>
 								KIET Group of Institutions
-							</span>
+							</span> */}
 						</StyledListItem>
 					</StyledList>
 				</StyledNavLinks>

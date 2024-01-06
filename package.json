@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
+    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
+    "build": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next build",
+    "start": "next --openssl-legacy-provider start",
     "export": "next export"
   },
   "keywords": [],
@@ -14,12 +14,14 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "cross-env": "^7.0.3",
     "next": "^11.1.2",
     "next-compose-plugins": "^2.2.1",
     "next-offline": "^5.0.5",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-icons": "^3.11.0",
+    "react-is": "^18.2.0",
     "react-lottie": "^1.2.3",
     "styled-components": "^5.3.1"
   },
