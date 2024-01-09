@@ -37,6 +37,32 @@
 
 	},
 	{
+		"name": "Harshit Rai",
+		"linkedin": "https://www.linkedin.com/in/harshitr10/",
+		"github": "https://github.com/Harshitr10",
+		
+		"domain": "Web Development",
+		"email": "1012harshit@gmail.com",
+
+		"dob": "10/12/2002",
+		"role": "Full Stack Developer",
+		"image": "static/images/harshit.jpeg"
+
+	},
+	{
+		"name": "Manas Rai",
+		"linkedin": "https://www.linkedin.com/in/manasrai1406/",
+		"github": "https://github.com/manasrai1406",
+		
+		"domain": "Machine Learning",
+		"email": "mrai73759@gmail.com",
+
+		"dob": "06/09/2002",
+		"role": "Machine Learning",
+		"image": "static/images/manas.jpeg"
+
+	},
+	{
 		"name": "Ashutosh Sharma",
 		"linkedin": "https://www.linkedin.com/in/ashutosh-sharma-4077b522a/",
 		"github": "https://github.com/Hackintosh-02",
@@ -121,15 +147,27 @@
 
 	},
 	{
-		"name": "Ritiesh Bhatia",
-		"linkedin": "https://www.linkedin.com/in/ritiesh-bhatia-126125204/",
-		"github": "https://github.com/ritz-17",
+		"name": "Raunak Seth ",
+		"linkedin": "https://www.linkedin.com/in/raunak-seth-4482b021a/",
+		"github": "https://github.com/RaunakSeth",
 		
 		"domain": "Android",
 
-		"dob": "17/03/2004",
+		"dob": "17/10/2001",
 		"role": "Android Developer",
-		"image": "static/images/ritiesh.jpeg"
+		"image": "static/images/raunak.jpeg"
+
+	},
+	{
+		"name": "Ritika Singh",
+		"linkedin": "https://www.linkedin.com/in/ritika-singh-a9453822a",
+		"github": "https://github.com/ritikasingh1808",
+		
+		"domain": "Content Writing",
+
+		"dob": "17/03/2004",
+		"role": "Content Writing",
+		"image": "static/images/ritika.jpeg"
 
 	},
 	
