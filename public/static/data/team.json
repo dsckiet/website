@@ -147,6 +147,18 @@
 
 	},
 	{
+		"name": "Ritika Singh",
+		"linkedin": "https://www.linkedin.com/in/ritika-singh-a9453822a",
+		"github": "https://github.com/ritikasingh1808",
+		
+		"domain": "Content Writing",
+
+		"dob": "17/03/2004",
+		"role": "Content Writing",
+		"image": "static/images/ritika.jpeg"
+
+	},
+	{
 		"name": "Raunak Seth ",
 		"linkedin": "https://www.linkedin.com/in/raunak-seth-4482b021a/",
 		"github": "https://github.com/RaunakSeth",
@@ -513,6 +525,3 @@
 		"image": "static/images/shreeyanshi_gupta.jpeg"
 	}
 ]
-
-
-
